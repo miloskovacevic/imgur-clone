@@ -2,224 +2,2626 @@
 1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
 1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
 1 verbose cli   'install',
-1 verbose cli   '--save',
-1 verbose cli   'react-dom' ]
+1 verbose cli   'flux' ]
 2 info using npm@2.14.7
 3 info using node@v4.2.2
 4 verbose install initial load of D:\playground\imgur-clone\package.json
 5 warn package.json react-starter@1.0.0 No repository field.
 6 verbose installManyTop reading scoped package data from D:\playground\imgur-clone\node_modules\browserify\package.json
-7 verbose installManyTop reading scoped package data from D:\playground\imgur-clone\node_modules\gulp\package.json
-8 verbose installManyTop reading scoped package data from D:\playground\imgur-clone\node_modules\gulp-concat\package.json
-9 verbose installManyTop reading scoped package data from D:\playground\imgur-clone\node_modules\gulp-react\package.json
-10 verbose installManyTop reading scoped package data from D:\playground\imgur-clone\node_modules\gulp-sass\package.json
-11 verbose installManyTop reading scoped package data from D:\playground\imgur-clone\node_modules\gulp-server-livereload\package.json
-12 verbose installManyTop reading scoped package data from D:\playground\imgur-clone\node_modules\gulp-util\package.json
-13 verbose installManyTop reading scoped package data from D:\playground\imgur-clone\node_modules\gulp-watch\package.json
-14 verbose installManyTop reading scoped package data from D:\playground\imgur-clone\node_modules\node-notifier\package.json
-15 verbose installManyTop reading scoped package data from D:\playground\imgur-clone\node_modules\react\package.json
-16 verbose installManyTop reading scoped package data from D:\playground\imgur-clone\node_modules\react-router\package.json
-17 verbose installManyTop reading scoped package data from D:\playground\imgur-clone\node_modules\reactify\package.json
-18 verbose installManyTop reading scoped package data from D:\playground\imgur-clone\node_modules\vinyl-source-stream\package.json
-19 verbose installManyTop reading scoped package data from D:\playground\imgur-clone\node_modules\watchify\package.json
-20 verbose readDependencies loading dependencies from D:\playground\imgur-clone\package.json
-21 silly cache add args [ 'react-dom', null ]
-22 verbose cache add spec react-dom
-23 silly cache add parsed spec Result {
-23 silly cache add   raw: 'react-dom',
-23 silly cache add   scope: null,
-23 silly cache add   name: 'react-dom',
-23 silly cache add   rawSpec: '',
-23 silly cache add   spec: '*',
-23 silly cache add   type: 'range' }
-24 silly addNamed react-dom@*
-25 verbose addNamed "*" is a valid semver range for react-dom
-26 silly addNameRange { name: 'react-dom', range: '*', hasData: false }
-27 silly mapToRegistry name react-dom
-28 silly mapToRegistry using default registry
-29 silly mapToRegistry registry https://registry.npmjs.org/
-30 silly mapToRegistry uri https://registry.npmjs.org/react-dom
-31 verbose addNameRange registry:https://registry.npmjs.org/react-dom not in flight; fetching
-32 verbose request uri https://registry.npmjs.org/react-dom
-33 verbose request no auth needed
-34 info attempt registry request try #1 at 1:49:39 PM
-35 verbose request id f49bdc32d91af8f9
-36 verbose etag "D6KK8INWQQPX11XKXJ47SXCCQ"
-37 http request GET https://registry.npmjs.org/react-dom
-38 http 200 https://registry.npmjs.org/react-dom
-39 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
-39 verbose headers   etag: '"DMTU1BR7ZVIXAJBN7EJY3ZR4A"',
-39 verbose headers   'content-type': 'application/json',
-39 verbose headers   'cache-control': 'max-age=300',
-39 verbose headers   'content-length': '11496',
-39 verbose headers   'accept-ranges': 'bytes',
-39 verbose headers   date: 'Sat, 19 Dec 2015 12:49:45 GMT',
-39 verbose headers   via: '1.1 varnish',
-39 verbose headers   age: '80',
-39 verbose headers   connection: 'keep-alive',
-39 verbose headers   'x-served-by': 'cache-fra1223-FRA',
-39 verbose headers   'x-cache': 'HIT',
-39 verbose headers   'x-cache-hits': '1',
-39 verbose headers   'x-timer': 'S1450529385.415681,VS0,VE0',
-39 verbose headers   vary: 'Accept' }
-40 silly get cb [ 200,
-40 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
-40 silly get     etag: '"DMTU1BR7ZVIXAJBN7EJY3ZR4A"',
-40 silly get     'content-type': 'application/json',
-40 silly get     'cache-control': 'max-age=300',
-40 silly get     'content-length': '11496',
-40 silly get     'accept-ranges': 'bytes',
-40 silly get     date: 'Sat, 19 Dec 2015 12:49:45 GMT',
-40 silly get     via: '1.1 varnish',
-40 silly get     age: '80',
-40 silly get     connection: 'keep-alive',
-40 silly get     'x-served-by': 'cache-fra1223-FRA',
-40 silly get     'x-cache': 'HIT',
-40 silly get     'x-cache-hits': '1',
-40 silly get     'x-timer': 'S1450529385.415681,VS0,VE0',
-40 silly get     vary: 'Accept' } ]
-41 verbose get saving react-dom to C:\Users\Milos\AppData\Roaming\npm-cache\registry.npmjs.org\react-dom\.cache.json
-42 silly addNameRange number 2 { name: 'react-dom', range: '*', hasData: true }
-43 silly addNameRange versions [ 'react-dom',
-43 silly addNameRange   [ '0.1.0',
-43 silly addNameRange     '0.14.0-beta1',
-43 silly addNameRange     '0.14.0-beta2',
-43 silly addNameRange     '0.14.0-beta3',
-43 silly addNameRange     '0.14.0-rc1',
-43 silly addNameRange     '0.14.0',
-43 silly addNameRange     '0.14.1',
-43 silly addNameRange     '0.14.2',
-43 silly addNameRange     '0.14.3' ] ]
-44 silly addNamed react-dom@0.14.3
-45 verbose addNamed "0.14.3" is a plain semver version for react-dom
-46 silly cache afterAdd react-dom@0.14.3
-47 verbose afterAdd C:\Users\Milos\AppData\Roaming\npm-cache\react-dom\0.14.3\package\package.json not in flight; writing
-48 verbose afterAdd C:\Users\Milos\AppData\Roaming\npm-cache\react-dom\0.14.3\package\package.json written
-49 silly install resolved [ { name: 'react-dom',
-49 silly install resolved     version: '0.14.3',
-49 silly install resolved     description: 'React package for working with the DOM.',
-49 silly install resolved     main: 'index.js',
-49 silly install resolved     repository:
-49 silly install resolved      { type: 'git',
-49 silly install resolved        url: 'git+https://github.com/facebook/react.git' },
-49 silly install resolved     keywords: [ 'react' ],
-49 silly install resolved     license: 'BSD-3-Clause',
-49 silly install resolved     bugs: { url: 'https://github.com/facebook/react/issues' },
-49 silly install resolved     homepage: 'https://github.com/facebook/react/tree/master/npm-react-dom',
-49 silly install resolved     peerDependencies: { react: '^0.14.3' },
-49 silly install resolved     scripts: { start: 'node server.js' },
-49 silly install resolved     _id: 'react-dom@0.14.3',
-49 silly install resolved     _shasum: 'b3f0aeeed1a433b20c5458e34439a51916818628',
-49 silly install resolved     _resolved: 'https://registry.npmjs.org/react-dom/-/react-dom-0.14.3.tgz',
-49 silly install resolved     _from: 'react-dom@*',
-49 silly install resolved     _npmVersion: '2.14.7',
-49 silly install resolved     _nodeVersion: '4.2.2',
-49 silly install resolved     _npmUser: { name: 'zpao', email: 'paul@oshannessy.com' },
-49 silly install resolved     maintainers: [ [Object], [Object] ],
-49 silly install resolved     dist:
-49 silly install resolved      { shasum: 'b3f0aeeed1a433b20c5458e34439a51916818628',
-49 silly install resolved        tarball: 'http://registry.npmjs.org/react-dom/-/react-dom-0.14.3.tgz' },
-49 silly install resolved     directories: {},
-49 silly install resolved     readme: 'ERROR: No README data found!' } ]
-50 info install react-dom@0.14.3 into D:\playground\imgur-clone
-51 info installOne react-dom@0.14.3
-52 verbose installOne of react-dom to D:\playground\imgur-clone not in flight; installing
-53 verbose lock using C:\Users\Milos\AppData\Roaming\npm-cache\_locks\react-dom-ff9521c622c8fc50.lock for D:\playground\imgur-clone\node_modules\react-dom
-54 silly install write writing react-dom 0.14.3 to D:\playground\imgur-clone\node_modules\react-dom
-55 verbose unbuild node_modules\react-dom
-56 silly gentlyRm D:\playground\imgur-clone\node_modules\react-dom is being purged from base D:\playground\imgur-clone
-57 verbose gentlyRm don't care about contents; nuking D:\playground\imgur-clone\node_modules\react-dom
-58 verbose tar unpack C:\Users\Milos\AppData\Roaming\npm-cache\react-dom\0.14.3\package.tgz
-59 verbose tar unpacking to D:\playground\imgur-clone\node_modules\react-dom
-60 silly gentlyRm D:\playground\imgur-clone\node_modules\react-dom is being purged
-61 verbose gentlyRm don't care about contents; nuking D:\playground\imgur-clone\node_modules\react-dom
-62 silly gunzTarPerm modes [ '777', '666' ]
-63 silly gunzTarPerm extractEntry package.json
-64 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
-65 silly gunzTarPerm extractEntry README.md
-66 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
-67 silly gunzTarPerm extractEntry LICENSE
-68 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
-69 silly gunzTarPerm extractEntry index.js
-70 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
-71 silly gunzTarPerm extractEntry server.js
-72 silly gunzTarPerm modified mode [ 'server.js', 420, 438 ]
-73 silly gunzTarPerm extractEntry PATENTS
-74 silly gunzTarPerm modified mode [ 'PATENTS', 420, 438 ]
-75 silly gunzTarPerm extractEntry dist/react-dom-server.js
-76 silly gunzTarPerm modified mode [ 'dist/react-dom-server.js', 420, 438 ]
-77 silly gunzTarPerm extractEntry dist/react-dom-server.min.js
-78 silly gunzTarPerm modified mode [ 'dist/react-dom-server.min.js', 420, 438 ]
-79 silly gunzTarPerm extractEntry dist/react-dom.js
-80 silly gunzTarPerm modified mode [ 'dist/react-dom.js', 420, 438 ]
-81 silly gunzTarPerm extractEntry dist/react-dom.min.js
-82 silly gunzTarPerm modified mode [ 'dist/react-dom.min.js', 420, 438 ]
-83 verbose write writing to D:\playground\imgur-clone\node_modules\react-dom\package.json
-84 info preinstall react-dom@0.14.3
-85 verbose readDependencies loading dependencies from D:\playground\imgur-clone\node_modules\react-dom\package.json
-86 silly prepareForInstallMany adding react@^0.14.3 from react-dom peerDependencies
-87 warn peerDependencies The peer dependency react@^0.14.3 included from react-dom will no
-88 warn peerDependencies longer be automatically installed to fulfill the peerDependency
-89 warn peerDependencies in npm 3+. Your application will need to depend on it explicitly.
-90 verbose readDependencies loading dependencies from D:\playground\imgur-clone\node_modules\react-dom\package.json
-91 silly install resolved []
-92 verbose about to build D:\playground\imgur-clone\node_modules\react-dom
-93 info build D:\playground\imgur-clone\node_modules\react-dom
-94 info linkStuff react-dom@0.14.3
-95 silly linkStuff react-dom@0.14.3 has D:\playground\imgur-clone\node_modules as its parent node_modules
-96 verbose linkBins react-dom@0.14.3
-97 verbose linkMans react-dom@0.14.3
-98 verbose rebuildBundles react-dom@0.14.3
-99 info install react-dom@0.14.3
-100 info postinstall react-dom@0.14.3
-101 verbose readDependencies loading dependencies from D:\playground\imgur-clone\package.json
-102 verbose targetResolver reading package data from D:\playground\imgur-clone\node_modules\browserify\package.json
-103 verbose targetResolver reading package data from D:\playground\imgur-clone\node_modules\gulp\package.json
-104 verbose targetResolver reading package data from D:\playground\imgur-clone\node_modules\gulp-concat\package.json
-105 verbose targetResolver reading package data from D:\playground\imgur-clone\node_modules\gulp-react\package.json
-106 verbose targetResolver reading package data from D:\playground\imgur-clone\node_modules\gulp-sass\package.json
-107 verbose targetResolver reading package data from D:\playground\imgur-clone\node_modules\gulp-server-livereload\package.json
-108 verbose targetResolver reading package data from D:\playground\imgur-clone\node_modules\gulp-util\package.json
-109 verbose targetResolver reading package data from D:\playground\imgur-clone\node_modules\gulp-watch\package.json
-110 verbose targetResolver reading package data from D:\playground\imgur-clone\node_modules\node-notifier\package.json
-111 verbose targetResolver reading package data from D:\playground\imgur-clone\node_modules\react\package.json
-112 verbose targetResolver reading package data from D:\playground\imgur-clone\node_modules\react-dom\package.json
-113 verbose targetResolver reading package data from D:\playground\imgur-clone\node_modules\react-router\package.json
-114 verbose targetResolver reading package data from D:\playground\imgur-clone\node_modules\reactify\package.json
-115 verbose targetResolver reading package data from D:\playground\imgur-clone\node_modules\vinyl-source-stream\package.json
-116 verbose targetResolver reading package data from D:\playground\imgur-clone\node_modules\watchify\package.json
-117 verbose targetResolver reading package data from D:\playground\imgur-clone\node_modules\.bin\browserify\package.json
-118 verbose targetResolver reading package data from D:\playground\imgur-clone\node_modules\.bin\browserify.cmd\package.json
-119 verbose targetResolver reading package data from D:\playground\imgur-clone\node_modules\.bin\gulp\package.json
-120 verbose targetResolver reading package data from D:\playground\imgur-clone\node_modules\.bin\gulp.cmd\package.json
-121 verbose targetResolver reading package data from D:\playground\imgur-clone\node_modules\.bin\livereload\package.json
-122 verbose targetResolver reading package data from D:\playground\imgur-clone\node_modules\.bin\livereload.cmd\package.json
-123 verbose targetResolver reading package data from D:\playground\imgur-clone\node_modules\.bin\notify\package.json
-124 verbose targetResolver reading package data from D:\playground\imgur-clone\node_modules\.bin\notify.cmd\package.json
-125 verbose targetResolver reading package data from D:\playground\imgur-clone\node_modules\.bin\watchify\package.json
-126 verbose targetResolver reading package data from D:\playground\imgur-clone\node_modules\.bin\watchify.cmd\package.json
-127 verbose already installed skipping react@^0.14.3 D:\playground\imgur-clone
-128 silly install resolved []
-129 verbose unlock done using C:\Users\Milos\AppData\Roaming\npm-cache\_locks\react-dom-ff9521c622c8fc50.lock for D:\playground\imgur-clone\node_modules\react-dom
-130 verbose validateInstall loading D:\playground\imgur-clone\package.json for validation
-131 verbose stack Error: The package react@0.13.3 does not satisfy its siblings' peerDependencies requirements!
-131 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\install.js:125:32
-131 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\install.js:268:7
-131 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:142:5
-131 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:263:14
-131 verbose stack     at cb (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:47:24)
-131 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:263:14
-131 verbose stack     at cb (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:47:24)
-131 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:263:14
-131 verbose stack     at cb (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:47:24)
-131 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:263:14
-132 verbose cwd D:\playground\imgur-clone
-133 error Windows_NT 6.1.7601
-134 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "--save" "react-dom"
-135 error node v4.2.2
-136 error npm  v2.14.7
-137 error code EPEERINVALID
-138 error peerinvalid The package react@0.13.3 does not satisfy its siblings' peerDependencies requirements!
-138 error peerinvalid Peer react-router@1.0.0-beta2 wants react@0.13.x
-138 error peerinvalid Peer react-dom@0.14.3 wants react@^0.14.3
-139 verbose exit [ 1, true ]
+7 verbose installManyTop reading scoped package data from D:\playground\imgur-clone\node_modules\flux\package.json
+8 verbose installManyTop reading scoped package data from D:\playground\imgur-clone\node_modules\gulp\package.json
+9 verbose installManyTop reading scoped package data from D:\playground\imgur-clone\node_modules\gulp-concat\package.json
+10 verbose installManyTop reading scoped package data from D:\playground\imgur-clone\node_modules\gulp-react\package.json
+11 verbose installManyTop reading scoped package data from D:\playground\imgur-clone\node_modules\gulp-sass\package.json
+12 verbose installManyTop reading scoped package data from D:\playground\imgur-clone\node_modules\gulp-server-livereload\package.json
+13 verbose installManyTop reading scoped package data from D:\playground\imgur-clone\node_modules\gulp-util\package.json
+14 verbose installManyTop reading scoped package data from D:\playground\imgur-clone\node_modules\gulp-watch\package.json
+15 verbose installManyTop reading scoped package data from D:\playground\imgur-clone\node_modules\node-notifier\package.json
+16 verbose installManyTop reading scoped package data from D:\playground\imgur-clone\node_modules\react\package.json
+17 verbose installManyTop reading scoped package data from D:\playground\imgur-clone\node_modules\react-dom\package.json
+18 verbose installManyTop reading scoped package data from D:\playground\imgur-clone\node_modules\react-router\package.json
+19 verbose installManyTop reading scoped package data from D:\playground\imgur-clone\node_modules\reactify\package.json
+20 verbose installManyTop reading scoped package data from D:\playground\imgur-clone\node_modules\reflux\package.json
+21 verbose installManyTop reading scoped package data from D:\playground\imgur-clone\node_modules\vinyl-source-stream\package.json
+22 verbose installManyTop reading scoped package data from D:\playground\imgur-clone\node_modules\watchify\package.json
+23 verbose installManyTop reading scoped package data from D:\playground\imgur-clone\node_modules\whatwg-fetch\package.json
+24 info package.json whatwg-fetch@0.7.0 No license field.
+25 verbose readDependencies loading dependencies from D:\playground\imgur-clone\package.json
+26 verbose install flux is installed as 2.1.1
+27 silly cache add args [ 'flux', null ]
+28 verbose cache add spec flux
+29 silly cache add parsed spec Result {
+29 silly cache add   raw: 'flux',
+29 silly cache add   scope: null,
+29 silly cache add   name: 'flux',
+29 silly cache add   rawSpec: '',
+29 silly cache add   spec: '*',
+29 silly cache add   type: 'range' }
+30 silly addNamed flux@*
+31 verbose addNamed "*" is a valid semver range for flux
+32 silly addNameRange { name: 'flux', range: '*', hasData: false }
+33 silly mapToRegistry name flux
+34 silly mapToRegistry using default registry
+35 silly mapToRegistry registry https://registry.npmjs.org/
+36 silly mapToRegistry uri https://registry.npmjs.org/flux
+37 verbose addNameRange registry:https://registry.npmjs.org/flux not in flight; fetching
+38 verbose request uri https://registry.npmjs.org/flux
+39 verbose request no auth needed
+40 info attempt registry request try #1 at 12:47:35 PM
+41 verbose request id a63aea59f0585d58
+42 verbose etag "9DN3OAXWL4XG98G0BN08VM95K"
+43 http request GET https://registry.npmjs.org/flux
+44 http 304 https://registry.npmjs.org/flux
+45 verbose headers { date: 'Sun, 20 Dec 2015 11:47:35 GMT',
+45 verbose headers   via: '1.1 varnish',
+45 verbose headers   'cache-control': 'max-age=300',
+45 verbose headers   etag: '"9DN3OAXWL4XG98G0BN08VM95K"',
+45 verbose headers   age: '0',
+45 verbose headers   connection: 'keep-alive',
+45 verbose headers   'x-served-by': 'cache-fra1242-FRA',
+45 verbose headers   'x-cache': 'HIT',
+45 verbose headers   'x-cache-hits': '1',
+45 verbose headers   'x-timer': 'S1450612055.530175,VS0,VE186',
+45 verbose headers   vary: 'Accept' }
+46 silly get cb [ 304,
+46 silly get   { date: 'Sun, 20 Dec 2015 11:47:35 GMT',
+46 silly get     via: '1.1 varnish',
+46 silly get     'cache-control': 'max-age=300',
+46 silly get     etag: '"9DN3OAXWL4XG98G0BN08VM95K"',
+46 silly get     age: '0',
+46 silly get     connection: 'keep-alive',
+46 silly get     'x-served-by': 'cache-fra1242-FRA',
+46 silly get     'x-cache': 'HIT',
+46 silly get     'x-cache-hits': '1',
+46 silly get     'x-timer': 'S1450612055.530175,VS0,VE186',
+46 silly get     vary: 'Accept' } ]
+47 verbose etag https://registry.npmjs.org/flux from cache
+48 verbose get saving flux to C:\Users\Milos\AppData\Roaming\npm-cache\registry.npmjs.org\flux\.cache.json
+49 silly addNameRange number 2 { name: 'flux', range: '*', hasData: true }
+50 silly addNameRange versions [ 'flux',
+50 silly addNameRange   [ '1.0.0',
+50 silly addNameRange     '1.0.1',
+50 silly addNameRange     '1.0.2',
+50 silly addNameRange     '2.0.0',
+50 silly addNameRange     '2.0.1',
+50 silly addNameRange     '2.0.3',
+50 silly addNameRange     '2.1.0',
+50 silly addNameRange     '2.1.1' ] ]
+51 silly addNamed flux@2.1.1
+52 verbose addNamed "2.1.1" is a plain semver version for flux
+53 silly cache afterAdd flux@2.1.1
+54 verbose afterAdd C:\Users\Milos\AppData\Roaming\npm-cache\flux\2.1.1\package\package.json not in flight; writing
+55 verbose afterAdd C:\Users\Milos\AppData\Roaming\npm-cache\flux\2.1.1\package\package.json written
+56 silly install resolved [ { name: 'flux',
+56 silly install resolved     version: '2.1.1',
+56 silly install resolved     description: 'An application architecture based on a unidirectional data flow',
+56 silly install resolved     keywords: [ 'flux', 'react', 'facebook', 'dispatcher' ],
+56 silly install resolved     homepage: 'http://facebook.github.io/flux/',
+56 silly install resolved     bugs: { url: 'https://github.com/facebook/flux/issues' },
+56 silly install resolved     files:
+56 silly install resolved      [ 'LICENSE',
+56 silly install resolved        'PATENTS',
+56 silly install resolved        'README.md',
+56 silly install resolved        'flow',
+56 silly install resolved        'index.js',
+56 silly install resolved        'lib',
+56 silly install resolved        'utils.js',
+56 silly install resolved        'dist' ],
+56 silly install resolved     main: 'index.js',
+56 silly install resolved     scripts:
+56 silly install resolved      { build: 'gulp build',
+56 silly install resolved        prepublish: 'gulp publish',
+56 silly install resolved        test: 'NODE_ENV=test jest' },
+56 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/facebook/flux.git' },
+56 silly install resolved     author: { name: 'Facebook' },
+56 silly install resolved     contributors: [ [Object], [Object], [Object], [Object] ],
+56 silly install resolved     license: 'BSD-3-Clause',
+56 silly install resolved     devDependencies:
+56 silly install resolved      { babel: '^5.4.7',
+56 silly install resolved        'babel-core': '^5.8.22',
+56 silly install resolved        'babel-loader': '^5.3.2',
+56 silly install resolved        del: '^1.2.0',
+56 silly install resolved        gulp: '^3.9.0',
+56 silly install resolved        'gulp-babel': '^5.1.0',
+56 silly install resolved        'gulp-flatten': '^0.1.1',
+56 silly install resolved        'gulp-util': '^3.0.6',
+56 silly install resolved        'jest-cli': '^0.4.18',
+56 silly install resolved        'object-assign': '^3.0.0',
+56 silly install resolved        'run-sequence': '^1.1.0',
+56 silly install resolved        'vinyl-source-stream': '^1.0.0',
+56 silly install resolved        webpack: '^1.11.0',
+56 silly install resolved        'webpack-stream': '^2.1.0' },
+56 silly install resolved     dependencies:
+56 silly install resolved      { fbemitter: '^2.0.0',
+56 silly install resolved        fbjs: '0.1.0-alpha.7',
+56 silly install resolved        immutable: '^3.7.4' },
+56 silly install resolved     jest:
+56 silly install resolved      { modulePathIgnorePatterns: [Object],
+56 silly install resolved        persistModuleRegistryBetweenSpecs: true,
+56 silly install resolved        preprocessorIgnorePatterns: [Object],
+56 silly install resolved        rootDir: '',
+56 silly install resolved        scriptPreprocessor: 'scripts/jest/preprocessor.js',
+56 silly install resolved        setupEnvScriptFile: 'scripts/jest/environment.js',
+56 silly install resolved        testPathDirs: [Object],
+56 silly install resolved        unmockedModulePathPatterns: [Object] },
+56 silly install resolved     gitHead: 'ad204fdf5d2a852ef1d7fec323c4d93aad4ce247',
+56 silly install resolved     _id: 'flux@2.1.1',
+56 silly install resolved     _shasum: '2c6ac652d4337488968489c6586f3aff26a38ea4',
+56 silly install resolved     _from: 'flux@*',
+56 silly install resolved     _npmVersion: '2.12.1',
+56 silly install resolved     _nodeVersion: '0.12.7',
+56 silly install resolved     _npmUser: { name: 'kyldvs', email: 'kyldvs@gmail.com' },
+56 silly install resolved     dist:
+56 silly install resolved      { shasum: '2c6ac652d4337488968489c6586f3aff26a38ea4',
+56 silly install resolved        tarball: 'http://registry.npmjs.org/flux/-/flux-2.1.1.tgz' },
+56 silly install resolved     maintainers: [ [Object], [Object], [Object] ],
+56 silly install resolved     directories: {},
+56 silly install resolved     _resolved: 'https://registry.npmjs.org/flux/-/flux-2.1.1.tgz',
+56 silly install resolved     readme: 'ERROR: No README data found!' } ]
+57 info install flux@2.1.1 into D:\playground\imgur-clone
+58 info installOne flux@2.1.1
+59 verbose installOne of flux to D:\playground\imgur-clone not in flight; installing
+60 verbose lock using C:\Users\Milos\AppData\Roaming\npm-cache\_locks\flux-3f63aad87d6cca4a.lock for D:\playground\imgur-clone\node_modules\flux
+61 silly install write writing flux 2.1.1 to D:\playground\imgur-clone\node_modules\flux
+62 verbose unbuild node_modules\flux
+63 info preuninstall flux@2.1.1
+64 info uninstall flux@2.1.1
+65 verbose unbuild rmStuff flux@2.1.1 from D:\playground\imgur-clone\node_modules
+66 info postuninstall flux@2.1.1
+67 silly gentlyRm D:\playground\imgur-clone\node_modules\flux is being purged from base D:\playground\imgur-clone
+68 verbose gentlyRm don't care about contents; nuking D:\playground\imgur-clone\node_modules\flux
+69 silly vacuum-fs purging D:\playground\imgur-clone\node_modules\flux
+70 silly vacuum-fs quitting because other entries in D:\playground\imgur-clone\node_modules
+71 verbose tar unpack C:\Users\Milos\AppData\Roaming\npm-cache\flux\2.1.1\package.tgz
+72 verbose tar unpacking to D:\playground\imgur-clone\node_modules\flux
+73 silly gentlyRm D:\playground\imgur-clone\node_modules\flux is being purged
+74 verbose gentlyRm don't care about contents; nuking D:\playground\imgur-clone\node_modules\flux
+75 silly gunzTarPerm modes [ '777', '666' ]
+76 silly gunzTarPerm extractEntry package.json
+77 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+78 silly gunzTarPerm extractEntry README.md
+79 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+80 silly gunzTarPerm extractEntry LICENSE
+81 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+82 silly gunzTarPerm extractEntry index.js
+83 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+84 silly gunzTarPerm extractEntry utils.js
+85 silly gunzTarPerm modified mode [ 'utils.js', 420, 438 ]
+86 silly gunzTarPerm extractEntry dist/Flux.js
+87 silly gunzTarPerm modified mode [ 'dist/Flux.js', 420, 438 ]
+88 silly gunzTarPerm extractEntry dist/Flux.min.js
+89 silly gunzTarPerm modified mode [ 'dist/Flux.min.js', 420, 438 ]
+90 silly gunzTarPerm extractEntry flow/include/Dispatcher.js
+91 silly gunzTarPerm modified mode [ 'flow/include/Dispatcher.js', 420, 438 ]
+92 silly gunzTarPerm extractEntry flow/include/FluxContainer.js
+93 silly gunzTarPerm modified mode [ 'flow/include/FluxContainer.js', 420, 438 ]
+94 silly gunzTarPerm extractEntry flow/include/FluxMapStore.js
+95 silly gunzTarPerm modified mode [ 'flow/include/FluxMapStore.js', 420, 438 ]
+96 silly gunzTarPerm extractEntry flow/include/FluxMixinLegacy.js
+97 silly gunzTarPerm modified mode [ 'flow/include/FluxMixinLegacy.js', 420, 438 ]
+98 silly gunzTarPerm extractEntry flow/include/FluxReduceStore.js
+99 silly gunzTarPerm modified mode [ 'flow/include/FluxReduceStore.js', 420, 438 ]
+100 silly gunzTarPerm extractEntry flow/include/FluxStore.js
+101 silly gunzTarPerm modified mode [ 'flow/include/FluxStore.js', 420, 438 ]
+102 silly gunzTarPerm extractEntry flow/include/FluxStoreGroup.js
+103 silly gunzTarPerm modified mode [ 'flow/include/FluxStoreGroup.js', 420, 438 ]
+104 silly gunzTarPerm extractEntry flow/include/abstractMethod.js
+105 silly gunzTarPerm modified mode [ 'flow/include/abstractMethod.js', 420, 438 ]
+106 silly gunzTarPerm extractEntry flow/lib/dev.js
+107 silly gunzTarPerm modified mode [ 'flow/lib/dev.js', 420, 438 ]
+108 silly gunzTarPerm extractEntry lib/Dispatcher.js
+109 silly gunzTarPerm modified mode [ 'lib/Dispatcher.js', 420, 438 ]
+110 silly gunzTarPerm extractEntry lib/FluxContainer.js
+111 silly gunzTarPerm modified mode [ 'lib/FluxContainer.js', 420, 438 ]
+112 silly gunzTarPerm extractEntry lib/FluxMapStore.js
+113 silly gunzTarPerm modified mode [ 'lib/FluxMapStore.js', 420, 438 ]
+114 silly gunzTarPerm extractEntry lib/FluxMixinLegacy.js
+115 silly gunzTarPerm modified mode [ 'lib/FluxMixinLegacy.js', 420, 438 ]
+116 silly gunzTarPerm extractEntry lib/FluxReduceStore.js
+117 silly gunzTarPerm modified mode [ 'lib/FluxReduceStore.js', 420, 438 ]
+118 silly gunzTarPerm extractEntry lib/FluxStore.js
+119 silly gunzTarPerm modified mode [ 'lib/FluxStore.js', 420, 438 ]
+120 silly gunzTarPerm extractEntry lib/FluxStoreGroup.js
+121 silly gunzTarPerm modified mode [ 'lib/FluxStoreGroup.js', 420, 438 ]
+122 silly gunzTarPerm extractEntry lib/abstractMethod.js
+123 silly gunzTarPerm modified mode [ 'lib/abstractMethod.js', 420, 438 ]
+124 silly gunzTarPerm extractEntry PATENTS
+125 silly gunzTarPerm modified mode [ 'PATENTS', 420, 438 ]
+126 verbose write writing to D:\playground\imgur-clone\node_modules\flux\package.json
+127 info preinstall flux@2.1.1
+128 verbose readDependencies loading dependencies from D:\playground\imgur-clone\node_modules\flux\package.json
+129 silly prepareForInstallMany adding fbemitter@^2.0.0 from flux dependencies
+130 silly prepareForInstallMany adding fbjs@0.1.0-alpha.7 from flux dependencies
+131 silly prepareForInstallMany adding immutable@^3.7.4 from flux dependencies
+132 verbose readDependencies loading dependencies from D:\playground\imgur-clone\node_modules\flux\package.json
+133 silly cache add args [ 'fbjs@0.1.0-alpha.7', null ]
+134 verbose cache add spec fbjs@0.1.0-alpha.7
+135 silly cache add parsed spec Result {
+135 silly cache add   raw: 'fbjs@0.1.0-alpha.7',
+135 silly cache add   scope: null,
+135 silly cache add   name: 'fbjs',
+135 silly cache add   rawSpec: '0.1.0-alpha.7',
+135 silly cache add   spec: '0.1.0-alpha.7',
+135 silly cache add   type: 'version' }
+136 silly addNamed fbjs@0.1.0-alpha.7
+137 verbose addNamed "0.1.0-alpha.7" is a plain semver version for fbjs
+138 silly mapToRegistry name fbjs
+139 silly mapToRegistry using default registry
+140 silly mapToRegistry registry https://registry.npmjs.org/
+141 silly mapToRegistry uri https://registry.npmjs.org/fbjs
+142 verbose addNameVersion registry:https://registry.npmjs.org/fbjs not in flight; fetching
+143 silly cache add args [ 'immutable@^3.7.4', null ]
+144 verbose cache add spec immutable@^3.7.4
+145 silly cache add parsed spec Result {
+145 silly cache add   raw: 'immutable@^3.7.4',
+145 silly cache add   scope: null,
+145 silly cache add   name: 'immutable',
+145 silly cache add   rawSpec: '^3.7.4',
+145 silly cache add   spec: '>=3.7.4 <4.0.0',
+145 silly cache add   type: 'range' }
+146 silly addNamed immutable@>=3.7.4 <4.0.0
+147 verbose addNamed ">=3.7.4 <4.0.0" is a valid semver range for immutable
+148 silly addNameRange { name: 'immutable', range: '>=3.7.4 <4.0.0', hasData: false }
+149 silly mapToRegistry name immutable
+150 silly mapToRegistry using default registry
+151 silly mapToRegistry registry https://registry.npmjs.org/
+152 silly mapToRegistry uri https://registry.npmjs.org/immutable
+153 verbose addNameRange registry:https://registry.npmjs.org/immutable not in flight; fetching
+154 silly cache add args [ 'fbemitter@^2.0.0', null ]
+155 verbose cache add spec fbemitter@^2.0.0
+156 silly cache add parsed spec Result {
+156 silly cache add   raw: 'fbemitter@^2.0.0',
+156 silly cache add   scope: null,
+156 silly cache add   name: 'fbemitter',
+156 silly cache add   rawSpec: '^2.0.0',
+156 silly cache add   spec: '>=2.0.0 <3.0.0',
+156 silly cache add   type: 'range' }
+157 silly addNamed fbemitter@>=2.0.0 <3.0.0
+158 verbose addNamed ">=2.0.0 <3.0.0" is a valid semver range for fbemitter
+159 silly addNameRange { name: 'fbemitter', range: '>=2.0.0 <3.0.0', hasData: false }
+160 silly mapToRegistry name fbemitter
+161 silly mapToRegistry using default registry
+162 silly mapToRegistry registry https://registry.npmjs.org/
+163 silly mapToRegistry uri https://registry.npmjs.org/fbemitter
+164 verbose addNameRange registry:https://registry.npmjs.org/fbemitter not in flight; fetching
+165 verbose request uri https://registry.npmjs.org/fbjs
+166 verbose request no auth needed
+167 info attempt registry request try #1 at 12:47:36 PM
+168 verbose etag "5UVKQ1XRQ915HRHD4KZ7YHQRO"
+169 http request GET https://registry.npmjs.org/fbjs
+170 verbose request uri https://registry.npmjs.org/immutable
+171 verbose request no auth needed
+172 info attempt registry request try #1 at 12:47:36 PM
+173 verbose etag "2BABLNL9FRW2X4YXNND7R6GR8"
+174 http request GET https://registry.npmjs.org/immutable
+175 verbose request uri https://registry.npmjs.org/fbemitter
+176 verbose request no auth needed
+177 info attempt registry request try #1 at 12:47:36 PM
+178 verbose etag "BCAQEMDRO0KEXXQO9SZ4ASFB6"
+179 http request GET https://registry.npmjs.org/fbemitter
+180 http 304 https://registry.npmjs.org/fbjs
+181 verbose headers { date: 'Sun, 20 Dec 2015 11:47:36 GMT',
+181 verbose headers   via: '1.1 varnish',
+181 verbose headers   'cache-control': 'max-age=300',
+181 verbose headers   etag: '"5UVKQ1XRQ915HRHD4KZ7YHQRO"',
+181 verbose headers   age: '53',
+181 verbose headers   connection: 'keep-alive',
+181 verbose headers   'x-served-by': 'cache-fra1247-FRA',
+181 verbose headers   'x-cache': 'HIT',
+181 verbose headers   'x-cache-hits': '1',
+181 verbose headers   'x-timer': 'S1450612056.862523,VS0,VE0',
+181 verbose headers   vary: 'Accept' }
+182 silly get cb [ 304,
+182 silly get   { date: 'Sun, 20 Dec 2015 11:47:36 GMT',
+182 silly get     via: '1.1 varnish',
+182 silly get     'cache-control': 'max-age=300',
+182 silly get     etag: '"5UVKQ1XRQ915HRHD4KZ7YHQRO"',
+182 silly get     age: '53',
+182 silly get     connection: 'keep-alive',
+182 silly get     'x-served-by': 'cache-fra1247-FRA',
+182 silly get     'x-cache': 'HIT',
+182 silly get     'x-cache-hits': '1',
+182 silly get     'x-timer': 'S1450612056.862523,VS0,VE0',
+182 silly get     vary: 'Accept' } ]
+183 verbose etag https://registry.npmjs.org/fbjs from cache
+184 verbose get saving fbjs to C:\Users\Milos\AppData\Roaming\npm-cache\registry.npmjs.org\fbjs\.cache.json
+185 http 304 https://registry.npmjs.org/immutable
+186 verbose headers { date: 'Sun, 20 Dec 2015 11:47:36 GMT',
+186 verbose headers   via: '1.1 varnish',
+186 verbose headers   'cache-control': 'max-age=300',
+186 verbose headers   etag: '"2BABLNL9FRW2X4YXNND7R6GR8"',
+186 verbose headers   age: '4',
+186 verbose headers   connection: 'keep-alive',
+186 verbose headers   'x-served-by': 'cache-fra1243-FRA',
+186 verbose headers   'x-cache': 'HIT',
+186 verbose headers   'x-cache-hits': '1',
+186 verbose headers   'x-timer': 'S1450612056.866117,VS0,VE0',
+186 verbose headers   vary: 'Accept' }
+187 silly get cb [ 304,
+187 silly get   { date: 'Sun, 20 Dec 2015 11:47:36 GMT',
+187 silly get     via: '1.1 varnish',
+187 silly get     'cache-control': 'max-age=300',
+187 silly get     etag: '"2BABLNL9FRW2X4YXNND7R6GR8"',
+187 silly get     age: '4',
+187 silly get     connection: 'keep-alive',
+187 silly get     'x-served-by': 'cache-fra1243-FRA',
+187 silly get     'x-cache': 'HIT',
+187 silly get     'x-cache-hits': '1',
+187 silly get     'x-timer': 'S1450612056.866117,VS0,VE0',
+187 silly get     vary: 'Accept' } ]
+188 verbose etag https://registry.npmjs.org/immutable from cache
+189 verbose get saving immutable to C:\Users\Milos\AppData\Roaming\npm-cache\registry.npmjs.org\immutable\.cache.json
+190 silly addNameRange number 2 { name: 'immutable', range: '>=3.7.4 <4.0.0', hasData: true }
+191 silly addNameRange versions [ 'immutable',
+191 silly addNameRange   [ '0.8.0-SNAPSHOT',
+191 silly addNameRange     '0.8.0',
+191 silly addNameRange     '0.9.0',
+191 silly addNameRange     '0.9.1',
+191 silly addNameRange     '0.9.2',
+191 silly addNameRange     '1.0.0',
+191 silly addNameRange     '1.1.0',
+191 silly addNameRange     '1.2.0',
+191 silly addNameRange     '1.3.0',
+191 silly addNameRange     '1.4.0',
+191 silly addNameRange     '1.5.0',
+191 silly addNameRange     '1.4.1',
+191 silly addNameRange     '2.0.0',
+191 silly addNameRange     '2.0.1',
+191 silly addNameRange     '2.0.2',
+191 silly addNameRange     '2.0.3',
+191 silly addNameRange     '2.0.4',
+191 silly addNameRange     '2.0.5',
+191 silly addNameRange     '2.0.6',
+191 silly addNameRange     '2.0.7',
+191 silly addNameRange     '2.0.8',
+191 silly addNameRange     '2.0.9',
+191 silly addNameRange     '2.0.10',
+191 silly addNameRange     '2.0.11',
+191 silly addNameRange     '2.0.12',
+191 silly addNameRange     '2.0.13',
+191 silly addNameRange     '2.0.14',
+191 silly addNameRange     '2.0.15',
+191 silly addNameRange     '2.0.16',
+191 silly addNameRange     '2.0.17',
+191 silly addNameRange     '2.1.0',
+191 silly addNameRange     '2.2.1',
+191 silly addNameRange     '2.2.2',
+191 silly addNameRange     '2.2.3',
+191 silly addNameRange     '2.3.0',
+191 silly addNameRange     '2.3.1',
+191 silly addNameRange     '2.3.2',
+191 silly addNameRange     '2.5.0',
+191 silly addNameRange     '2.5.1',
+191 silly addNameRange     '2.6.0',
+191 silly addNameRange     '2.6.1',
+191 silly addNameRange     '2.6.2',
+191 silly addNameRange     '3.0.0',
+191 silly addNameRange     '3.0.1',
+191 silly addNameRange     '3.0.2',
+191 silly addNameRange     '3.0.3',
+191 silly addNameRange     '3.1.0',
+191 silly addNameRange     '3.2.0',
+191 silly addNameRange     '3.2.1',
+191 silly addNameRange     '3.3.0',
+191 silly addNameRange     '3.4.0',
+191 silly addNameRange     '3.4.1',
+191 silly addNameRange     '3.5.0',
+191 silly addNameRange     '3.6.0',
+191 silly addNameRange     '3.6.1',
+191 silly addNameRange     '3.6.2',
+191 silly addNameRange     '3.6.3',
+191 silly addNameRange     '3.6.4',
+191 silly addNameRange     '3.7.0',
+191 silly addNameRange     '3.7.1',
+191 silly addNameRange     '3.7.2',
+191 silly addNameRange     '3.7.3',
+191 silly addNameRange     '3.7.4',
+191 silly addNameRange     '3.7.5',
+191 silly addNameRange     '3.7.6' ] ]
+192 silly addNamed immutable@3.7.6
+193 verbose addNamed "3.7.6" is a plain semver version for immutable
+194 silly cache afterAdd fbjs@0.1.0-alpha.7
+195 verbose afterAdd C:\Users\Milos\AppData\Roaming\npm-cache\fbjs\0.1.0-alpha.7\package\package.json not in flight; writing
+196 silly cache afterAdd immutable@3.7.6
+197 verbose afterAdd C:\Users\Milos\AppData\Roaming\npm-cache\immutable\3.7.6\package\package.json not in flight; writing
+198 verbose afterAdd C:\Users\Milos\AppData\Roaming\npm-cache\fbjs\0.1.0-alpha.7\package\package.json written
+199 verbose afterAdd C:\Users\Milos\AppData\Roaming\npm-cache\immutable\3.7.6\package\package.json written
+200 http 304 https://registry.npmjs.org/fbemitter
+201 verbose headers { date: 'Sun, 20 Dec 2015 11:47:36 GMT',
+201 verbose headers   via: '1.1 varnish',
+201 verbose headers   'cache-control': 'max-age=300',
+201 verbose headers   etag: '"BCAQEMDRO0KEXXQO9SZ4ASFB6"',
+201 verbose headers   age: '0',
+201 verbose headers   connection: 'keep-alive',
+201 verbose headers   'x-served-by': 'cache-fra1224-FRA',
+201 verbose headers   'x-cache': 'HIT',
+201 verbose headers   'x-cache-hits': '1',
+201 verbose headers   'x-timer': 'S1450612056.862734,VS0,VE400',
+201 verbose headers   vary: 'Accept' }
+202 silly get cb [ 304,
+202 silly get   { date: 'Sun, 20 Dec 2015 11:47:36 GMT',
+202 silly get     via: '1.1 varnish',
+202 silly get     'cache-control': 'max-age=300',
+202 silly get     etag: '"BCAQEMDRO0KEXXQO9SZ4ASFB6"',
+202 silly get     age: '0',
+202 silly get     connection: 'keep-alive',
+202 silly get     'x-served-by': 'cache-fra1224-FRA',
+202 silly get     'x-cache': 'HIT',
+202 silly get     'x-cache-hits': '1',
+202 silly get     'x-timer': 'S1450612056.862734,VS0,VE400',
+202 silly get     vary: 'Accept' } ]
+203 verbose etag https://registry.npmjs.org/fbemitter from cache
+204 verbose get saving fbemitter to C:\Users\Milos\AppData\Roaming\npm-cache\registry.npmjs.org\fbemitter\.cache.json
+205 silly addNameRange number 2 { name: 'fbemitter', range: '>=2.0.0 <3.0.0', hasData: true }
+206 silly addNameRange versions [ 'fbemitter', [ '2.0.0' ] ]
+207 silly addNamed fbemitter@2.0.0
+208 verbose addNamed "2.0.0" is a plain semver version for fbemitter
+209 silly cache afterAdd fbemitter@2.0.0
+210 verbose afterAdd C:\Users\Milos\AppData\Roaming\npm-cache\fbemitter\2.0.0\package\package.json not in flight; writing
+211 verbose afterAdd C:\Users\Milos\AppData\Roaming\npm-cache\fbemitter\2.0.0\package\package.json written
+212 silly install resolved [ { name: 'fbjs',
+212 silly install resolved     version: '0.1.0-alpha.7',
+212 silly install resolved     description: '## Purpose',
+212 silly install resolved     main: 'index.js',
+212 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/facebook/fbjs.git' },
+212 silly install resolved     scripts:
+212 silly install resolved      { build: 'gulp build',
+212 silly install resolved        prepublish: 'npm run build',
+212 silly install resolved        test: 'NODE_ENV=test jest' },
+212 silly install resolved     author: '',
+212 silly install resolved     license: 'BSD-3-Clause',
+212 silly install resolved     devDependencies:
+212 silly install resolved      { babel: '^5.4.7',
+212 silly install resolved        del: '^1.2.0',
+212 silly install resolved        gulp: '^3.9.0',
+212 silly install resolved        'gulp-babel': '^5.1.0',
+212 silly install resolved        'gulp-flatten': '^0.1.1',
+212 silly install resolved        'gulp-util': '^3.0.4',
+212 silly install resolved        'jest-cli': '^0.4.5',
+212 silly install resolved        'merge-stream': '^0.1.8',
+212 silly install resolved        'object-assign': '^3.0.0',
+212 silly install resolved        'run-sequence': '^1.1.0',
+212 silly install resolved        through2: '^2.0.0' },
+212 silly install resolved     files:
+212 silly install resolved      [ 'LICENSE',
+212 silly install resolved        'PATENTS',
+212 silly install resolved        'README.md',
+212 silly install resolved        'flow/',
+212 silly install resolved        'index.js',
+212 silly install resolved        'lib/',
+212 silly install resolved        'module-map.json',
+212 silly install resolved        'scripts/' ],
+212 silly install resolved     jest:
+212 silly install resolved      { modulePathIgnorePatterns: [Object],
+212 silly install resolved        persistModuleRegistryBetweenSpecs: true,
+212 silly install resolved        preprocessorIgnorePatterns: [Object],
+212 silly install resolved        rootDir: '',
+212 silly install resolved        scriptPreprocessor: 'scripts/jest/preprocessor.js',
+212 silly install resolved        setupEnvScriptFile: 'scripts/jest/environment.js',
+212 silly install resolved        testPathDirs: [Object],
+212 silly install resolved        unmockedModulePathPatterns: [Object] },
+212 silly install resolved     dependencies:
+212 silly install resolved      { 'core-js': '^1.0.0',
+212 silly install resolved        promise: '^7.0.3',
+212 silly install resolved        'whatwg-fetch': '^0.9.0' },
+212 silly install resolved     gitHead: 'b4178abeb3c114acd1d4253557959121d59a18dd',
+212 silly install resolved     bugs: { url: 'https://github.com/facebook/fbjs/issues' },
+212 silly install resolved     homepage: 'https://github.com/facebook/fbjs#readme',
+212 silly install resolved     _id: 'fbjs@0.1.0-alpha.7',
+212 silly install resolved     _shasum: 'ad4308b8f232fb3c73603349ea725d1e9c39323c',
+212 silly install resolved     _from: 'fbjs@0.1.0-alpha.7',
+212 silly install resolved     _npmVersion: '2.13.2',
+212 silly install resolved     _nodeVersion: '0.10.36',
+212 silly install resolved     _npmUser: { name: 'yungsters', email: 'yungsters@gmail.com' },
+212 silly install resolved     dist:
+212 silly install resolved      { shasum: 'ad4308b8f232fb3c73603349ea725d1e9c39323c',
+212 silly install resolved        tarball: 'http://registry.npmjs.org/fbjs/-/fbjs-0.1.0-alpha.7.tgz' },
+212 silly install resolved     maintainers: [ [Object], [Object], [Object] ],
+212 silly install resolved     directories: {},
+212 silly install resolved     _resolved: 'https://registry.npmjs.org/fbjs/-/fbjs-0.1.0-alpha.7.tgz',
+212 silly install resolved     readme: 'ERROR: No README data found!' },
+212 silly install resolved   { name: 'immutable',
+212 silly install resolved     version: '3.7.6',
+212 silly install resolved     description: 'Immutable Data Collections',
+212 silly install resolved     homepage: 'https://github.com/facebook/immutable-js',
+212 silly install resolved     author: { name: 'Lee Byron', url: 'https://github.com/leebyron' },
+212 silly install resolved     repository:
+212 silly install resolved      { type: 'git',
+212 silly install resolved        url: 'git://github.com/facebook/immutable-js.git' },
+212 silly install resolved     bugs: { url: 'https://github.com/facebook/immutable-js/issues' },
+212 silly install resolved     main: 'dist/immutable.js',
+212 silly install resolved     typescript: { definition: 'dist/immutable.d.ts' },
+212 silly install resolved     scripts:
+212 silly install resolved      { test: './resources/node_test.sh',
+212 silly install resolved        perf: 'node ./resources/bench.js' },
+212 silly install resolved     jest:
+212 silly install resolved      { scriptPreprocessor: 'resources/jestPreprocessor.js',
+212 silly install resolved        testFileExtensions: [Object],
+212 silly install resolved        persistModuleRegistryBetweenSpecs: true },
+212 silly install resolved     devDependencies:
+212 silly install resolved      { acorn: '^0.11.0',
+212 silly install resolved        benchmark: '^1.0.0',
+212 silly install resolved        bluebird: '^2.7.1',
+212 silly install resolved        colors: '^1.0.3',
+212 silly install resolved        'es6-transpiler': '^0.7.18',
+212 silly install resolved        estraverse: '^1.9.1',
+212 silly install resolved        grunt: '^0.4.5',
+212 silly install resolved        'grunt-contrib-clean': '^0.5.0',
+212 silly install resolved        'grunt-contrib-copy': '^0.5.0',
+212 silly install resolved        'grunt-contrib-jshint': '^0.10.0',
+212 silly install resolved        'grunt-jest': '^0.1.0',
+212 silly install resolved        'grunt-release': '^0.7.0',
+212 silly install resolved        'jasmine-check': '^0.1.2',
+212 silly install resolved        'magic-string': '^0.2.6',
+212 silly install resolved        microtime: '^1.2.0',
+212 silly install resolved        'react-tools': '^0.11.1',
+212 silly install resolved        rollup: '^0.19.2',
+212 silly install resolved        typescript: '~1.4.1',
+212 silly install resolved        'uglify-js': '^2.4.15' },
+212 silly install resolved     engines: { node: '>=0.8.0' },
+212 silly install resolved     files: [ 'dist', 'contrib', 'README.md', 'LICENSE', 'PATENTS' ],
+212 silly install resolved     keywords:
+212 silly install resolved      [ 'immutable',
+212 silly install resolved        'persistent',
+212 silly install resolved        'lazy',
+212 silly install resolved        'data',
+212 silly install resolved        'datastructure',
+212 silly install resolved        'functional',
+212 silly install resolved        'collection',
+212 silly install resolved        'stateless',
+212 silly install resolved        'sequence',
+212 silly install resolved        'iteration' ],
+212 silly install resolved     license: 'BSD-3-Clause',
+212 silly install resolved     gitHead: '67afd399e339c059ca4181a84c16c0a843a4d5a5',
+212 silly install resolved     _id: 'immutable@3.7.6',
+212 silly install resolved     _shasum: '13b4d3cb12befa15482a26fe1b2ebae640071e4b',
+212 silly install resolved     _from: 'immutable@>=3.7.4 <4.0.0',
+212 silly install resolved     _npmVersion: '2.10.1',
+212 silly install resolved     _nodeVersion: '0.12.4',
+212 silly install resolved     _npmUser: { name: 'leebyron', email: 'lee@leebyron.com' },
+212 silly install resolved     dist:
+212 silly install resolved      { shasum: '13b4d3cb12befa15482a26fe1b2ebae640071e4b',
+212 silly install resolved        tarball: 'http://registry.npmjs.org/immutable/-/immutable-3.7.6.tgz' },
+212 silly install resolved     maintainers: [ [Object] ],
+212 silly install resolved     directories: {},
+212 silly install resolved     _resolved: 'https://registry.npmjs.org/immutable/-/immutable-3.7.6.tgz',
+212 silly install resolved     readme: 'ERROR: No README data found!' },
+212 silly install resolved   { name: 'fbemitter',
+212 silly install resolved     version: '2.0.0',
+212 silly install resolved     keywords: [ 'clientside' ],
+212 silly install resolved     bugs: { url: 'https://github.com/facebook/emitter/issues' },
+212 silly install resolved     license: 'BSD-3-Clause',
+212 silly install resolved     files: [ 'LICENSE', 'PATENTS', 'README.md', 'index.js', 'lib/' ],
+212 silly install resolved     main: 'index.js',
+212 silly install resolved     repository:
+212 silly install resolved      { type: 'git',
+212 silly install resolved        url: 'git+https://github.com/facebook/emitter.git' },
+212 silly install resolved     scripts:
+212 silly install resolved      { build: 'gulp build',
+212 silly install resolved        prepublish: 'npm run build',
+212 silly install resolved        test: 'NODE_ENV=test jest' },
+212 silly install resolved     dependencies: { fbjs: '0.1.0-alpha.7' },
+212 silly install resolved     devDependencies:
+212 silly install resolved      { babel: '^5.4.7',
+212 silly install resolved        del: '^1.2.0',
+212 silly install resolved        gulp: '^3.8.11',
+212 silly install resolved        'gulp-babel': '^5.1.0',
+212 silly install resolved        'gulp-flatten': '^0.1.1',
+212 silly install resolved        'jest-cli': '^0.4.5',
+212 silly install resolved        'object-assign': '^3.0.0',
+212 silly install resolved        'run-sequence': '^1.1.0' },
+212 silly install resolved     jest:
+212 silly install resolved      { modulePathIgnorePatterns: [Object],
+212 silly install resolved        persistModuleRegistryBetweenSpecs: true,
+212 silly install resolved        preprocessorIgnorePatterns: [Object],
+212 silly install resolved        rootDir: '',
+212 silly install resolved        scriptPreprocessor: 'scripts/jest/preprocessor.js',
+212 silly install resolved        setupEnvScriptFile: 'scripts/jest/environment.js',
+212 silly install resolved        testPathDirs: [Object],
+212 silly install resolved        unmockedModulePathPatterns: [Object] },
+212 silly install resolved     gitHead: '4f38f57aba4fad8d1df9f80cae4a85efc12ba399',
+212 silly install resolved     description: 'Facebook\'s EventEmitter is a simple emitter implementation that prioritizes speed and simplicity. It is conceptually similar to other emitters like Node\'s EventEmitter, but the precise APIs differ. More complex abstractions like the event systems used on ',
+212 silly install resolved     homepage: 'https://github.com/facebook/emitter#readme',
+212 silly install resolved     _id: 'fbemitter@2.0.0',
+212 silly install resolved     _shasum: '9ce71301d5eaac2b7fe97f54f3f8dcb262f138e2',
+212 silly install resolved     _from: 'fbemitter@>=2.0.0 <3.0.0',
+212 silly install resolved     _npmVersion: '2.12.1',
+212 silly install resolved     _nodeVersion: '0.12.7',
+212 silly install resolved     _npmUser: { name: 'kyldvs', email: 'kyldvs@gmail.com' },
+212 silly install resolved     dist:
+212 silly install resolved      { shasum: '9ce71301d5eaac2b7fe97f54f3f8dcb262f138e2',
+212 silly install resolved        tarball: 'http://registry.npmjs.org/fbemitter/-/fbemitter-2.0.0.tgz' },
+212 silly install resolved     maintainers: [ [Object] ],
+212 silly install resolved     directories: {},
+212 silly install resolved     _resolved: 'https://registry.npmjs.org/fbemitter/-/fbemitter-2.0.0.tgz',
+212 silly install resolved     readme: 'ERROR: No README data found!' } ]
+213 info install fbjs@0.1.0-alpha.7 into D:\playground\imgur-clone\node_modules\flux
+214 info install immutable@3.7.6 into D:\playground\imgur-clone\node_modules\flux
+215 info install fbemitter@2.0.0 into D:\playground\imgur-clone\node_modules\flux
+216 info installOne fbjs@0.1.0-alpha.7
+217 verbose installOne of fbjs to D:\playground\imgur-clone\node_modules\flux not in flight; installing
+218 info installOne immutable@3.7.6
+219 verbose installOne of immutable to D:\playground\imgur-clone\node_modules\flux not in flight; installing
+220 info installOne fbemitter@2.0.0
+221 verbose installOne of fbemitter to D:\playground\imgur-clone\node_modules\flux not in flight; installing
+222 verbose lock using C:\Users\Milos\AppData\Roaming\npm-cache\_locks\fbemitter-77d73c5d4858d6ad.lock for D:\playground\imgur-clone\node_modules\flux\node_modules\fbemitter
+223 verbose lock using C:\Users\Milos\AppData\Roaming\npm-cache\_locks\immutable-0fa4e1882fb88182.lock for D:\playground\imgur-clone\node_modules\flux\node_modules\immutable
+224 verbose lock using C:\Users\Milos\AppData\Roaming\npm-cache\_locks\fbjs-c433be8c4b86cbda.lock for D:\playground\imgur-clone\node_modules\flux\node_modules\fbjs
+225 silly install write writing fbemitter 2.0.0 to D:\playground\imgur-clone\node_modules\flux\node_modules\fbemitter
+226 silly install write writing immutable 3.7.6 to D:\playground\imgur-clone\node_modules\flux\node_modules\immutable
+227 silly install write writing fbjs 0.1.0-alpha.7 to D:\playground\imgur-clone\node_modules\flux\node_modules\fbjs
+228 verbose unbuild node_modules\flux\node_modules\fbemitter
+229 verbose unbuild node_modules\flux\node_modules\immutable
+230 verbose unbuild node_modules\flux\node_modules\fbjs
+231 silly gentlyRm D:\playground\imgur-clone\node_modules\flux\node_modules\immutable is being purged from base D:\playground\imgur-clone
+232 verbose gentlyRm don't care about contents; nuking D:\playground\imgur-clone\node_modules\flux\node_modules\immutable
+233 silly gentlyRm D:\playground\imgur-clone\node_modules\flux\node_modules\fbemitter is being purged from base D:\playground\imgur-clone
+234 verbose gentlyRm don't care about contents; nuking D:\playground\imgur-clone\node_modules\flux\node_modules\fbemitter
+235 silly gentlyRm D:\playground\imgur-clone\node_modules\flux\node_modules\fbjs is being purged from base D:\playground\imgur-clone
+236 verbose gentlyRm don't care about contents; nuking D:\playground\imgur-clone\node_modules\flux\node_modules\fbjs
+237 verbose tar unpack C:\Users\Milos\AppData\Roaming\npm-cache\fbemitter\2.0.0\package.tgz
+238 verbose tar unpacking to D:\playground\imgur-clone\node_modules\flux\node_modules\fbemitter
+239 silly gentlyRm D:\playground\imgur-clone\node_modules\flux\node_modules\fbemitter is being purged
+240 verbose gentlyRm don't care about contents; nuking D:\playground\imgur-clone\node_modules\flux\node_modules\fbemitter
+241 verbose tar unpack C:\Users\Milos\AppData\Roaming\npm-cache\immutable\3.7.6\package.tgz
+242 verbose tar unpacking to D:\playground\imgur-clone\node_modules\flux\node_modules\immutable
+243 silly gentlyRm D:\playground\imgur-clone\node_modules\flux\node_modules\immutable is being purged
+244 verbose gentlyRm don't care about contents; nuking D:\playground\imgur-clone\node_modules\flux\node_modules\immutable
+245 verbose tar unpack C:\Users\Milos\AppData\Roaming\npm-cache\fbjs\0.1.0-alpha.7\package.tgz
+246 verbose tar unpacking to D:\playground\imgur-clone\node_modules\flux\node_modules\fbjs
+247 silly gentlyRm D:\playground\imgur-clone\node_modules\flux\node_modules\fbjs is being purged
+248 verbose gentlyRm don't care about contents; nuking D:\playground\imgur-clone\node_modules\flux\node_modules\fbjs
+249 silly gunzTarPerm modes [ '777', '666' ]
+250 silly gunzTarPerm modes [ '777', '666' ]
+251 silly gunzTarPerm modes [ '777', '666' ]
+252 silly gunzTarPerm extractEntry package.json
+253 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+254 silly gunzTarPerm extractEntry package.json
+255 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+256 silly gunzTarPerm extractEntry package.json
+257 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+258 silly gunzTarPerm extractEntry README.md
+259 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+260 silly gunzTarPerm extractEntry LICENSE
+261 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+262 silly gunzTarPerm extractEntry README.md
+263 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+264 silly gunzTarPerm extractEntry LICENSE
+265 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+266 silly gunzTarPerm extractEntry README.md
+267 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+268 silly gunzTarPerm extractEntry LICENSE
+269 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+270 silly gunzTarPerm extractEntry index.js
+271 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+272 silly gunzTarPerm extractEntry index.js
+273 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+274 silly gunzTarPerm extractEntry PATENTS
+275 silly gunzTarPerm modified mode [ 'PATENTS', 420, 438 ]
+276 silly gunzTarPerm extractEntry contrib/cursor/README.md
+277 silly gunzTarPerm modified mode [ 'contrib/cursor/README.md', 420, 438 ]
+278 silly gunzTarPerm extractEntry lib/BaseEventEmitter.js
+279 silly gunzTarPerm modified mode [ 'lib/BaseEventEmitter.js', 420, 438 ]
+280 silly gunzTarPerm extractEntry lib/EmitterSubscription.js
+281 silly gunzTarPerm modified mode [ 'lib/EmitterSubscription.js', 420, 438 ]
+282 silly gunzTarPerm extractEntry PATENTS
+283 silly gunzTarPerm modified mode [ 'PATENTS', 420, 438 ]
+284 silly gunzTarPerm extractEntry lib/CSSCore.js
+285 silly gunzTarPerm modified mode [ 'lib/CSSCore.js', 420, 438 ]
+286 silly gunzTarPerm extractEntry contrib/cursor/index.js
+287 silly gunzTarPerm modified mode [ 'contrib/cursor/index.js', 420, 438 ]
+288 silly gunzTarPerm extractEntry contrib/cursor/__tests__/Cursor.ts
+289 silly gunzTarPerm modified mode [ 'contrib/cursor/__tests__/Cursor.ts', 420, 438 ]
+290 silly gunzTarPerm extractEntry lib/EventSubscription.js
+291 silly gunzTarPerm modified mode [ 'lib/EventSubscription.js', 420, 438 ]
+292 silly gunzTarPerm extractEntry lib/EventSubscriptionVendor.js
+293 silly gunzTarPerm modified mode [ 'lib/EventSubscriptionVendor.js', 420, 438 ]
+294 silly gunzTarPerm extractEntry lib/fetchWithRetries.js
+295 silly gunzTarPerm modified mode [ 'lib/fetchWithRetries.js', 420, 438 ]
+296 silly gunzTarPerm extractEntry lib/flattenArray.js
+297 silly gunzTarPerm modified mode [ 'lib/flattenArray.js', 420, 438 ]
+298 silly gunzTarPerm extractEntry contrib/cursor/index.d.ts
+299 silly gunzTarPerm modified mode [ 'contrib/cursor/index.d.ts', 420, 438 ]
+300 silly gunzTarPerm extractEntry dist/immutable.js
+301 silly gunzTarPerm modified mode [ 'dist/immutable.js', 420, 438 ]
+302 silly gunzTarPerm extractEntry PATENTS
+303 silly gunzTarPerm modified mode [ 'PATENTS', 420, 438 ]
+304 silly gunzTarPerm extractEntry lib/focusNode.js
+305 silly gunzTarPerm modified mode [ 'lib/focusNode.js', 420, 438 ]
+306 silly gunzTarPerm extractEntry lib/forEachObject.js
+307 silly gunzTarPerm modified mode [ 'lib/forEachObject.js', 420, 438 ]
+308 silly gunzTarPerm extractEntry dist/immutable.min.js
+309 silly gunzTarPerm modified mode [ 'dist/immutable.min.js', 420, 438 ]
+310 silly gunzTarPerm extractEntry lib/fetch.js
+311 silly gunzTarPerm modified mode [ 'lib/fetch.js', 420, 438 ]
+312 silly gunzTarPerm extractEntry lib/getMarkupWrap.js
+313 silly gunzTarPerm modified mode [ 'lib/getMarkupWrap.js', 420, 438 ]
+314 silly gunzTarPerm extractEntry lib/getUnboundedScrollPosition.js
+315 silly gunzTarPerm modified mode [ 'lib/getUnboundedScrollPosition.js', 420, 438 ]
+316 silly gunzTarPerm extractEntry lib/hyphenate.js
+317 silly gunzTarPerm modified mode [ 'lib/hyphenate.js', 420, 438 ]
+318 silly gunzTarPerm extractEntry dist/immutable.d.ts
+319 silly gunzTarPerm modified mode [ 'dist/immutable.d.ts', 420, 438 ]
+320 silly gunzTarPerm extractEntry lib/hyphenateStyleName.js
+321 silly gunzTarPerm modified mode [ 'lib/hyphenateStyleName.js', 420, 438 ]
+322 silly gunzTarPerm extractEntry lib/invariant.js
+323 silly gunzTarPerm modified mode [ 'lib/invariant.js', 420, 438 ]
+324 silly gunzTarPerm extractEntry lib/everyObject.js
+325 silly gunzTarPerm modified mode [ 'lib/everyObject.js', 420, 438 ]
+326 silly gunzTarPerm extractEntry lib/isEmpty.js
+327 silly gunzTarPerm modified mode [ 'lib/isEmpty.js', 420, 438 ]
+328 silly gunzTarPerm extractEntry lib/emptyObject.js
+329 silly gunzTarPerm modified mode [ 'lib/emptyObject.js', 420, 438 ]
+330 silly gunzTarPerm extractEntry lib/isNode.js
+331 silly gunzTarPerm modified mode [ 'lib/isNode.js', 420, 438 ]
+332 verbose write writing to D:\playground\imgur-clone\node_modules\flux\node_modules\fbemitter\package.json
+333 silly gunzTarPerm extractEntry lib/emptyFunction.js
+334 silly gunzTarPerm modified mode [ 'lib/emptyFunction.js', 420, 438 ]
+335 silly gunzTarPerm extractEntry lib/isTextNode.js
+336 silly gunzTarPerm modified mode [ 'lib/isTextNode.js', 420, 438 ]
+337 info preinstall fbemitter@2.0.0
+338 silly gunzTarPerm extractEntry lib/createNodesFromMarkup.js
+339 silly gunzTarPerm modified mode [ 'lib/createNodesFromMarkup.js', 420, 438 ]
+340 silly gunzTarPerm extractEntry lib/keyMirror.js
+341 silly gunzTarPerm modified mode [ 'lib/keyMirror.js', 420, 438 ]
+342 verbose readDependencies loading dependencies from D:\playground\imgur-clone\node_modules\flux\node_modules\fbemitter\package.json
+343 verbose readDependencies loading dependencies from D:\playground\imgur-clone\node_modules\flux\node_modules\fbemitter\package.json
+344 silly gunzTarPerm extractEntry lib/createArrayFromMixed.js
+345 silly gunzTarPerm modified mode [ 'lib/createArrayFromMixed.js', 420, 438 ]
+346 silly gunzTarPerm extractEntry lib/keyOf.js
+347 silly gunzTarPerm modified mode [ 'lib/keyOf.js', 420, 438 ]
+348 silly install resolved []
+349 verbose about to build D:\playground\imgur-clone\node_modules\flux\node_modules\fbemitter
+350 info build D:\playground\imgur-clone\node_modules\flux\node_modules\fbemitter
+351 silly gunzTarPerm extractEntry lib/containsNode.js
+352 silly gunzTarPerm modified mode [ 'lib/containsNode.js', 420, 438 ]
+353 silly gunzTarPerm extractEntry lib/mapObject.js
+354 silly gunzTarPerm modified mode [ 'lib/mapObject.js', 420, 438 ]
+355 info linkStuff fbemitter@2.0.0
+356 silly linkStuff fbemitter@2.0.0 has D:\playground\imgur-clone\node_modules\flux\node_modules as its parent node_modules
+357 silly gunzTarPerm extractEntry lib/camelizeStyleName.js
+358 silly gunzTarPerm modified mode [ 'lib/camelizeStyleName.js', 420, 438 ]
+359 silly gunzTarPerm extractEntry lib/monitorCodeUse.js
+360 silly gunzTarPerm modified mode [ 'lib/monitorCodeUse.js', 420, 438 ]
+361 verbose linkBins fbemitter@2.0.0
+362 verbose linkMans fbemitter@2.0.0
+363 verbose rebuildBundles fbemitter@2.0.0
+364 info install fbemitter@2.0.0
+365 info postinstall fbemitter@2.0.0
+366 verbose unlock done using C:\Users\Milos\AppData\Roaming\npm-cache\_locks\fbemitter-77d73c5d4858d6ad.lock for D:\playground\imgur-clone\node_modules\flux\node_modules\fbemitter
+367 silly gunzTarPerm extractEntry lib/camelize.js
+368 silly gunzTarPerm modified mode [ 'lib/camelize.js', 420, 438 ]
+369 silly gunzTarPerm extractEntry lib/nativeRequestAnimationFrame.js
+370 silly gunzTarPerm modified mode [ 'lib/nativeRequestAnimationFrame.js', 420, 438 ]
+371 silly gunzTarPerm extractEntry lib/areEqual.js
+372 silly gunzTarPerm modified mode [ 'lib/areEqual.js', 420, 438 ]
+373 silly gunzTarPerm extractEntry lib/nullthrows.js
+374 silly gunzTarPerm modified mode [ 'lib/nullthrows.js', 420, 438 ]
+375 verbose write writing to D:\playground\imgur-clone\node_modules\flux\node_modules\immutable\package.json
+376 silly gunzTarPerm extractEntry lib/warning.js
+377 silly gunzTarPerm modified mode [ 'lib/warning.js', 420, 438 ]
+378 silly gunzTarPerm extractEntry lib/performance.js
+379 silly gunzTarPerm modified mode [ 'lib/performance.js', 420, 438 ]
+380 info preinstall immutable@3.7.6
+381 silly gunzTarPerm extractEntry lib/URI.js
+382 silly gunzTarPerm modified mode [ 'lib/URI.js', 420, 438 ]
+383 silly gunzTarPerm extractEntry lib/performanceNow.js
+384 silly gunzTarPerm modified mode [ 'lib/performanceNow.js', 420, 438 ]
+385 verbose readDependencies loading dependencies from D:\playground\imgur-clone\node_modules\flux\node_modules\immutable\package.json
+386 verbose readDependencies loading dependencies from D:\playground\imgur-clone\node_modules\flux\node_modules\immutable\package.json
+387 silly gunzTarPerm extractEntry lib/TouchEventUtils.js
+388 silly gunzTarPerm modified mode [ 'lib/TouchEventUtils.js', 420, 438 ]
+389 silly gunzTarPerm extractEntry lib/removeFromArray.js
+390 silly gunzTarPerm modified mode [ 'lib/removeFromArray.js', 420, 438 ]
+391 silly install resolved []
+392 verbose about to build D:\playground\imgur-clone\node_modules\flux\node_modules\immutable
+393 info build D:\playground\imgur-clone\node_modules\flux\node_modules\immutable
+394 info linkStuff immutable@3.7.6
+395 silly linkStuff immutable@3.7.6 has D:\playground\imgur-clone\node_modules\flux\node_modules as its parent node_modules
+396 silly gunzTarPerm extractEntry lib/PromiseMap.js
+397 silly gunzTarPerm modified mode [ 'lib/PromiseMap.js', 420, 438 ]
+398 silly gunzTarPerm extractEntry lib/requestAnimationFrame.js
+399 silly gunzTarPerm modified mode [ 'lib/requestAnimationFrame.js', 420, 438 ]
+400 verbose linkBins immutable@3.7.6
+401 verbose linkMans immutable@3.7.6
+402 verbose rebuildBundles immutable@3.7.6
+403 silly gunzTarPerm extractEntry lib/Promise.js
+404 silly gunzTarPerm modified mode [ 'lib/Promise.js', 420, 438 ]
+405 silly gunzTarPerm extractEntry lib/resolveImmediate.js
+406 silly gunzTarPerm modified mode [ 'lib/resolveImmediate.js', 420, 438 ]
+407 info install immutable@3.7.6
+408 info postinstall immutable@3.7.6
+409 verbose unlock done using C:\Users\Milos\AppData\Roaming\npm-cache\_locks\immutable-0fa4e1882fb88182.lock for D:\playground\imgur-clone\node_modules\flux\node_modules\immutable
+410 silly gunzTarPerm extractEntry lib/Map.js
+411 silly gunzTarPerm modified mode [ 'lib/Map.js', 420, 438 ]
+412 silly gunzTarPerm extractEntry lib/shallowEqual.js
+413 silly gunzTarPerm modified mode [ 'lib/shallowEqual.js', 420, 438 ]
+414 silly gunzTarPerm extractEntry lib/ExecutionEnvironment.js
+415 silly gunzTarPerm modified mode [ 'lib/ExecutionEnvironment.js', 420, 438 ]
+416 silly gunzTarPerm extractEntry lib/someObject.js
+417 silly gunzTarPerm modified mode [ 'lib/someObject.js', 420, 438 ]
+418 silly gunzTarPerm extractEntry lib/EventListener.js
+419 silly gunzTarPerm modified mode [ 'lib/EventListener.js', 420, 438 ]
+420 silly gunzTarPerm extractEntry lib/sprintf.js
+421 silly gunzTarPerm modified mode [ 'lib/sprintf.js', 420, 438 ]
+422 silly gunzTarPerm extractEntry lib/ErrorUtils.js
+423 silly gunzTarPerm modified mode [ 'lib/ErrorUtils.js', 420, 438 ]
+424 silly gunzTarPerm extractEntry lib/toArray.js
+425 silly gunzTarPerm modified mode [ 'lib/toArray.js', 420, 438 ]
+426 silly gunzTarPerm extractEntry lib/Deferred.js
+427 silly gunzTarPerm modified mode [ 'lib/Deferred.js', 420, 438 ]
+428 silly gunzTarPerm extractEntry lib/xhrSimpleDataSerializer.js
+429 silly gunzTarPerm modified mode [ 'lib/xhrSimpleDataSerializer.js', 420, 438 ]
+430 silly gunzTarPerm extractEntry lib/getActiveElement.js
+431 silly gunzTarPerm modified mode [ 'lib/getActiveElement.js', 420, 438 ]
+432 silly gunzTarPerm extractEntry lib/__mocks__/ErrorUtils.js
+433 silly gunzTarPerm modified mode [ 'lib/__mocks__/ErrorUtils.js', 420, 438 ]
+434 silly gunzTarPerm extractEntry lib/__mocks__/fetch.js
+435 silly gunzTarPerm modified mode [ 'lib/__mocks__/fetch.js', 420, 438 ]
+436 silly gunzTarPerm extractEntry lib/__mocks__/fetchWithRetries.js
+437 silly gunzTarPerm modified mode [ 'lib/__mocks__/fetchWithRetries.js', 420, 438 ]
+438 silly gunzTarPerm extractEntry lib/__mocks__/nullthrows.js
+439 silly gunzTarPerm modified mode [ 'lib/__mocks__/nullthrows.js', 420, 438 ]
+440 silly gunzTarPerm extractEntry module-map.json
+441 silly gunzTarPerm modified mode [ 'module-map.json', 420, 438 ]
+442 silly gunzTarPerm extractEntry scripts/babel/default-options.js
+443 silly gunzTarPerm modified mode [ 'scripts/babel/default-options.js', 420, 438 ]
+444 silly gunzTarPerm extractEntry scripts/babel/dev-expression.js
+445 silly gunzTarPerm modified mode [ 'scripts/babel/dev-expression.js', 420, 438 ]
+446 silly gunzTarPerm extractEntry scripts/babel/rewrite-modules.js
+447 silly gunzTarPerm modified mode [ 'scripts/babel/rewrite-modules.js', 420, 438 ]
+448 silly gunzTarPerm extractEntry scripts/gulp/module-map.js
+449 silly gunzTarPerm modified mode [ 'scripts/gulp/module-map.js', 420, 438 ]
+450 silly gunzTarPerm extractEntry scripts/jest/environment.js
+451 silly gunzTarPerm modified mode [ 'scripts/jest/environment.js', 420, 438 ]
+452 silly gunzTarPerm extractEntry scripts/jest/preprocessor.js
+453 silly gunzTarPerm modified mode [ 'scripts/jest/preprocessor.js', 420, 438 ]
+454 silly gunzTarPerm extractEntry flow/include/CSSCore.js
+455 silly gunzTarPerm modified mode [ 'flow/include/CSSCore.js', 420, 438 ]
+456 silly gunzTarPerm extractEntry flow/include/flattenArray.js
+457 silly gunzTarPerm modified mode [ 'flow/include/flattenArray.js', 420, 438 ]
+458 silly gunzTarPerm extractEntry flow/include/focusNode.js
+459 silly gunzTarPerm modified mode [ 'flow/include/focusNode.js', 420, 438 ]
+460 silly gunzTarPerm extractEntry flow/include/forEachObject.js
+461 silly gunzTarPerm modified mode [ 'flow/include/forEachObject.js', 420, 438 ]
+462 silly gunzTarPerm extractEntry flow/include/getActiveElement.js
+463 silly gunzTarPerm modified mode [ 'flow/include/getActiveElement.js', 420, 438 ]
+464 silly gunzTarPerm extractEntry flow/include/fetchWithRetries.js
+465 silly gunzTarPerm modified mode [ 'flow/include/fetchWithRetries.js', 420, 438 ]
+466 silly gunzTarPerm extractEntry flow/include/getUnboundedScrollPosition.js
+467 silly gunzTarPerm modified mode [ 'flow/include/getUnboundedScrollPosition.js', 420, 438 ]
+468 silly gunzTarPerm extractEntry flow/include/hyphenate.js
+469 silly gunzTarPerm modified mode [ 'flow/include/hyphenate.js', 420, 438 ]
+470 silly gunzTarPerm extractEntry flow/include/hyphenateStyleName.js
+471 silly gunzTarPerm modified mode [ 'flow/include/hyphenateStyleName.js', 420, 438 ]
+472 silly gunzTarPerm extractEntry flow/include/invariant.js
+473 silly gunzTarPerm modified mode [ 'flow/include/invariant.js', 420, 438 ]
+474 silly gunzTarPerm extractEntry flow/include/isEmpty.js
+475 silly gunzTarPerm modified mode [ 'flow/include/isEmpty.js', 420, 438 ]
+476 silly gunzTarPerm extractEntry flow/include/fetch.js
+477 silly gunzTarPerm modified mode [ 'flow/include/fetch.js', 420, 438 ]
+478 silly gunzTarPerm extractEntry flow/include/isNode.js
+479 silly gunzTarPerm modified mode [ 'flow/include/isNode.js', 420, 438 ]
+480 silly gunzTarPerm extractEntry flow/include/everyObject.js
+481 silly gunzTarPerm modified mode [ 'flow/include/everyObject.js', 420, 438 ]
+482 silly gunzTarPerm extractEntry flow/include/isTextNode.js
+483 silly gunzTarPerm modified mode [ 'flow/include/isTextNode.js', 420, 438 ]
+484 silly gunzTarPerm extractEntry flow/include/emptyObject.js
+485 silly gunzTarPerm modified mode [ 'flow/include/emptyObject.js', 420, 438 ]
+486 silly gunzTarPerm extractEntry flow/include/keyMirror.js
+487 silly gunzTarPerm modified mode [ 'flow/include/keyMirror.js', 420, 438 ]
+488 silly gunzTarPerm extractEntry flow/include/emptyFunction.js
+489 silly gunzTarPerm modified mode [ 'flow/include/emptyFunction.js', 420, 438 ]
+490 silly gunzTarPerm extractEntry flow/include/keyOf.js
+491 silly gunzTarPerm modified mode [ 'flow/include/keyOf.js', 420, 438 ]
+492 silly gunzTarPerm extractEntry flow/include/createNodesFromMarkup.js
+493 silly gunzTarPerm modified mode [ 'flow/include/createNodesFromMarkup.js', 420, 438 ]
+494 silly gunzTarPerm extractEntry flow/include/mapObject.js
+495 silly gunzTarPerm modified mode [ 'flow/include/mapObject.js', 420, 438 ]
+496 silly gunzTarPerm extractEntry flow/include/createArrayFromMixed.js
+497 silly gunzTarPerm modified mode [ 'flow/include/createArrayFromMixed.js', 420, 438 ]
+498 silly gunzTarPerm extractEntry flow/include/monitorCodeUse.js
+499 silly gunzTarPerm modified mode [ 'flow/include/monitorCodeUse.js', 420, 438 ]
+500 silly gunzTarPerm extractEntry flow/include/containsNode.js
+501 silly gunzTarPerm modified mode [ 'flow/include/containsNode.js', 420, 438 ]
+502 silly gunzTarPerm extractEntry flow/include/nativeRequestAnimationFrame.js
+503 silly gunzTarPerm modified mode [ 'flow/include/nativeRequestAnimationFrame.js', 420, 438 ]
+504 silly gunzTarPerm extractEntry flow/include/camelizeStyleName.js
+505 silly gunzTarPerm modified mode [ 'flow/include/camelizeStyleName.js', 420, 438 ]
+506 silly gunzTarPerm extractEntry flow/include/nullthrows.js
+507 silly gunzTarPerm modified mode [ 'flow/include/nullthrows.js', 420, 438 ]
+508 silly gunzTarPerm extractEntry flow/include/camelize.js
+509 silly gunzTarPerm modified mode [ 'flow/include/camelize.js', 420, 438 ]
+510 silly gunzTarPerm extractEntry flow/include/performance.js
+511 silly gunzTarPerm modified mode [ 'flow/include/performance.js', 420, 438 ]
+512 silly gunzTarPerm extractEntry flow/include/areEqual.js
+513 silly gunzTarPerm modified mode [ 'flow/include/areEqual.js', 420, 438 ]
+514 silly gunzTarPerm extractEntry flow/include/performanceNow.js
+515 silly gunzTarPerm modified mode [ 'flow/include/performanceNow.js', 420, 438 ]
+516 silly gunzTarPerm extractEntry flow/include/URI.js
+517 silly gunzTarPerm modified mode [ 'flow/include/URI.js', 420, 438 ]
+518 silly gunzTarPerm extractEntry flow/include/removeFromArray.js
+519 silly gunzTarPerm modified mode [ 'flow/include/removeFromArray.js', 420, 438 ]
+520 silly gunzTarPerm extractEntry flow/include/TouchEventUtils.js
+521 silly gunzTarPerm modified mode [ 'flow/include/TouchEventUtils.js', 420, 438 ]
+522 silly gunzTarPerm extractEntry flow/include/requestAnimationFrame.js
+523 silly gunzTarPerm modified mode [ 'flow/include/requestAnimationFrame.js', 420, 438 ]
+524 silly gunzTarPerm extractEntry flow/include/PromiseMap.js
+525 silly gunzTarPerm modified mode [ 'flow/include/PromiseMap.js', 420, 438 ]
+526 silly gunzTarPerm extractEntry flow/include/resolveImmediate.js
+527 silly gunzTarPerm modified mode [ 'flow/include/resolveImmediate.js', 420, 438 ]
+528 silly gunzTarPerm extractEntry flow/include/Promise.js
+529 silly gunzTarPerm modified mode [ 'flow/include/Promise.js', 420, 438 ]
+530 silly gunzTarPerm extractEntry flow/include/shallowEqual.js
+531 silly gunzTarPerm modified mode [ 'flow/include/shallowEqual.js', 420, 438 ]
+532 silly gunzTarPerm extractEntry flow/include/Map.js
+533 silly gunzTarPerm modified mode [ 'flow/include/Map.js', 420, 438 ]
+534 silly gunzTarPerm extractEntry flow/include/someObject.js
+535 silly gunzTarPerm modified mode [ 'flow/include/someObject.js', 420, 438 ]
+536 silly gunzTarPerm extractEntry flow/include/ExecutionEnvironment.js
+537 silly gunzTarPerm modified mode [ 'flow/include/ExecutionEnvironment.js', 420, 438 ]
+538 silly gunzTarPerm extractEntry flow/include/sprintf.js
+539 silly gunzTarPerm modified mode [ 'flow/include/sprintf.js', 420, 438 ]
+540 silly gunzTarPerm extractEntry flow/include/EventListener.js
+541 silly gunzTarPerm modified mode [ 'flow/include/EventListener.js', 420, 438 ]
+542 silly gunzTarPerm extractEntry flow/include/toArray.js
+543 silly gunzTarPerm modified mode [ 'flow/include/toArray.js', 420, 438 ]
+544 silly gunzTarPerm extractEntry flow/include/ErrorUtils.js
+545 silly gunzTarPerm modified mode [ 'flow/include/ErrorUtils.js', 420, 438 ]
+546 silly gunzTarPerm extractEntry flow/include/warning.js
+547 silly gunzTarPerm modified mode [ 'flow/include/warning.js', 420, 438 ]
+548 silly gunzTarPerm extractEntry flow/include/Deferred.js
+549 silly gunzTarPerm modified mode [ 'flow/include/Deferred.js', 420, 438 ]
+550 silly gunzTarPerm extractEntry flow/include/xhrSimpleDataSerializer.js
+551 silly gunzTarPerm modified mode [ 'flow/include/xhrSimpleDataSerializer.js', 420, 438 ]
+552 silly gunzTarPerm extractEntry flow/include/getMarkupWrap.js
+553 silly gunzTarPerm modified mode [ 'flow/include/getMarkupWrap.js', 420, 438 ]
+554 silly gunzTarPerm extractEntry flow/lib/dev.js
+555 silly gunzTarPerm modified mode [ 'flow/lib/dev.js', 420, 438 ]
+556 verbose write writing to D:\playground\imgur-clone\node_modules\flux\node_modules\fbjs\package.json
+557 info preinstall fbjs@0.1.0-alpha.7
+558 verbose readDependencies loading dependencies from D:\playground\imgur-clone\node_modules\flux\node_modules\fbjs\package.json
+559 silly prepareForInstallMany adding core-js@^1.0.0 from fbjs dependencies
+560 silly prepareForInstallMany adding promise@^7.0.3 from fbjs dependencies
+561 silly prepareForInstallMany adding whatwg-fetch@^0.9.0 from fbjs dependencies
+562 verbose readDependencies loading dependencies from D:\playground\imgur-clone\node_modules\flux\node_modules\fbjs\package.json
+563 silly cache add args [ 'core-js@^1.0.0', null ]
+564 verbose cache add spec core-js@^1.0.0
+565 silly cache add args [ 'promise@^7.0.3', null ]
+566 verbose cache add spec promise@^7.0.3
+567 silly cache add parsed spec Result {
+567 silly cache add   raw: 'core-js@^1.0.0',
+567 silly cache add   scope: null,
+567 silly cache add   name: 'core-js',
+567 silly cache add   rawSpec: '^1.0.0',
+567 silly cache add   spec: '>=1.0.0 <2.0.0',
+567 silly cache add   type: 'range' }
+568 silly addNamed core-js@>=1.0.0 <2.0.0
+569 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for core-js
+570 silly addNameRange { name: 'core-js', range: '>=1.0.0 <2.0.0', hasData: false }
+571 silly mapToRegistry name core-js
+572 silly mapToRegistry using default registry
+573 silly mapToRegistry registry https://registry.npmjs.org/
+574 silly mapToRegistry uri https://registry.npmjs.org/core-js
+575 verbose addNameRange registry:https://registry.npmjs.org/core-js not in flight; fetching
+576 silly cache add parsed spec Result {
+576 silly cache add   raw: 'promise@^7.0.3',
+576 silly cache add   scope: null,
+576 silly cache add   name: 'promise',
+576 silly cache add   rawSpec: '^7.0.3',
+576 silly cache add   spec: '>=7.0.3 <8.0.0',
+576 silly cache add   type: 'range' }
+577 silly addNamed promise@>=7.0.3 <8.0.0
+578 verbose addNamed ">=7.0.3 <8.0.0" is a valid semver range for promise
+579 silly addNameRange { name: 'promise', range: '>=7.0.3 <8.0.0', hasData: false }
+580 silly mapToRegistry name promise
+581 silly mapToRegistry using default registry
+582 silly mapToRegistry registry https://registry.npmjs.org/
+583 silly mapToRegistry uri https://registry.npmjs.org/promise
+584 verbose addNameRange registry:https://registry.npmjs.org/promise not in flight; fetching
+585 silly cache add args [ 'whatwg-fetch@^0.9.0', null ]
+586 verbose cache add spec whatwg-fetch@^0.9.0
+587 silly cache add parsed spec Result {
+587 silly cache add   raw: 'whatwg-fetch@^0.9.0',
+587 silly cache add   scope: null,
+587 silly cache add   name: 'whatwg-fetch',
+587 silly cache add   rawSpec: '^0.9.0',
+587 silly cache add   spec: '>=0.9.0 <0.10.0',
+587 silly cache add   type: 'range' }
+588 silly addNamed whatwg-fetch@>=0.9.0 <0.10.0
+589 verbose addNamed ">=0.9.0 <0.10.0" is a valid semver range for whatwg-fetch
+590 silly addNameRange { name: 'whatwg-fetch',
+590 silly addNameRange   range: '>=0.9.0 <0.10.0',
+590 silly addNameRange   hasData: false }
+591 silly mapToRegistry name whatwg-fetch
+592 silly mapToRegistry using default registry
+593 silly mapToRegistry registry https://registry.npmjs.org/
+594 silly mapToRegistry uri https://registry.npmjs.org/whatwg-fetch
+595 verbose addNameRange registry:https://registry.npmjs.org/whatwg-fetch not in flight; fetching
+596 verbose request uri https://registry.npmjs.org/promise
+597 verbose request no auth needed
+598 info attempt registry request try #1 at 12:47:37 PM
+599 verbose etag "3UU8UR0GSSPQQBQ8PXJU71SYD"
+600 http request GET https://registry.npmjs.org/promise
+601 verbose request uri https://registry.npmjs.org/whatwg-fetch
+602 verbose request no auth needed
+603 info attempt registry request try #1 at 12:47:37 PM
+604 verbose etag "AJF9TVWA5LE5QQ9NNGYE8T3JR"
+605 http request GET https://registry.npmjs.org/whatwg-fetch
+606 verbose request uri https://registry.npmjs.org/core-js
+607 verbose request no auth needed
+608 info attempt registry request try #1 at 12:47:37 PM
+609 verbose etag "17XY7NZ1GNONDMBHCK6BXLMV2"
+610 http request GET https://registry.npmjs.org/core-js
+611 http 304 https://registry.npmjs.org/promise
+612 verbose headers { date: 'Sun, 20 Dec 2015 11:47:38 GMT',
+612 verbose headers   via: '1.1 varnish',
+612 verbose headers   'cache-control': 'max-age=300',
+612 verbose headers   etag: '"3UU8UR0GSSPQQBQ8PXJU71SYD"',
+612 verbose headers   age: '235',
+612 verbose headers   connection: 'keep-alive',
+612 verbose headers   'x-served-by': 'cache-fra1222-FRA',
+612 verbose headers   'x-cache': 'HIT',
+612 verbose headers   'x-cache-hits': '1',
+612 verbose headers   'x-timer': 'S1450612058.048325,VS0,VE1',
+612 verbose headers   vary: 'Accept' }
+613 silly get cb [ 304,
+613 silly get   { date: 'Sun, 20 Dec 2015 11:47:38 GMT',
+613 silly get     via: '1.1 varnish',
+613 silly get     'cache-control': 'max-age=300',
+613 silly get     etag: '"3UU8UR0GSSPQQBQ8PXJU71SYD"',
+613 silly get     age: '235',
+613 silly get     connection: 'keep-alive',
+613 silly get     'x-served-by': 'cache-fra1222-FRA',
+613 silly get     'x-cache': 'HIT',
+613 silly get     'x-cache-hits': '1',
+613 silly get     'x-timer': 'S1450612058.048325,VS0,VE1',
+613 silly get     vary: 'Accept' } ]
+614 verbose etag https://registry.npmjs.org/promise from cache
+615 verbose get saving promise to C:\Users\Milos\AppData\Roaming\npm-cache\registry.npmjs.org\promise\.cache.json
+616 http 304 https://registry.npmjs.org/whatwg-fetch
+617 verbose headers { date: 'Sun, 20 Dec 2015 11:47:38 GMT',
+617 verbose headers   via: '1.1 varnish',
+617 verbose headers   'cache-control': 'max-age=300',
+617 verbose headers   etag: '"AJF9TVWA5LE5QQ9NNGYE8T3JR"',
+617 verbose headers   age: '49',
+617 verbose headers   connection: 'keep-alive',
+617 verbose headers   'x-served-by': 'cache-fra1243-FRA',
+617 verbose headers   'x-cache': 'HIT',
+617 verbose headers   'x-cache-hits': '2',
+617 verbose headers   'x-timer': 'S1450612058.049795,VS0,VE0',
+617 verbose headers   vary: 'Accept' }
+618 silly get cb [ 304,
+618 silly get   { date: 'Sun, 20 Dec 2015 11:47:38 GMT',
+618 silly get     via: '1.1 varnish',
+618 silly get     'cache-control': 'max-age=300',
+618 silly get     etag: '"AJF9TVWA5LE5QQ9NNGYE8T3JR"',
+618 silly get     age: '49',
+618 silly get     connection: 'keep-alive',
+618 silly get     'x-served-by': 'cache-fra1243-FRA',
+618 silly get     'x-cache': 'HIT',
+618 silly get     'x-cache-hits': '2',
+618 silly get     'x-timer': 'S1450612058.049795,VS0,VE0',
+618 silly get     vary: 'Accept' } ]
+619 verbose etag https://registry.npmjs.org/whatwg-fetch from cache
+620 verbose get saving whatwg-fetch to C:\Users\Milos\AppData\Roaming\npm-cache\registry.npmjs.org\whatwg-fetch\.cache.json
+621 http 304 https://registry.npmjs.org/core-js
+622 verbose headers { date: 'Sun, 20 Dec 2015 11:47:38 GMT',
+622 verbose headers   via: '1.1 varnish',
+622 verbose headers   'cache-control': 'max-age=300',
+622 verbose headers   etag: '"17XY7NZ1GNONDMBHCK6BXLMV2"',
+622 verbose headers   age: '69',
+622 verbose headers   connection: 'keep-alive',
+622 verbose headers   'x-served-by': 'cache-fra1231-FRA',
+622 verbose headers   'x-cache': 'HIT',
+622 verbose headers   'x-cache-hits': '1',
+622 verbose headers   'x-timer': 'S1450612058.058846,VS0,VE0',
+622 verbose headers   vary: 'Accept' }
+623 silly get cb [ 304,
+623 silly get   { date: 'Sun, 20 Dec 2015 11:47:38 GMT',
+623 silly get     via: '1.1 varnish',
+623 silly get     'cache-control': 'max-age=300',
+623 silly get     etag: '"17XY7NZ1GNONDMBHCK6BXLMV2"',
+623 silly get     age: '69',
+623 silly get     connection: 'keep-alive',
+623 silly get     'x-served-by': 'cache-fra1231-FRA',
+623 silly get     'x-cache': 'HIT',
+623 silly get     'x-cache-hits': '1',
+623 silly get     'x-timer': 'S1450612058.058846,VS0,VE0',
+623 silly get     vary: 'Accept' } ]
+624 verbose etag https://registry.npmjs.org/core-js from cache
+625 verbose get saving core-js to C:\Users\Milos\AppData\Roaming\npm-cache\registry.npmjs.org\core-js\.cache.json
+626 silly addNameRange number 2 { name: 'whatwg-fetch', range: '>=0.9.0 <0.10.0', hasData: true }
+627 silly addNameRange versions [ 'whatwg-fetch',
+627 silly addNameRange   [ '0.5.0',
+627 silly addNameRange     '0.6.0',
+627 silly addNameRange     '0.6.1',
+627 silly addNameRange     '0.7.0',
+627 silly addNameRange     '0.8.0',
+627 silly addNameRange     '0.8.1',
+627 silly addNameRange     '0.8.2',
+627 silly addNameRange     '0.9.0',
+627 silly addNameRange     '0.10.0',
+627 silly addNameRange     '0.10.1' ] ]
+628 silly addNamed whatwg-fetch@0.9.0
+629 verbose addNamed "0.9.0" is a plain semver version for whatwg-fetch
+630 silly addNameRange number 2 { name: 'promise', range: '>=7.0.3 <8.0.0', hasData: true }
+631 silly addNameRange versions [ 'promise',
+631 silly addNameRange   [ '1.2.1',
+631 silly addNameRange     '1.2.2',
+631 silly addNameRange     '1.3.0',
+631 silly addNameRange     '2.0.0',
+631 silly addNameRange     '3.0.0',
+631 silly addNameRange     '3.0.1',
+631 silly addNameRange     '3.1.0',
+631 silly addNameRange     '3.2.0',
+631 silly addNameRange     '4.0.0',
+631 silly addNameRange     '5.0.0',
+631 silly addNameRange     '6.0.0',
+631 silly addNameRange     '6.0.1',
+631 silly addNameRange     '6.1.0',
+631 silly addNameRange     '7.0.0',
+631 silly addNameRange     '7.0.1',
+631 silly addNameRange     '7.0.2',
+631 silly addNameRange     '7.0.3',
+631 silly addNameRange     '7.0.4' ] ]
+632 silly addNamed promise@7.0.4
+633 verbose addNamed "7.0.4" is a plain semver version for promise
+634 silly cache afterAdd promise@7.0.4
+635 verbose afterAdd C:\Users\Milos\AppData\Roaming\npm-cache\promise\7.0.4\package\package.json not in flight; writing
+636 silly cache afterAdd whatwg-fetch@0.9.0
+637 verbose afterAdd C:\Users\Milos\AppData\Roaming\npm-cache\whatwg-fetch\0.9.0\package\package.json not in flight; writing
+638 silly addNameRange number 2 { name: 'core-js', range: '>=1.0.0 <2.0.0', hasData: true }
+639 silly addNameRange versions [ 'core-js',
+639 silly addNameRange   [ '0.0.3',
+639 silly addNameRange     '0.0.4',
+639 silly addNameRange     '0.0.5',
+639 silly addNameRange     '0.0.7',
+639 silly addNameRange     '0.0.8',
+639 silly addNameRange     '0.0.9',
+639 silly addNameRange     '0.1.1',
+639 silly addNameRange     '0.1.2',
+639 silly addNameRange     '0.1.3',
+639 silly addNameRange     '0.1.4',
+639 silly addNameRange     '0.1.5',
+639 silly addNameRange     '0.2.0',
+639 silly addNameRange     '0.2.1',
+639 silly addNameRange     '0.2.2',
+639 silly addNameRange     '0.2.3',
+639 silly addNameRange     '0.2.4',
+639 silly addNameRange     '0.2.5',
+639 silly addNameRange     '0.3.0',
+639 silly addNameRange     '0.3.1',
+639 silly addNameRange     '0.3.2',
+639 silly addNameRange     '0.3.3',
+639 silly addNameRange     '0.4.0',
+639 silly addNameRange     '0.4.1',
+639 silly addNameRange     '0.4.2',
+639 silly addNameRange     '0.4.3',
+639 silly addNameRange     '0.4.4',
+639 silly addNameRange     '0.4.5',
+639 silly addNameRange     '0.4.6',
+639 silly addNameRange     '0.4.7',
+639 silly addNameRange     '0.4.8',
+639 silly addNameRange     '0.4.9',
+639 silly addNameRange     '0.4.10',
+639 silly addNameRange     '0.5.0',
+639 silly addNameRange     '0.5.1',
+639 silly addNameRange     '0.5.2',
+639 silly addNameRange     '0.5.3',
+639 silly addNameRange     '0.5.4',
+639 silly addNameRange     '0.6.0',
+639 silly addNameRange     '0.6.1',
+639 silly addNameRange     '0.7.0',
+639 silly addNameRange     '0.7.1',
+639 silly addNameRange     '0.7.2',
+639 silly addNameRange     '0.8.0',
+639 silly addNameRange     '0.8.1',
+639 silly addNameRange     '0.8.2',
+639 silly addNameRange     '0.8.3',
+639 silly addNameRange     '0.8.4',
+639 silly addNameRange     '0.9.0',
+639 silly addNameRange     '0.9.1',
+639 silly addNameRange     '0.9.2',
+639 silly addNameRange     '0.9.3',
+639 silly addNameRange     '0.9.4',
+639 silly addNameRange     '0.9.5',
+639 silly addNameRange     '0.9.6',
+639 silly addNameRange     '0.9.7',
+639 silly addNameRange     '0.9.8',
+639 silly addNameRange     '0.9.9',
+639 silly addNameRange     '0.9.10',
+639 silly addNameRange     '0.9.11',
+639 silly addNameRange     '0.9.12',
+639 silly addNameRange     '0.9.13',
+639 silly addNameRange     '0.9.14',
+639 silly addNameRange     '0.9.15',
+639 silly addNameRange     '0.9.16',
+639 silly addNameRange     '0.9.17',
+639 silly addNameRange     '0.9.18',
+639 silly addNameRange     '1.0.0',
+639 silly addNameRange     '1.0.1',
+639 silly addNameRange     '1.1.0',
+639 silly addNameRange     '1.1.1',
+639 silly addNameRange     '1.1.2',
+639 silly addNameRange     '1.1.3',
+639 silly addNameRange     '1.1.4',
+639 silly addNameRange     '1.2.0',
+639 silly addNameRange     '1.2.1',
+639 silly addNameRange     '1.2.2',
+639 silly addNameRange     '1.2.3',
+639 silly addNameRange     '1.2.4',
+639 silly addNameRange     '1.2.5',
+639 silly addNameRange     '1.2.6',
+639 silly addNameRange     '2.0.0-alpha',
+639 silly addNameRange     '2.0.0-beta',
+639 silly addNameRange     '2.0.0-beta.2' ] ]
+640 silly addNamed core-js@1.2.6
+641 verbose addNamed "1.2.6" is a plain semver version for core-js
+642 verbose afterAdd C:\Users\Milos\AppData\Roaming\npm-cache\promise\7.0.4\package\package.json written
+643 verbose afterAdd C:\Users\Milos\AppData\Roaming\npm-cache\whatwg-fetch\0.9.0\package\package.json written
+644 silly cache afterAdd core-js@1.2.6
+645 verbose afterAdd C:\Users\Milos\AppData\Roaming\npm-cache\core-js\1.2.6\package\package.json not in flight; writing
+646 verbose afterAdd C:\Users\Milos\AppData\Roaming\npm-cache\core-js\1.2.6\package\package.json written
+647 silly install resolved [ { name: 'promise',
+647 silly install resolved     version: '7.0.4',
+647 silly install resolved     description: 'Bare bones Promises/A+ implementation',
+647 silly install resolved     main: 'index.js',
+647 silly install resolved     scripts:
+647 silly install resolved      { prepublish: 'node build',
+647 silly install resolved        pretest: 'node build',
+647 silly install resolved        'pretest-resolve': 'node build',
+647 silly install resolved        'pretest-extensions': 'node build',
+647 silly install resolved        'pretest-memory-leak': 'node build',
+647 silly install resolved        test: 'mocha --bail --timeout 200 --slow 99999 -R dot && npm run test-memory-leak',
+647 silly install resolved        'test-resolve': 'mocha test/resolver-tests.js --timeout 200 --slow 999999',
+647 silly install resolved        'test-extensions': 'mocha test/extensions-tests.js --timeout 200 --slow 999999',
+647 silly install resolved        'test-memory-leak': 'node --expose-gc test/memory-leak.js',
+647 silly install resolved        coverage: 'istanbul cover node_modules/mocha/bin/_mocha -- --bail --timeout 200 --slow 99999 -R dot' },
+647 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/then/promise.git' },
+647 silly install resolved     author: { name: 'ForbesLindesay' },
+647 silly install resolved     license: 'MIT',
+647 silly install resolved     devDependencies:
+647 silly install resolved      { acorn: '^1.0.1',
+647 silly install resolved        'better-assert': '*',
+647 silly install resolved        istanbul: '^0.3.13',
+647 silly install resolved        mocha: '*',
+647 silly install resolved        'promises-aplus-tests': '*',
+647 silly install resolved        rimraf: '^2.3.2' },
+647 silly install resolved     dependencies: { asap: '~2.0.3' },
+647 silly install resolved     gitHead: '8a42572e23669b685b659d1fa56532c7b05fb8d7',
+647 silly install resolved     bugs: { url: 'https://github.com/then/promise/issues' },
+647 silly install resolved     homepage: 'https://github.com/then/promise#readme',
+647 silly install resolved     _id: 'promise@7.0.4',
+647 silly install resolved     _shasum: '363e84a4c36c8356b890fed62c91ce85d02ed539',
+647 silly install resolved     _from: 'promise@>=7.0.3 <8.0.0',
+647 silly install resolved     _npmVersion: '3.2.1',
+647 silly install resolved     _nodeVersion: '2.3.1',
+647 silly install resolved     _npmUser: { name: 'nathan7', email: 'nathan@nathan7.eu' },
+647 silly install resolved     maintainers: [ [Object], [Object] ],
+647 silly install resolved     dist:
+647 silly install resolved      { shasum: '363e84a4c36c8356b890fed62c91ce85d02ed539',
+647 silly install resolved        tarball: 'http://registry.npmjs.org/promise/-/promise-7.0.4.tgz' },
+647 silly install resolved     directories: {},
+647 silly install resolved     _resolved: 'https://registry.npmjs.org/promise/-/promise-7.0.4.tgz',
+647 silly install resolved     readme: 'ERROR: No README data found!' },
+647 silly install resolved   { name: 'whatwg-fetch',
+647 silly install resolved     version: '0.9.0',
+647 silly install resolved     main: 'fetch.js',
+647 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/github/fetch.git' },
+647 silly install resolved     licenses: [ [Object] ],
+647 silly install resolved     devDependencies:
+647 silly install resolved      { bower: '1.3.8',
+647 silly install resolved        chai: '1.10.0',
+647 silly install resolved        jshint: '2.5.2',
+647 silly install resolved        'mocha-phantomjs': '3.5.2',
+647 silly install resolved        mocha: '2.1.0',
+647 silly install resolved        phantomjs: '1.9.13' },
+647 silly install resolved     files: [ 'LICENSE', 'fetch.js' ],
+647 silly install resolved     gitHead: '030e72106cd7b2f1e616a4af6503ee3a6df0bdf5',
+647 silly install resolved     description: 'The global `fetch` function is an easier way to make web requests and handle responses than using an XMLHttpRequest. This polyfill is written as closely as possible to the standard Fetch specification at https://fetch.spec.whatwg.org.',
+647 silly install resolved     bugs: { url: 'https://github.com/github/fetch/issues' },
+647 silly install resolved     homepage: 'https://github.com/github/fetch',
+647 silly install resolved     _id: 'whatwg-fetch@0.9.0',
+647 silly install resolved     scripts: {},
+647 silly install resolved     _shasum: '0e3684c6cb9995b43efc9df03e4c365d95fd9cc0',
+647 silly install resolved     _from: 'whatwg-fetch@>=0.9.0 <0.10.0',
+647 silly install resolved     _npmVersion: '1.4.28',
+647 silly install resolved     _npmUser: { name: 'mattandrews', email: 'matt@mattandre.ws' },
+647 silly install resolved     maintainers: [ [Object], [Object] ],
+647 silly install resolved     dist:
+647 silly install resolved      { shasum: '0e3684c6cb9995b43efc9df03e4c365d95fd9cc0',
+647 silly install resolved        tarball: 'http://registry.npmjs.org/whatwg-fetch/-/whatwg-fetch-0.9.0.tgz' },
+647 silly install resolved     directories: {},
+647 silly install resolved     _resolved: 'https://registry.npmjs.org/whatwg-fetch/-/whatwg-fetch-0.9.0.tgz',
+647 silly install resolved     readme: 'ERROR: No README data found!' },
+647 silly install resolved   { name: 'core-js',
+647 silly install resolved     description: 'Standard library',
+647 silly install resolved     version: '1.2.6',
+647 silly install resolved     repository:
+647 silly install resolved      { type: 'git',
+647 silly install resolved        url: 'git+https://github.com/zloirock/core-js.git' },
+647 silly install resolved     main: 'index.js',
+647 silly install resolved     devDependencies:
+647 silly install resolved      { webpack: '1.12.x',
+647 silly install resolved        LiveScript: '1.3.x',
+647 silly install resolved        grunt: '0.4.x',
+647 silly install resolved        'grunt-cli': '0.1.x',
+647 silly install resolved        'grunt-livescript': '0.5.x',
+647 silly install resolved        'grunt-contrib-uglify': '0.10.x',
+647 silly install resolved        'grunt-contrib-watch': '0.6.x',
+647 silly install resolved        'grunt-contrib-clean': '0.6.x',
+647 silly install resolved        'grunt-contrib-copy': '0.8.x',
+647 silly install resolved        'grunt-karma': '0.12.x',
+647 silly install resolved        karma: '0.13.x',
+647 silly install resolved        'karma-qunit': '0.1.x',
+647 silly install resolved        'karma-chrome-launcher': '0.2.x',
+647 silly install resolved        'karma-ie-launcher': '0.2.x',
+647 silly install resolved        'karma-firefox-launcher': '0.1.x',
+647 silly install resolved        'karma-phantomjs-launcher': '0.2.x',
+647 silly install resolved        'promises-aplus-tests': '2.1.x',
+647 silly install resolved        eslint: '1.9.x' },
+647 silly install resolved     scripts:
+647 silly install resolved      { grunt: 'grunt',
+647 silly install resolved        lint: 'eslint es5 es6 es7 js web core fn modules',
+647 silly install resolved        'promises-tests': 'promises-aplus-tests tests/promises-aplus/adapter',
+647 silly install resolved        test: 'npm run lint && npm run grunt livescript client karma:continuous library karma:continuous-library && npm run promises-tests && lsc tests/commonjs' },
+647 silly install resolved     license: 'MIT',
+647 silly install resolved     keywords:
+647 silly install resolved      [ 'ES5',
+647 silly install resolved        'ECMAScript 5',
+647 silly install resolved        'ES6',
+647 silly install resolved        'ECMAScript 6',
+647 silly install resolved        'ES7',
+647 silly install resolved        'ECMAScript 7',
+647 silly install resolved        'Harmony',
+647 silly install resolved        'Strawman',
+647 silly install resolved        'Map',
+647 silly install resolved        'Set',
+647 silly install resolved        'WeakMap',
+647 silly install resolved        'WeakSet',
+647 silly install resolved        'Promise',
+647 silly install resolved        'Symbol',
+647 silly install resolved        'Array generics',
+647 silly install resolved        'setImmediate',
+647 silly install resolved        'Dict',
+647 silly install resolved        'partial application' ],
+647 silly install resolved     gitHead: '280a87d5b3fdbc067c589b2bf960edb1ea12e03c',
+647 silly install resolved     bugs: { url: 'https://github.com/zloirock/core-js/issues' },
+647 silly install resolved     homepage: 'https://github.com/zloirock/core-js#readme',
+647 silly install resolved     _id: 'core-js@1.2.6',
+647 silly install resolved     _shasum: 'e2351f6cae764f8c34e5d839acb6a60cef8b4a45',
+647 silly install resolved     _from: 'core-js@>=1.0.0 <2.0.0',
+647 silly install resolved     _npmVersion: '3.3.9',
+647 silly install resolved     _nodeVersion: '4.2.1',
+647 silly install resolved     _npmUser: { name: 'zloirock', email: 'zloirock@zloirock.ru' },
+647 silly install resolved     dist:
+647 silly install resolved      { shasum: 'e2351f6cae764f8c34e5d839acb6a60cef8b4a45',
+647 silly install resolved        tarball: 'http://registry.npmjs.org/core-js/-/core-js-1.2.6.tgz' },
+647 silly install resolved     maintainers: [ [Object] ],
+647 silly install resolved     directories: {},
+647 silly install resolved     _resolved: 'https://registry.npmjs.org/core-js/-/core-js-1.2.6.tgz',
+647 silly install resolved     readme: 'ERROR: No README data found!' } ]
+648 info install promise@7.0.4 into D:\playground\imgur-clone\node_modules\flux\node_modules\fbjs
+649 info install whatwg-fetch@0.9.0 into D:\playground\imgur-clone\node_modules\flux\node_modules\fbjs
+650 info install core-js@1.2.6 into D:\playground\imgur-clone\node_modules\flux\node_modules\fbjs
+651 info installOne promise@7.0.4
+652 verbose installOne of promise to D:\playground\imgur-clone\node_modules\flux\node_modules\fbjs not in flight; installing
+653 info installOne whatwg-fetch@0.9.0
+654 verbose installOne of whatwg-fetch to D:\playground\imgur-clone\node_modules\flux\node_modules\fbjs not in flight; installing
+655 info installOne core-js@1.2.6
+656 verbose installOne of core-js to D:\playground\imgur-clone\node_modules\flux\node_modules\fbjs not in flight; installing
+657 verbose lock using C:\Users\Milos\AppData\Roaming\npm-cache\_locks\core-js-f9a76ac3687cf1d8.lock for D:\playground\imgur-clone\node_modules\flux\node_modules\fbjs\node_modules\core-js
+658 verbose lock using C:\Users\Milos\AppData\Roaming\npm-cache\_locks\promise-e1ab8ab7a87de61a.lock for D:\playground\imgur-clone\node_modules\flux\node_modules\fbjs\node_modules\promise
+659 silly install write writing core-js 1.2.6 to D:\playground\imgur-clone\node_modules\flux\node_modules\fbjs\node_modules\core-js
+660 verbose lock using C:\Users\Milos\AppData\Roaming\npm-cache\_locks\whatwg-fetch-1a6b0e14b3f4ffbb.lock for D:\playground\imgur-clone\node_modules\flux\node_modules\fbjs\node_modules\whatwg-fetch
+661 silly install write writing promise 7.0.4 to D:\playground\imgur-clone\node_modules\flux\node_modules\fbjs\node_modules\promise
+662 silly install write writing whatwg-fetch 0.9.0 to D:\playground\imgur-clone\node_modules\flux\node_modules\fbjs\node_modules\whatwg-fetch
+663 verbose unbuild node_modules\flux\node_modules\fbjs\node_modules\core-js
+664 verbose unbuild node_modules\flux\node_modules\fbjs\node_modules\promise
+665 silly gentlyRm D:\playground\imgur-clone\node_modules\flux\node_modules\fbjs\node_modules\core-js is being purged from base D:\playground\imgur-clone
+666 verbose gentlyRm don't care about contents; nuking D:\playground\imgur-clone\node_modules\flux\node_modules\fbjs\node_modules\core-js
+667 verbose tar unpack C:\Users\Milos\AppData\Roaming\npm-cache\core-js\1.2.6\package.tgz
+668 verbose tar unpacking to D:\playground\imgur-clone\node_modules\flux\node_modules\fbjs\node_modules\core-js
+669 silly gentlyRm D:\playground\imgur-clone\node_modules\flux\node_modules\fbjs\node_modules\core-js is being purged
+670 verbose gentlyRm don't care about contents; nuking D:\playground\imgur-clone\node_modules\flux\node_modules\fbjs\node_modules\core-js
+671 verbose unbuild node_modules\flux\node_modules\fbjs\node_modules\whatwg-fetch
+672 silly gentlyRm D:\playground\imgur-clone\node_modules\flux\node_modules\fbjs\node_modules\promise is being purged from base D:\playground\imgur-clone
+673 verbose gentlyRm don't care about contents; nuking D:\playground\imgur-clone\node_modules\flux\node_modules\fbjs\node_modules\promise
+674 silly gunzTarPerm modes [ '777', '666' ]
+675 verbose tar unpack C:\Users\Milos\AppData\Roaming\npm-cache\promise\7.0.4\package.tgz
+676 verbose tar unpacking to D:\playground\imgur-clone\node_modules\flux\node_modules\fbjs\node_modules\promise
+677 silly gentlyRm D:\playground\imgur-clone\node_modules\flux\node_modules\fbjs\node_modules\promise is being purged
+678 verbose gentlyRm don't care about contents; nuking D:\playground\imgur-clone\node_modules\flux\node_modules\fbjs\node_modules\promise
+679 silly gentlyRm D:\playground\imgur-clone\node_modules\flux\node_modules\fbjs\node_modules\whatwg-fetch is being purged from base D:\playground\imgur-clone
+680 verbose gentlyRm don't care about contents; nuking D:\playground\imgur-clone\node_modules\flux\node_modules\fbjs\node_modules\whatwg-fetch
+681 silly gunzTarPerm modes [ '777', '666' ]
+682 verbose tar unpack C:\Users\Milos\AppData\Roaming\npm-cache\whatwg-fetch\0.9.0\package.tgz
+683 verbose tar unpacking to D:\playground\imgur-clone\node_modules\flux\node_modules\fbjs\node_modules\whatwg-fetch
+684 silly gentlyRm D:\playground\imgur-clone\node_modules\flux\node_modules\fbjs\node_modules\whatwg-fetch is being purged
+685 verbose gentlyRm don't care about contents; nuking D:\playground\imgur-clone\node_modules\flux\node_modules\fbjs\node_modules\whatwg-fetch
+686 silly gunzTarPerm modes [ '777', '666' ]
+687 silly gunzTarPerm extractEntry package.json
+688 silly gunzTarPerm extractEntry package.json
+689 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+690 silly gunzTarPerm extractEntry package.json
+691 silly gunzTarPerm modified mode [ 'package.json', 436, 438 ]
+692 silly gunzTarPerm extractEntry README.md
+693 silly gunzTarPerm extractEntry LICENSE
+694 silly gunzTarPerm extractEntry .npmignore
+695 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+696 silly gunzTarPerm extractEntry LICENSE
+697 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+698 silly gunzTarPerm extractEntry README.md
+699 silly gunzTarPerm modified mode [ 'README.md', 436, 438 ]
+700 silly gunzTarPerm extractEntry LICENSE
+701 silly gunzTarPerm modified mode [ 'LICENSE', 436, 438 ]
+702 silly gunzTarPerm extractEntry Gruntfile.js
+703 silly gunzTarPerm extractEntry index.js
+704 silly gunzTarPerm extractEntry shim.js
+705 silly gunzTarPerm extractEntry es5/index.js
+706 silly gunzTarPerm extractEntry build.js
+707 silly gunzTarPerm modified mode [ 'build.js', 420, 438 ]
+708 silly gunzTarPerm extractEntry core.js
+709 silly gunzTarPerm modified mode [ 'core.js', 420, 438 ]
+710 silly gunzTarPerm extractEntry bower.json
+711 silly gunzTarPerm extractEntry fetch.js
+712 silly gunzTarPerm modified mode [ 'fetch.js', 436, 438 ]
+713 silly gunzTarPerm extractEntry build/config.js
+714 silly gunzTarPerm extractEntry index.js
+715 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+716 silly gunzTarPerm extractEntry polyfill-done.js
+717 silly gunzTarPerm modified mode [ 'polyfill-done.js', 420, 438 ]
+718 silly gunzTarPerm extractEntry build/index.js
+719 silly gunzTarPerm extractEntry build/Gruntfile.ls
+720 silly gunzTarPerm extractEntry polyfill.js
+721 silly gunzTarPerm modified mode [ 'polyfill.js', 420, 438 ]
+722 silly gunzTarPerm extractEntry domains/core.js
+723 silly gunzTarPerm modified mode [ 'domains/core.js', 420, 438 ]
+724 silly gunzTarPerm extractEntry build/build.ls
+725 silly gunzTarPerm extractEntry client/core.js
+726 silly gunzTarPerm extractEntry domains/done.js
+727 silly gunzTarPerm modified mode [ 'domains/done.js', 420, 438 ]
+728 silly gunzTarPerm extractEntry client/core.min.js
+729 verbose write writing to D:\playground\imgur-clone\node_modules\flux\node_modules\fbjs\node_modules\whatwg-fetch\package.json
+730 silly gunzTarPerm extractEntry domains/es6-extensions.js
+731 silly gunzTarPerm modified mode [ 'domains/es6-extensions.js', 420, 438 ]
+732 silly gunzTarPerm extractEntry domains/finally.js
+733 silly gunzTarPerm modified mode [ 'domains/finally.js', 420, 438 ]
+734 silly gunzTarPerm extractEntry client/library.js
+735 info preinstall whatwg-fetch@0.9.0
+736 verbose readDependencies loading dependencies from D:\playground\imgur-clone\node_modules\flux\node_modules\fbjs\node_modules\whatwg-fetch\package.json
+737 silly gunzTarPerm extractEntry domains/index.js
+738 silly gunzTarPerm modified mode [ 'domains/index.js', 420, 438 ]
+739 silly gunzTarPerm extractEntry domains/node-extensions.js
+740 silly gunzTarPerm modified mode [ 'domains/node-extensions.js', 420, 438 ]
+741 silly gunzTarPerm extractEntry client/library.min.js
+742 verbose readDependencies loading dependencies from D:\playground\imgur-clone\node_modules\flux\node_modules\fbjs\node_modules\whatwg-fetch\package.json
+743 silly gunzTarPerm extractEntry .jshintrc
+744 silly gunzTarPerm modified mode [ '.jshintrc', 420, 438 ]
+745 silly gunzTarPerm extractEntry Readme.md
+746 silly gunzTarPerm modified mode [ 'Readme.md', 420, 438 ]
+747 silly install resolved []
+748 verbose about to build D:\playground\imgur-clone\node_modules\flux\node_modules\fbjs\node_modules\whatwg-fetch
+749 info build D:\playground\imgur-clone\node_modules\flux\node_modules\fbjs\node_modules\whatwg-fetch
+750 silly gunzTarPerm extractEntry client/shim.js
+751 info linkStuff whatwg-fetch@0.9.0
+752 silly linkStuff whatwg-fetch@0.9.0 has D:\playground\imgur-clone\node_modules\flux\node_modules\fbjs\node_modules as its parent node_modules
+753 silly gunzTarPerm extractEntry client/shim.min.js
+754 silly gunzTarPerm extractEntry lib/core.js
+755 silly gunzTarPerm modified mode [ 'lib/core.js', 420, 438 ]
+756 silly gunzTarPerm extractEntry lib/done.js
+757 silly gunzTarPerm modified mode [ 'lib/done.js', 420, 438 ]
+758 silly gunzTarPerm extractEntry client/core.min.js.map
+759 silly gunzTarPerm extractEntry lib/es6-extensions.js
+760 silly gunzTarPerm modified mode [ 'lib/es6-extensions.js', 420, 438 ]
+761 silly gunzTarPerm extractEntry lib/finally.js
+762 silly gunzTarPerm modified mode [ 'lib/finally.js', 420, 438 ]
+763 verbose linkBins whatwg-fetch@0.9.0
+764 verbose linkMans whatwg-fetch@0.9.0
+765 verbose rebuildBundles whatwg-fetch@0.9.0
+766 info install whatwg-fetch@0.9.0
+767 silly gunzTarPerm extractEntry client/library.min.js.map
+768 info postinstall whatwg-fetch@0.9.0
+769 verbose unlock done using C:\Users\Milos\AppData\Roaming\npm-cache\_locks\whatwg-fetch-1a6b0e14b3f4ffbb.lock for D:\playground\imgur-clone\node_modules\flux\node_modules\fbjs\node_modules\whatwg-fetch
+770 silly gunzTarPerm extractEntry lib/index.js
+771 silly gunzTarPerm modified mode [ 'lib/index.js', 420, 438 ]
+772 silly gunzTarPerm extractEntry lib/node-extensions.js
+773 silly gunzTarPerm modified mode [ 'lib/node-extensions.js', 420, 438 ]
+774 silly gunzTarPerm extractEntry client/shim.min.js.map
+775 silly gunzTarPerm extractEntry src/core.js
+776 silly gunzTarPerm modified mode [ 'src/core.js', 420, 438 ]
+777 silly gunzTarPerm extractEntry src/done.js
+778 silly gunzTarPerm modified mode [ 'src/done.js', 420, 438 ]
+779 silly gunzTarPerm extractEntry core/_.js
+780 silly gunzTarPerm extractEntry src/es6-extensions.js
+781 silly gunzTarPerm modified mode [ 'src/es6-extensions.js', 420, 438 ]
+782 silly gunzTarPerm extractEntry src/finally.js
+783 silly gunzTarPerm modified mode [ 'src/finally.js', 420, 438 ]
+784 silly gunzTarPerm extractEntry core/delay.js
+785 silly gunzTarPerm extractEntry core/dict.js
+786 silly gunzTarPerm extractEntry src/index.js
+787 silly gunzTarPerm modified mode [ 'src/index.js', 420, 438 ]
+788 silly gunzTarPerm extractEntry src/node-extensions.js
+789 silly gunzTarPerm modified mode [ 'src/node-extensions.js', 420, 438 ]
+790 silly gunzTarPerm extractEntry core/function.js
+791 silly gunzTarPerm extractEntry core/index.js
+792 silly gunzTarPerm extractEntry core/log.js
+793 silly gunzTarPerm extractEntry core/number.js
+794 silly gunzTarPerm extractEntry core/object.js
+795 silly gunzTarPerm extractEntry core/string.js
+796 silly gunzTarPerm extractEntry es6/array.js
+797 silly gunzTarPerm extractEntry setimmediate/core.js
+798 silly gunzTarPerm modified mode [ 'setimmediate/core.js', 420, 438 ]
+799 silly gunzTarPerm extractEntry setimmediate/done.js
+800 silly gunzTarPerm modified mode [ 'setimmediate/done.js', 420, 438 ]
+801 silly gunzTarPerm extractEntry es6/math.js
+802 silly gunzTarPerm extractEntry es6/number.js
+803 silly gunzTarPerm extractEntry es6/object.js
+804 silly gunzTarPerm extractEntry setimmediate/es6-extensions.js
+805 silly gunzTarPerm modified mode [ 'setimmediate/es6-extensions.js', 420, 438 ]
+806 silly gunzTarPerm extractEntry setimmediate/finally.js
+807 silly gunzTarPerm modified mode [ 'setimmediate/finally.js', 420, 438 ]
+808 silly gunzTarPerm extractEntry es6/map.js
+809 silly gunzTarPerm extractEntry setimmediate/index.js
+810 silly gunzTarPerm modified mode [ 'setimmediate/index.js', 420, 438 ]
+811 silly gunzTarPerm extractEntry setimmediate/node-extensions.js
+812 silly gunzTarPerm modified mode [ 'setimmediate/node-extensions.js', 420, 438 ]
+813 silly gunzTarPerm extractEntry es6/reflect.js
+814 silly gunzTarPerm extractEntry es6/regexp.js
+815 silly gunzTarPerm extractEntry es6/set.js
+816 silly gunzTarPerm extractEntry es6/string.js
+817 silly gunzTarPerm extractEntry es6/symbol.js
+818 silly gunzTarPerm extractEntry es6/index.js
+819 silly gunzTarPerm extractEntry es6/weak-map.js
+820 silly gunzTarPerm extractEntry es6/function.js
+821 silly gunzTarPerm extractEntry es6/weak-set.js
+822 silly gunzTarPerm extractEntry es6/promise.js
+823 silly gunzTarPerm extractEntry es7/array.js
+824 silly gunzTarPerm extractEntry es7/index.js
+825 silly gunzTarPerm extractEntry es7/map.js
+826 silly gunzTarPerm extractEntry es7/object.js
+827 silly gunzTarPerm extractEntry es7/regexp.js
+828 silly gunzTarPerm extractEntry es7/set.js
+829 silly gunzTarPerm extractEntry es7/string.js
+830 silly gunzTarPerm extractEntry fn/_.js
+831 silly gunzTarPerm extractEntry fn/weak-map.js
+832 silly gunzTarPerm extractEntry fn/get-iterator-method.js
+833 silly gunzTarPerm extractEntry fn/get-iterator.js
+834 silly gunzTarPerm extractEntry fn/dict.js
+835 silly gunzTarPerm extractEntry fn/is-iterable.js
+836 silly gunzTarPerm extractEntry fn/set-timeout.js
+837 silly gunzTarPerm extractEntry fn/log.js
+838 silly gunzTarPerm extractEntry fn/map.js
+839 silly gunzTarPerm extractEntry fn/set-interval.js
+840 silly gunzTarPerm extractEntry fn/delay.js
+841 silly gunzTarPerm extractEntry fn/set-immediate.js
+842 silly gunzTarPerm extractEntry fn/clear-immediate.js
+843 silly gunzTarPerm extractEntry fn/promise.js
+844 silly gunzTarPerm extractEntry fn/set.js
+845 silly gunzTarPerm extractEntry fn/weak-set.js
+846 silly gunzTarPerm extractEntry fn/json/stringify.js
+847 silly gunzTarPerm extractEntry fn/object/assign.js
+848 silly gunzTarPerm extractEntry fn/object/get-own-property-descriptors.js
+849 silly gunzTarPerm extractEntry fn/object/get-own-property-names.js
+850 silly gunzTarPerm extractEntry fn/object/get-own-property-symbols.js
+851 silly gunzTarPerm extractEntry fn/object/get-own-property-descriptor.js
+852 silly gunzTarPerm extractEntry fn/object/index.js
+853 silly gunzTarPerm extractEntry fn/object/is-extensible.js
+854 silly gunzTarPerm extractEntry fn/object/is-frozen.js
+855 silly gunzTarPerm extractEntry fn/object/is-object.js
+856 silly gunzTarPerm extractEntry fn/object/is-sealed.js
+857 silly gunzTarPerm extractEntry fn/object/freeze.js
+858 silly gunzTarPerm extractEntry fn/object/is.js
+859 silly gunzTarPerm extractEntry fn/object/entries.js
+860 silly gunzTarPerm extractEntry fn/object/keys.js
+861 silly gunzTarPerm extractEntry fn/object/define.js
+862 silly gunzTarPerm extractEntry fn/object/make.js
+863 silly gunzTarPerm extractEntry fn/object/define-property.js
+864 silly gunzTarPerm extractEntry fn/object/prevent-extensions.js
+865 silly gunzTarPerm extractEntry fn/object/define-properties.js
+866 silly gunzTarPerm extractEntry fn/object/seal.js
+867 silly gunzTarPerm extractEntry fn/object/create.js
+868 silly gunzTarPerm extractEntry fn/object/set-prototype-of.js
+869 silly gunzTarPerm extractEntry fn/object/classof.js
+870 silly gunzTarPerm extractEntry fn/object/values.js
+871 silly gunzTarPerm extractEntry fn/object/get-prototype-of.js
+872 silly gunzTarPerm extractEntry fn/reflect/apply.js
+873 silly gunzTarPerm extractEntry fn/reflect/enumerate.js
+874 silly gunzTarPerm extractEntry fn/reflect/get-own-property-descriptor.js
+875 silly gunzTarPerm extractEntry fn/reflect/get-prototype-of.js
+876 silly gunzTarPerm extractEntry fn/reflect/delete-property.js
+877 silly gunzTarPerm extractEntry fn/reflect/has.js
+878 silly gunzTarPerm extractEntry fn/reflect/index.js
+879 silly gunzTarPerm extractEntry fn/reflect/is-extensible.js
+880 silly gunzTarPerm extractEntry fn/reflect/own-keys.js
+881 verbose write writing to D:\playground\imgur-clone\node_modules\flux\node_modules\fbjs\node_modules\promise\package.json
+882 silly gunzTarPerm extractEntry fn/reflect/prevent-extensions.js
+883 silly gunzTarPerm extractEntry fn/reflect/define-property.js
+884 info preinstall promise@7.0.4
+885 silly gunzTarPerm extractEntry fn/reflect/set-prototype-of.js
+886 silly gunzTarPerm extractEntry fn/reflect/construct.js
+887 verbose readDependencies loading dependencies from D:\playground\imgur-clone\node_modules\flux\node_modules\fbjs\node_modules\promise\package.json
+888 silly prepareForInstallMany adding asap@~2.0.3 from promise dependencies
+889 verbose readDependencies loading dependencies from D:\playground\imgur-clone\node_modules\flux\node_modules\fbjs\node_modules\promise\package.json
+890 silly gunzTarPerm extractEntry fn/reflect/set.js
+891 silly gunzTarPerm extractEntry fn/reflect/get.js
+892 silly cache add args [ 'asap@~2.0.3', null ]
+893 verbose cache add spec asap@~2.0.3
+894 silly cache add parsed spec Result {
+894 silly cache add   raw: 'asap@~2.0.3',
+894 silly cache add   scope: null,
+894 silly cache add   name: 'asap',
+894 silly cache add   rawSpec: '~2.0.3',
+894 silly cache add   spec: '>=2.0.3 <2.1.0',
+894 silly cache add   type: 'range' }
+895 silly addNamed asap@>=2.0.3 <2.1.0
+896 verbose addNamed ">=2.0.3 <2.1.0" is a valid semver range for asap
+897 silly addNameRange { name: 'asap', range: '>=2.0.3 <2.1.0', hasData: false }
+898 silly mapToRegistry name asap
+899 silly mapToRegistry using default registry
+900 silly mapToRegistry registry https://registry.npmjs.org/
+901 silly mapToRegistry uri https://registry.npmjs.org/asap
+902 verbose addNameRange registry:https://registry.npmjs.org/asap not in flight; fetching
+903 silly gunzTarPerm extractEntry fn/regexp/escape.js
+904 silly gunzTarPerm extractEntry fn/regexp/index.js
+905 verbose request uri https://registry.npmjs.org/asap
+906 verbose request no auth needed
+907 info attempt registry request try #1 at 12:47:38 PM
+908 verbose etag "80D1BRKY8O6X8VA8OEGM35MA9"
+909 http request GET https://registry.npmjs.org/asap
+910 silly gunzTarPerm extractEntry fn/array/concat.js
+911 silly gunzTarPerm extractEntry fn/array/index.js
+912 silly gunzTarPerm extractEntry fn/array/iterator.js
+913 silly gunzTarPerm extractEntry fn/array/join.js
+914 silly gunzTarPerm extractEntry fn/array/index-of.js
+915 silly gunzTarPerm extractEntry fn/array/last-index-of.js
+916 silly gunzTarPerm extractEntry fn/array/map.js
+917 silly gunzTarPerm extractEntry fn/array/of.js
+918 silly gunzTarPerm extractEntry fn/array/pop.js
+919 silly gunzTarPerm extractEntry fn/array/push.js
+920 silly gunzTarPerm extractEntry fn/array/includes.js
+921 silly gunzTarPerm extractEntry fn/array/reduce-right.js
+922 silly gunzTarPerm extractEntry fn/array/from.js
+923 silly gunzTarPerm extractEntry fn/array/reduce.js
+924 silly gunzTarPerm extractEntry fn/array/for-each.js
+925 silly gunzTarPerm extractEntry fn/array/reverse.js
+926 silly gunzTarPerm extractEntry fn/array/find.js
+927 silly gunzTarPerm extractEntry fn/array/shift.js
+928 silly gunzTarPerm extractEntry fn/array/find-index.js
+929 silly gunzTarPerm extractEntry fn/array/slice.js
+930 silly gunzTarPerm extractEntry fn/array/filter.js
+931 silly gunzTarPerm extractEntry fn/array/some.js
+932 silly gunzTarPerm extractEntry fn/array/fill.js
+933 silly gunzTarPerm extractEntry fn/array/sort.js
+934 silly gunzTarPerm extractEntry fn/array/every.js
+935 silly gunzTarPerm extractEntry fn/array/splice.js
+936 silly gunzTarPerm extractEntry fn/array/entries.js
+937 silly gunzTarPerm extractEntry fn/array/unshift.js
+938 silly gunzTarPerm extractEntry fn/array/copy-within.js
+939 silly gunzTarPerm extractEntry fn/array/values.js
+940 silly gunzTarPerm extractEntry fn/array/keys.js
+941 silly gunzTarPerm extractEntry fn/math/acosh.js
+942 silly gunzTarPerm extractEntry fn/math/cosh.js
+943 silly gunzTarPerm extractEntry fn/math/expm1.js
+944 silly gunzTarPerm extractEntry fn/math/fround.js
+945 silly gunzTarPerm extractEntry fn/math/hypot.js
+946 silly gunzTarPerm extractEntry fn/math/clz32.js
+947 silly gunzTarPerm extractEntry fn/math/index.js
+948 silly gunzTarPerm extractEntry fn/math/log10.js
+949 silly gunzTarPerm extractEntry fn/math/log1p.js
+950 silly gunzTarPerm extractEntry fn/math/log2.js
+951 silly gunzTarPerm extractEntry fn/math/sign.js
+952 silly gunzTarPerm extractEntry fn/math/cbrt.js
+953 silly gunzTarPerm extractEntry fn/math/sinh.js
+954 silly gunzTarPerm extractEntry fn/math/atanh.js
+955 silly gunzTarPerm extractEntry fn/math/tanh.js
+956 silly gunzTarPerm extractEntry fn/math/asinh.js
+957 silly gunzTarPerm extractEntry fn/math/trunc.js
+958 silly gunzTarPerm extractEntry fn/math/imul.js
+959 silly gunzTarPerm extractEntry fn/number/epsilon.js
+960 silly gunzTarPerm extractEntry fn/number/is-finite.js
+961 silly gunzTarPerm extractEntry fn/number/is-integer.js
+962 silly gunzTarPerm extractEntry fn/number/is-nan.js
+963 silly gunzTarPerm extractEntry fn/number/index.js
+964 silly gunzTarPerm extractEntry fn/number/iterator.js
+965 silly gunzTarPerm extractEntry fn/number/max-safe-integer.js
+966 silly gunzTarPerm extractEntry fn/number/min-safe-integer.js
+967 silly gunzTarPerm extractEntry fn/number/parse-float.js
+968 silly gunzTarPerm extractEntry fn/number/parse-int.js
+969 silly gunzTarPerm extractEntry fn/number/is-safe-integer.js
+970 silly gunzTarPerm extractEntry fn/html-collection/index.js
+971 silly gunzTarPerm extractEntry fn/html-collection/iterator.js
+972 silly gunzTarPerm extractEntry fn/string/at.js
+973 silly gunzTarPerm extractEntry fn/string/includes.js
+974 silly gunzTarPerm extractEntry fn/string/index.js
+975 silly gunzTarPerm extractEntry fn/string/iterator.js
+976 silly gunzTarPerm extractEntry fn/string/from-code-point.js
+977 silly gunzTarPerm extractEntry fn/string/pad-right.js
+978 silly gunzTarPerm extractEntry fn/string/raw.js
+979 silly gunzTarPerm extractEntry fn/string/repeat.js
+980 silly gunzTarPerm extractEntry fn/string/starts-with.js
+981 silly gunzTarPerm extractEntry fn/string/trim-left.js
+982 silly gunzTarPerm extractEntry fn/string/escape-html.js
+983 silly gunzTarPerm extractEntry fn/string/trim-right.js
+984 silly gunzTarPerm extractEntry fn/string/ends-with.js
+985 silly gunzTarPerm extractEntry fn/string/trim.js
+986 silly gunzTarPerm extractEntry fn/string/code-point-at.js
+987 silly gunzTarPerm extractEntry fn/string/unescape-html.js
+988 silly gunzTarPerm extractEntry fn/string/pad-left.js
+989 silly gunzTarPerm extractEntry fn/symbol/for.js
+990 silly gunzTarPerm extractEntry fn/symbol/is-concat-spreadable.js
+991 silly gunzTarPerm extractEntry fn/symbol/iterator.js
+992 silly gunzTarPerm extractEntry fn/symbol/key-for.js
+993 silly gunzTarPerm extractEntry fn/symbol/match.js
+994 silly gunzTarPerm extractEntry fn/symbol/index.js
+995 silly gunzTarPerm extractEntry fn/symbol/search.js
+996 silly gunzTarPerm extractEntry fn/symbol/species.js
+997 silly gunzTarPerm extractEntry fn/symbol/split.js
+998 silly gunzTarPerm extractEntry fn/symbol/to-primitive.js
+999 silly gunzTarPerm extractEntry fn/symbol/to-string-tag.js
+1000 silly gunzTarPerm extractEntry fn/symbol/has-instance.js
+1001 silly gunzTarPerm extractEntry fn/symbol/unscopables.js
+1002 silly gunzTarPerm extractEntry fn/symbol/replace.js
+1003 silly gunzTarPerm extractEntry fn/function/has-instance.js
+1004 silly gunzTarPerm extractEntry fn/function/index.js
+1005 silly gunzTarPerm extractEntry fn/function/name.js
+1006 silly gunzTarPerm extractEntry fn/function/part.js
+1007 silly gunzTarPerm extractEntry fn/node-list/index.js
+1008 silly gunzTarPerm extractEntry fn/node-list/iterator.js
+1009 silly gunzTarPerm extractEntry CHANGELOG.md
+1010 silly gunzTarPerm extractEntry js/array.js
+1011 silly gunzTarPerm extractEntry js/index.js
+1012 silly gunzTarPerm extractEntry library/index.js
+1013 silly gunzTarPerm extractEntry library/shim.js
+1014 silly gunzTarPerm extractEntry library/core/_.js
+1015 silly gunzTarPerm extractEntry library/core/delay.js
+1016 silly gunzTarPerm extractEntry library/core/dict.js
+1017 silly gunzTarPerm extractEntry library/core/function.js
+1018 silly gunzTarPerm extractEntry library/core/index.js
+1019 silly gunzTarPerm extractEntry library/core/log.js
+1020 silly gunzTarPerm extractEntry library/core/number.js
+1021 silly gunzTarPerm extractEntry library/core/object.js
+1022 silly gunzTarPerm extractEntry library/core/string.js
+1023 silly gunzTarPerm extractEntry library/es5/index.js
+1024 silly gunzTarPerm extractEntry library/es6/array.js
+1025 silly gunzTarPerm extractEntry library/es6/math.js
+1026 silly gunzTarPerm extractEntry library/es6/number.js
+1027 silly gunzTarPerm extractEntry library/es6/object.js
+1028 silly gunzTarPerm extractEntry library/es6/map.js
+1029 silly gunzTarPerm extractEntry library/es6/reflect.js
+1030 silly gunzTarPerm extractEntry library/es6/regexp.js
+1031 silly gunzTarPerm extractEntry library/es6/set.js
+1032 silly gunzTarPerm extractEntry library/es6/string.js
+1033 silly gunzTarPerm extractEntry library/es6/symbol.js
+1034 silly gunzTarPerm extractEntry library/es6/index.js
+1035 silly gunzTarPerm extractEntry library/es6/weak-map.js
+1036 silly gunzTarPerm extractEntry library/es6/function.js
+1037 silly gunzTarPerm extractEntry library/es6/weak-set.js
+1038 silly gunzTarPerm extractEntry library/es6/promise.js
+1039 silly gunzTarPerm extractEntry library/es7/array.js
+1040 silly gunzTarPerm extractEntry library/es7/index.js
+1041 silly gunzTarPerm extractEntry library/es7/map.js
+1042 silly gunzTarPerm extractEntry library/es7/object.js
+1043 silly gunzTarPerm extractEntry library/es7/regexp.js
+1044 silly gunzTarPerm extractEntry library/es7/set.js
+1045 silly gunzTarPerm extractEntry library/es7/string.js
+1046 silly gunzTarPerm extractEntry library/fn/_.js
+1047 silly gunzTarPerm extractEntry library/fn/weak-map.js
+1048 silly gunzTarPerm extractEntry library/fn/get-iterator-method.js
+1049 silly gunzTarPerm extractEntry library/fn/get-iterator.js
+1050 silly gunzTarPerm extractEntry library/fn/dict.js
+1051 silly gunzTarPerm extractEntry library/fn/is-iterable.js
+1052 silly gunzTarPerm extractEntry library/fn/set-timeout.js
+1053 silly gunzTarPerm extractEntry library/fn/log.js
+1054 silly gunzTarPerm extractEntry library/fn/map.js
+1055 silly gunzTarPerm extractEntry library/fn/set-interval.js
+1056 silly gunzTarPerm extractEntry library/fn/delay.js
+1057 silly gunzTarPerm extractEntry library/fn/set-immediate.js
+1058 silly gunzTarPerm extractEntry library/fn/clear-immediate.js
+1059 silly gunzTarPerm extractEntry library/fn/promise.js
+1060 silly gunzTarPerm extractEntry library/fn/set.js
+1061 silly gunzTarPerm extractEntry library/fn/weak-set.js
+1062 silly gunzTarPerm extractEntry library/fn/json/stringify.js
+1063 silly gunzTarPerm extractEntry library/fn/object/assign.js
+1064 silly gunzTarPerm extractEntry library/fn/object/get-own-property-descriptors.js
+1065 silly gunzTarPerm extractEntry library/fn/object/get-own-property-names.js
+1066 silly gunzTarPerm extractEntry library/fn/object/get-own-property-symbols.js
+1067 silly gunzTarPerm extractEntry library/fn/object/get-own-property-descriptor.js
+1068 silly gunzTarPerm extractEntry library/fn/object/index.js
+1069 silly gunzTarPerm extractEntry library/fn/object/is-extensible.js
+1070 silly gunzTarPerm extractEntry library/fn/object/is-frozen.js
+1071 silly gunzTarPerm extractEntry library/fn/object/is-object.js
+1072 http 304 https://registry.npmjs.org/asap
+1073 verbose headers { date: 'Sun, 20 Dec 2015 11:47:38 GMT',
+1073 verbose headers   via: '1.1 varnish',
+1073 verbose headers   'cache-control': 'max-age=300',
+1073 verbose headers   etag: '"80D1BRKY8O6X8VA8OEGM35MA9"',
+1073 verbose headers   age: '94',
+1073 verbose headers   connection: 'keep-alive',
+1073 verbose headers   'x-served-by': 'cache-fra1226-FRA',
+1073 verbose headers   'x-cache': 'HIT',
+1073 verbose headers   'x-cache-hits': '1',
+1073 verbose headers   'x-timer': 'S1450612058.613211,VS0,VE0',
+1073 verbose headers   vary: 'Accept' }
+1074 silly get cb [ 304,
+1074 silly get   { date: 'Sun, 20 Dec 2015 11:47:38 GMT',
+1074 silly get     via: '1.1 varnish',
+1074 silly get     'cache-control': 'max-age=300',
+1074 silly get     etag: '"80D1BRKY8O6X8VA8OEGM35MA9"',
+1074 silly get     age: '94',
+1074 silly get     connection: 'keep-alive',
+1074 silly get     'x-served-by': 'cache-fra1226-FRA',
+1074 silly get     'x-cache': 'HIT',
+1074 silly get     'x-cache-hits': '1',
+1074 silly get     'x-timer': 'S1450612058.613211,VS0,VE0',
+1074 silly get     vary: 'Accept' } ]
+1075 verbose etag https://registry.npmjs.org/asap from cache
+1076 verbose get saving asap to C:\Users\Milos\AppData\Roaming\npm-cache\registry.npmjs.org\asap\.cache.json
+1077 silly gunzTarPerm extractEntry library/fn/object/is-sealed.js
+1078 silly gunzTarPerm extractEntry library/fn/object/freeze.js
+1079 silly gunzTarPerm extractEntry library/fn/object/is.js
+1080 silly gunzTarPerm extractEntry library/fn/object/entries.js
+1081 silly addNameRange number 2 { name: 'asap', range: '>=2.0.3 <2.1.0', hasData: true }
+1082 silly addNameRange versions [ 'asap',
+1082 silly addNameRange   [ '0.0.0', '1.0.0', '2.0.0', '2.0.1', '2.0.2', '2.0.3' ] ]
+1083 silly addNamed asap@2.0.3
+1084 verbose addNamed "2.0.3" is a plain semver version for asap
+1085 silly gunzTarPerm extractEntry library/fn/object/keys.js
+1086 silly gunzTarPerm extractEntry library/fn/object/define.js
+1087 silly cache afterAdd asap@2.0.3
+1088 verbose afterAdd C:\Users\Milos\AppData\Roaming\npm-cache\asap\2.0.3\package\package.json not in flight; writing
+1089 verbose afterAdd C:\Users\Milos\AppData\Roaming\npm-cache\asap\2.0.3\package\package.json written
+1090 silly install resolved [ { name: 'asap',
+1090 silly install resolved     version: '2.0.3',
+1090 silly install resolved     description: 'High-priority task queue for Node.js and browsers',
+1090 silly install resolved     keywords: [ 'event', 'task', 'queue' ],
+1090 silly install resolved     license:
+1090 silly install resolved      { type: 'MIT',
+1090 silly install resolved        url: 'https://github.com/kriskowal/asap/raw/master/LICENSE.md' },
+1090 silly install resolved     repository:
+1090 silly install resolved      { type: 'git',
+1090 silly install resolved        url: 'git+https://github.com/kriskowal/asap.git' },
+1090 silly install resolved     main: './asap.js',
+1090 silly install resolved     browser:
+1090 silly install resolved      { './asap.js': './browser-asap.js',
+1090 silly install resolved        './raw.js': './browser-raw.js',
+1090 silly install resolved        './test/domain.js': './test/browser-domain.js' },
+1090 silly install resolved     files: [ 'raw.js', 'asap.js', 'browser-raw.js', 'browser-asap.js' ],
+1090 silly install resolved     scripts:
+1090 silly install resolved      { test: 'npm run lint && npm run test-node',
+1090 silly install resolved        'test-travis': 'npm run lint && npm run test-node && npm run test-saucelabs && npm run test-saucelabs-worker',
+1090 silly install resolved        'test-node': 'node test/asap-test.js',
+1090 silly install resolved        'test-publish': 'node scripts/publish-bundle.js test/asap-test.js | pbcopy',
+1090 silly install resolved        'test-browser': 'node scripts/publish-bundle.js test/asap-test.js | xargs opener',
+1090 silly install resolved        'test-saucelabs': 'node scripts/saucelabs.js test/asap-test.js scripts/saucelabs-spot-configurations.json',
+1090 silly install resolved        'test-saucelabs-all': 'node scripts/saucelabs.js test/asap-test.js scripts/saucelabs-all-configurations.json',
+1090 silly install resolved        'test-saucelabs-worker': 'node scripts/saucelabs-worker-test.js scripts/saucelabs-spot-configurations.json',
+1090 silly install resolved        'test-saucelabs-worker-all': 'node scripts/saucelabs-worker-test.js scripts/saucelabs-all-configurations.json',
+1090 silly install resolved        lint: 'jshint raw.js asap.js browser-raw.js browser-asap.js $(find scripts -name \'*.js\' | grep -v gauntlet)' },
+1090 silly install resolved     devDependencies:
+1090 silly install resolved      { events: '^1.0.1',
+1090 silly install resolved        jshint: '^2.5.1',
+1090 silly install resolved        knox: '^0.8.10',
+1090 silly install resolved        mr: '^2.0.5',
+1090 silly install resolved        opener: '^1.3.0',
+1090 silly install resolved        q: '^2.0.3',
+1090 silly install resolved        'q-io': '^2.0.3',
+1090 silly install resolved        saucelabs: '^0.1.1',
+1090 silly install resolved        wd: '^0.2.21',
+1090 silly install resolved        'weak-map': '^1.0.5' },
+1090 silly install resolved     gitHead: 'ccbf94d4e4a0c3afc2df13331044020a46a74ab6',
+1090 silly install resolved     bugs: { url: 'https://github.com/kriskowal/asap/issues' },
+1090 silly install resolved     homepage: 'https://github.com/kriskowal/asap#readme',
+1090 silly install resolved     _id: 'asap@2.0.3',
+1090 silly install resolved     _shasum: '1fc1d1564ee11620dfca6d67029850913f9f4679',
+1090 silly install resolved     _from: 'asap@>=2.0.3 <2.1.0',
+1090 silly install resolved     _npmVersion: '2.8.3',
+1090 silly install resolved     _nodeVersion: '1.8.1',
+1090 silly install resolved     _npmUser: { name: 'kriskowal', email: 'kris.kowal@cixar.com' },
+1090 silly install resolved     maintainers: [ [Object], [Object] ],
+1090 silly install resolved     dist:
+1090 silly install resolved      { shasum: '1fc1d1564ee11620dfca6d67029850913f9f4679',
+1090 silly install resolved        tarball: 'http://registry.npmjs.org/asap/-/asap-2.0.3.tgz' },
+1090 silly install resolved     directories: {},
+1090 silly install resolved     _resolved: 'https://registry.npmjs.org/asap/-/asap-2.0.3.tgz',
+1090 silly install resolved     readme: 'ERROR: No README data found!' } ]
+1091 info install asap@2.0.3 into D:\playground\imgur-clone\node_modules\flux\node_modules\fbjs\node_modules\promise
+1092 info installOne asap@2.0.3
+1093 verbose installOne of asap to D:\playground\imgur-clone\node_modules\flux\node_modules\fbjs\node_modules\promise not in flight; installing
+1094 silly gunzTarPerm extractEntry library/fn/object/make.js
+1095 silly gunzTarPerm extractEntry library/fn/object/define-property.js
+1096 verbose lock using C:\Users\Milos\AppData\Roaming\npm-cache\_locks\asap-c42150929710aabc.lock for D:\playground\imgur-clone\node_modules\flux\node_modules\fbjs\node_modules\promise\node_modules\asap
+1097 silly install write writing asap 2.0.3 to D:\playground\imgur-clone\node_modules\flux\node_modules\fbjs\node_modules\promise\node_modules\asap
+1098 verbose unbuild node_modules\flux\node_modules\fbjs\node_modules\promise\node_modules\asap
+1099 silly gunzTarPerm extractEntry library/fn/object/prevent-extensions.js
+1100 silly gunzTarPerm extractEntry library/fn/object/define-properties.js
+1101 silly gentlyRm D:\playground\imgur-clone\node_modules\flux\node_modules\fbjs\node_modules\promise\node_modules\asap is being purged from base D:\playground\imgur-clone
+1102 verbose gentlyRm don't care about contents; nuking D:\playground\imgur-clone\node_modules\flux\node_modules\fbjs\node_modules\promise\node_modules\asap
+1103 verbose tar unpack C:\Users\Milos\AppData\Roaming\npm-cache\asap\2.0.3\package.tgz
+1104 verbose tar unpacking to D:\playground\imgur-clone\node_modules\flux\node_modules\fbjs\node_modules\promise\node_modules\asap
+1105 silly gentlyRm D:\playground\imgur-clone\node_modules\flux\node_modules\fbjs\node_modules\promise\node_modules\asap is being purged
+1106 verbose gentlyRm don't care about contents; nuking D:\playground\imgur-clone\node_modules\flux\node_modules\fbjs\node_modules\promise\node_modules\asap
+1107 silly gunzTarPerm modes [ '777', '666' ]
+1108 silly gunzTarPerm extractEntry library/fn/object/seal.js
+1109 silly gunzTarPerm extractEntry library/fn/object/create.js
+1110 silly gunzTarPerm extractEntry package.json
+1111 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+1112 silly gunzTarPerm extractEntry README.md
+1113 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+1114 silly gunzTarPerm extractEntry asap.js
+1115 silly gunzTarPerm modified mode [ 'asap.js', 420, 438 ]
+1116 silly gunzTarPerm extractEntry browser-asap.js
+1117 silly gunzTarPerm modified mode [ 'browser-asap.js', 420, 438 ]
+1118 silly gunzTarPerm extractEntry browser-raw.js
+1119 silly gunzTarPerm modified mode [ 'browser-raw.js', 420, 438 ]
+1120 silly gunzTarPerm extractEntry raw.js
+1121 silly gunzTarPerm modified mode [ 'raw.js', 420, 438 ]
+1122 silly gunzTarPerm extractEntry LICENSE.md
+1123 silly gunzTarPerm modified mode [ 'LICENSE.md', 420, 438 ]
+1124 silly gunzTarPerm extractEntry CHANGES.md
+1125 silly gunzTarPerm modified mode [ 'CHANGES.md', 420, 438 ]
+1126 silly gunzTarPerm extractEntry library/fn/object/set-prototype-of.js
+1127 silly gunzTarPerm extractEntry library/fn/object/classof.js
+1128 silly gunzTarPerm extractEntry library/fn/object/values.js
+1129 silly gunzTarPerm extractEntry library/fn/object/get-prototype-of.js
+1130 silly gunzTarPerm extractEntry library/fn/reflect/apply.js
+1131 silly gunzTarPerm extractEntry library/fn/reflect/enumerate.js
+1132 silly gunzTarPerm extractEntry library/fn/reflect/get-own-property-descriptor.js
+1133 silly gunzTarPerm extractEntry library/fn/reflect/get-prototype-of.js
+1134 silly gunzTarPerm extractEntry library/fn/reflect/delete-property.js
+1135 silly gunzTarPerm extractEntry library/fn/reflect/has.js
+1136 silly gunzTarPerm extractEntry library/fn/reflect/index.js
+1137 silly gunzTarPerm extractEntry library/fn/reflect/is-extensible.js
+1138 verbose write writing to D:\playground\imgur-clone\node_modules\flux\node_modules\fbjs\node_modules\promise\node_modules\asap\package.json
+1139 silly gunzTarPerm extractEntry library/fn/reflect/own-keys.js
+1140 silly gunzTarPerm extractEntry library/fn/reflect/prevent-extensions.js
+1141 info preinstall asap@2.0.3
+1142 silly gunzTarPerm extractEntry library/fn/reflect/define-property.js
+1143 silly gunzTarPerm extractEntry library/fn/reflect/set-prototype-of.js
+1144 verbose readDependencies loading dependencies from D:\playground\imgur-clone\node_modules\flux\node_modules\fbjs\node_modules\promise\node_modules\asap\package.json
+1145 verbose readDependencies loading dependencies from D:\playground\imgur-clone\node_modules\flux\node_modules\fbjs\node_modules\promise\node_modules\asap\package.json
+1146 silly gunzTarPerm extractEntry library/fn/reflect/construct.js
+1147 silly gunzTarPerm extractEntry library/fn/reflect/set.js
+1148 silly install resolved []
+1149 verbose about to build D:\playground\imgur-clone\node_modules\flux\node_modules\fbjs\node_modules\promise\node_modules\asap
+1150 info build D:\playground\imgur-clone\node_modules\flux\node_modules\fbjs\node_modules\promise\node_modules\asap
+1151 silly gunzTarPerm extractEntry library/fn/reflect/get.js
+1152 silly gunzTarPerm extractEntry library/fn/regexp/escape.js
+1153 info linkStuff asap@2.0.3
+1154 silly linkStuff asap@2.0.3 has D:\playground\imgur-clone\node_modules\flux\node_modules\fbjs\node_modules\promise\node_modules as its parent node_modules
+1155 silly gunzTarPerm extractEntry library/fn/regexp/index.js
+1156 silly gunzTarPerm extractEntry library/fn/array/concat.js
+1157 verbose linkBins asap@2.0.3
+1158 verbose linkMans asap@2.0.3
+1159 verbose rebuildBundles asap@2.0.3
+1160 info install asap@2.0.3
+1161 info postinstall asap@2.0.3
+1162 silly gunzTarPerm extractEntry library/fn/array/index.js
+1163 silly gunzTarPerm extractEntry library/fn/array/iterator.js
+1164 verbose unlock done using C:\Users\Milos\AppData\Roaming\npm-cache\_locks\asap-c42150929710aabc.lock for D:\playground\imgur-clone\node_modules\flux\node_modules\fbjs\node_modules\promise\node_modules\asap
+1165 verbose about to build D:\playground\imgur-clone\node_modules\flux\node_modules\fbjs\node_modules\promise
+1166 info build D:\playground\imgur-clone\node_modules\flux\node_modules\fbjs\node_modules\promise
+1167 info linkStuff promise@7.0.4
+1168 silly linkStuff promise@7.0.4 has D:\playground\imgur-clone\node_modules\flux\node_modules\fbjs\node_modules as its parent node_modules
+1169 silly gunzTarPerm extractEntry library/fn/array/join.js
+1170 silly gunzTarPerm extractEntry library/fn/array/index-of.js
+1171 verbose linkBins promise@7.0.4
+1172 verbose linkMans promise@7.0.4
+1173 verbose rebuildBundles promise@7.0.4
+1174 silly gunzTarPerm extractEntry library/fn/array/last-index-of.js
+1175 silly gunzTarPerm extractEntry library/fn/array/map.js
+1176 verbose rebuildBundles [ 'asap' ]
+1177 info install promise@7.0.4
+1178 info postinstall promise@7.0.4
+1179 verbose unlock done using C:\Users\Milos\AppData\Roaming\npm-cache\_locks\promise-e1ab8ab7a87de61a.lock for D:\playground\imgur-clone\node_modules\flux\node_modules\fbjs\node_modules\promise
+1180 silly gunzTarPerm extractEntry library/fn/array/of.js
+1181 silly gunzTarPerm extractEntry library/fn/array/pop.js
+1182 silly gunzTarPerm extractEntry library/fn/array/push.js
+1183 silly gunzTarPerm extractEntry library/fn/array/includes.js
+1184 silly gunzTarPerm extractEntry library/fn/array/reduce-right.js
+1185 silly gunzTarPerm extractEntry library/fn/array/from.js
+1186 silly gunzTarPerm extractEntry library/fn/array/reduce.js
+1187 silly gunzTarPerm extractEntry library/fn/array/for-each.js
+1188 silly gunzTarPerm extractEntry library/fn/array/reverse.js
+1189 silly gunzTarPerm extractEntry library/fn/array/find.js
+1190 silly gunzTarPerm extractEntry library/fn/array/shift.js
+1191 silly gunzTarPerm extractEntry library/fn/array/find-index.js
+1192 silly gunzTarPerm extractEntry library/fn/array/slice.js
+1193 silly gunzTarPerm extractEntry library/fn/array/filter.js
+1194 silly gunzTarPerm extractEntry library/fn/array/some.js
+1195 silly gunzTarPerm extractEntry library/fn/array/fill.js
+1196 silly gunzTarPerm extractEntry library/fn/array/sort.js
+1197 silly gunzTarPerm extractEntry library/fn/array/every.js
+1198 silly gunzTarPerm extractEntry library/fn/array/splice.js
+1199 silly gunzTarPerm extractEntry library/fn/array/entries.js
+1200 silly gunzTarPerm extractEntry library/fn/array/unshift.js
+1201 silly gunzTarPerm extractEntry library/fn/array/copy-within.js
+1202 silly gunzTarPerm extractEntry library/fn/array/values.js
+1203 silly gunzTarPerm extractEntry library/fn/array/keys.js
+1204 silly gunzTarPerm extractEntry library/fn/math/acosh.js
+1205 silly gunzTarPerm extractEntry library/fn/math/cosh.js
+1206 silly gunzTarPerm extractEntry library/fn/math/expm1.js
+1207 silly gunzTarPerm extractEntry library/fn/math/fround.js
+1208 silly gunzTarPerm extractEntry library/fn/math/hypot.js
+1209 silly gunzTarPerm extractEntry library/fn/math/clz32.js
+1210 silly gunzTarPerm extractEntry library/fn/math/index.js
+1211 silly gunzTarPerm extractEntry library/fn/math/log10.js
+1212 silly gunzTarPerm extractEntry library/fn/math/log1p.js
+1213 silly gunzTarPerm extractEntry library/fn/math/log2.js
+1214 silly gunzTarPerm extractEntry library/fn/math/sign.js
+1215 silly gunzTarPerm extractEntry library/fn/math/cbrt.js
+1216 silly gunzTarPerm extractEntry library/fn/math/sinh.js
+1217 silly gunzTarPerm extractEntry library/fn/math/atanh.js
+1218 silly gunzTarPerm extractEntry library/fn/math/tanh.js
+1219 silly gunzTarPerm extractEntry library/fn/math/asinh.js
+1220 silly gunzTarPerm extractEntry library/fn/math/trunc.js
+1221 silly gunzTarPerm extractEntry library/fn/math/imul.js
+1222 silly gunzTarPerm extractEntry library/fn/number/epsilon.js
+1223 silly gunzTarPerm extractEntry library/fn/number/is-finite.js
+1224 silly gunzTarPerm extractEntry library/fn/number/is-integer.js
+1225 silly gunzTarPerm extractEntry library/fn/number/is-nan.js
+1226 silly gunzTarPerm extractEntry library/fn/number/index.js
+1227 silly gunzTarPerm extractEntry library/fn/number/iterator.js
+1228 silly gunzTarPerm extractEntry library/fn/number/max-safe-integer.js
+1229 silly gunzTarPerm extractEntry library/fn/number/min-safe-integer.js
+1230 silly gunzTarPerm extractEntry library/fn/number/parse-float.js
+1231 silly gunzTarPerm extractEntry library/fn/number/parse-int.js
+1232 silly gunzTarPerm extractEntry library/fn/number/is-safe-integer.js
+1233 silly gunzTarPerm extractEntry library/fn/html-collection/index.js
+1234 silly gunzTarPerm extractEntry library/fn/html-collection/iterator.js
+1235 silly gunzTarPerm extractEntry library/fn/string/at.js
+1236 silly gunzTarPerm extractEntry library/fn/string/includes.js
+1237 silly gunzTarPerm extractEntry library/fn/string/index.js
+1238 silly gunzTarPerm extractEntry library/fn/string/iterator.js
+1239 silly gunzTarPerm extractEntry library/fn/string/from-code-point.js
+1240 silly gunzTarPerm extractEntry library/fn/string/pad-right.js
+1241 silly gunzTarPerm extractEntry library/fn/string/raw.js
+1242 silly gunzTarPerm extractEntry library/fn/string/repeat.js
+1243 silly gunzTarPerm extractEntry library/fn/string/starts-with.js
+1244 silly gunzTarPerm extractEntry library/fn/string/trim-left.js
+1245 silly gunzTarPerm extractEntry library/fn/string/escape-html.js
+1246 silly gunzTarPerm extractEntry library/fn/string/trim-right.js
+1247 silly gunzTarPerm extractEntry library/fn/string/ends-with.js
+1248 silly gunzTarPerm extractEntry library/fn/string/trim.js
+1249 silly gunzTarPerm extractEntry library/fn/string/code-point-at.js
+1250 silly gunzTarPerm extractEntry library/fn/string/unescape-html.js
+1251 silly gunzTarPerm extractEntry library/fn/string/pad-left.js
+1252 silly gunzTarPerm extractEntry library/fn/symbol/for.js
+1253 silly gunzTarPerm extractEntry library/fn/symbol/is-concat-spreadable.js
+1254 silly gunzTarPerm extractEntry library/fn/symbol/iterator.js
+1255 silly gunzTarPerm extractEntry library/fn/symbol/key-for.js
+1256 silly gunzTarPerm extractEntry library/fn/symbol/match.js
+1257 silly gunzTarPerm extractEntry library/fn/symbol/index.js
+1258 silly gunzTarPerm extractEntry library/fn/symbol/search.js
+1259 silly gunzTarPerm extractEntry library/fn/symbol/species.js
+1260 silly gunzTarPerm extractEntry library/fn/symbol/split.js
+1261 silly gunzTarPerm extractEntry library/fn/symbol/to-primitive.js
+1262 silly gunzTarPerm extractEntry library/fn/symbol/to-string-tag.js
+1263 silly gunzTarPerm extractEntry library/fn/symbol/has-instance.js
+1264 silly gunzTarPerm extractEntry library/fn/symbol/unscopables.js
+1265 silly gunzTarPerm extractEntry library/fn/symbol/replace.js
+1266 silly gunzTarPerm extractEntry library/fn/function/has-instance.js
+1267 silly gunzTarPerm extractEntry library/fn/function/index.js
+1268 silly gunzTarPerm extractEntry library/fn/function/name.js
+1269 silly gunzTarPerm extractEntry library/fn/function/part.js
+1270 silly gunzTarPerm extractEntry library/fn/node-list/index.js
+1271 silly gunzTarPerm extractEntry library/fn/node-list/iterator.js
+1272 silly gunzTarPerm extractEntry library/js/array.js
+1273 silly gunzTarPerm extractEntry library/js/index.js
+1274 silly gunzTarPerm extractEntry library/modules/$.a-function.js
+1275 silly gunzTarPerm extractEntry library/modules/es6.array.find.js
+1276 silly gunzTarPerm extractEntry library/modules/es6.array.from.js
+1277 silly gunzTarPerm extractEntry library/modules/es6.array.iterator.js
+1278 silly gunzTarPerm extractEntry library/modules/es6.array.find-index.js
+1279 silly gunzTarPerm extractEntry library/modules/es6.array.species.js
+1280 silly gunzTarPerm extractEntry library/modules/es6.date.to-string.js
+1281 silly gunzTarPerm extractEntry library/modules/es6.function.has-instance.js
+1282 silly gunzTarPerm extractEntry library/modules/es6.function.name.js
+1283 silly gunzTarPerm extractEntry library/modules/es6.map.js
+1284 silly gunzTarPerm extractEntry library/modules/es6.array.fill.js
+1285 silly gunzTarPerm extractEntry library/modules/es6.math.acosh.js
+1286 silly gunzTarPerm extractEntry library/modules/es6.array.copy-within.js
+1287 silly gunzTarPerm extractEntry library/modules/es6.math.asinh.js
+1288 silly gunzTarPerm extractEntry library/modules/es5.js
+1289 silly gunzTarPerm extractEntry library/modules/es6.math.atanh.js
+1290 silly gunzTarPerm extractEntry library/modules/core.string.unescape-html.js
+1291 silly gunzTarPerm extractEntry library/modules/es6.math.cbrt.js
+1292 silly gunzTarPerm extractEntry library/modules/core.string.escape-html.js
+1293 silly gunzTarPerm extractEntry library/modules/es6.math.clz32.js
+1294 silly gunzTarPerm extractEntry library/modules/core.object.make.js
+1295 silly gunzTarPerm extractEntry library/modules/es6.math.cosh.js
+1296 silly gunzTarPerm extractEntry library/modules/core.object.is-object.js
+1297 silly gunzTarPerm extractEntry library/modules/es6.math.expm1.js
+1298 silly gunzTarPerm extractEntry library/modules/core.object.define.js
+1299 silly gunzTarPerm extractEntry library/modules/es6.math.fround.js
+1300 silly gunzTarPerm extractEntry library/modules/core.object.classof.js
+1301 silly gunzTarPerm extractEntry library/modules/es6.math.hypot.js
+1302 silly gunzTarPerm extractEntry library/modules/core.number.iterator.js
+1303 silly gunzTarPerm extractEntry library/modules/es6.math.imul.js
+1304 silly gunzTarPerm extractEntry library/modules/core.log.js
+1305 silly gunzTarPerm extractEntry library/modules/es6.math.log10.js
+1306 silly gunzTarPerm extractEntry library/modules/core.is-iterable.js
+1307 silly gunzTarPerm extractEntry library/modules/es6.math.log1p.js
+1308 silly gunzTarPerm extractEntry library/modules/core.get-iterator.js
+1309 silly gunzTarPerm extractEntry library/modules/es6.math.log2.js
+1310 silly gunzTarPerm extractEntry library/modules/core.get-iterator-method.js
+1311 silly gunzTarPerm extractEntry library/modules/es6.math.sign.js
+1312 silly gunzTarPerm extractEntry library/modules/core.function.part.js
+1313 silly gunzTarPerm extractEntry library/modules/es6.math.sinh.js
+1314 silly gunzTarPerm extractEntry library/modules/core.dict.js
+1315 silly gunzTarPerm extractEntry library/modules/es6.math.tanh.js
+1316 silly gunzTarPerm extractEntry library/modules/core.delay.js
+1317 silly gunzTarPerm extractEntry library/modules/es6.math.trunc.js
+1318 silly gunzTarPerm extractEntry library/modules/$.wks.js
+1319 silly gunzTarPerm extractEntry library/modules/es6.number.constructor.js
+1320 silly gunzTarPerm extractEntry library/modules/$.uid.js
+1321 silly gunzTarPerm extractEntry library/modules/es6.number.epsilon.js
+1322 silly gunzTarPerm extractEntry library/modules/$.typed.js
+1323 silly gunzTarPerm extractEntry library/modules/es6.number.is-finite.js
+1324 silly gunzTarPerm extractEntry library/modules/$.typed-array.js
+1325 silly gunzTarPerm extractEntry library/modules/es6.number.is-integer.js
+1326 silly gunzTarPerm extractEntry library/modules/$.to-primitive.js
+1327 silly gunzTarPerm extractEntry library/modules/es6.number.is-nan.js
+1328 silly gunzTarPerm extractEntry library/modules/$.to-object.js
+1329 silly gunzTarPerm extractEntry library/modules/es6.number.is-safe-integer.js
+1330 silly gunzTarPerm extractEntry library/modules/$.to-length.js
+1331 silly gunzTarPerm extractEntry library/modules/es6.number.max-safe-integer.js
+1332 silly gunzTarPerm extractEntry library/modules/$.to-iobject.js
+1333 silly gunzTarPerm extractEntry library/modules/es6.number.min-safe-integer.js
+1334 silly gunzTarPerm extractEntry library/modules/$.to-integer.js
+1335 silly gunzTarPerm extractEntry library/modules/es6.number.parse-float.js
+1336 silly gunzTarPerm extractEntry library/modules/$.to-index.js
+1337 silly gunzTarPerm extractEntry library/modules/es6.number.parse-int.js
+1338 silly gunzTarPerm extractEntry library/modules/$.task.js
+1339 silly gunzTarPerm extractEntry library/modules/es6.object.assign.js
+1340 silly gunzTarPerm extractEntry library/modules/$.string-trim.js
+1341 silly gunzTarPerm extractEntry library/modules/es6.object.freeze.js
+1342 silly gunzTarPerm extractEntry library/modules/$.string-repeat.js
+1343 silly gunzTarPerm extractEntry library/modules/es6.object.get-own-property-descriptor.js
+1344 silly gunzTarPerm extractEntry library/modules/$.string-pad.js
+1345 silly gunzTarPerm extractEntry library/modules/es6.object.get-own-property-names.js
+1346 silly gunzTarPerm extractEntry library/modules/$.string-context.js
+1347 silly gunzTarPerm extractEntry library/modules/es6.object.get-prototype-of.js
+1348 silly gunzTarPerm extractEntry library/modules/$.string-at.js
+1349 silly gunzTarPerm extractEntry library/modules/es6.object.is-extensible.js
+1350 silly gunzTarPerm extractEntry library/modules/$.strict-new.js
+1351 silly gunzTarPerm extractEntry library/modules/es6.object.is-frozen.js
+1352 silly gunzTarPerm extractEntry library/modules/$.species-constructor.js
+1353 silly gunzTarPerm extractEntry library/modules/es6.object.is-sealed.js
+1354 silly gunzTarPerm extractEntry library/modules/$.shared.js
+1355 silly gunzTarPerm extractEntry library/modules/es6.object.is.js
+1356 silly gunzTarPerm extractEntry library/modules/$.set-to-string-tag.js
+1357 silly gunzTarPerm extractEntry library/modules/es6.object.keys.js
+1358 silly gunzTarPerm extractEntry library/modules/$.set-species.js
+1359 silly gunzTarPerm extractEntry library/modules/es6.object.prevent-extensions.js
+1360 silly gunzTarPerm extractEntry library/modules/$.set-proto.js
+1361 silly gunzTarPerm extractEntry library/modules/es6.object.seal.js
+1362 silly gunzTarPerm extractEntry library/modules/$.same-value.js
+1363 silly gunzTarPerm extractEntry library/modules/es6.object.set-prototype-of.js
+1364 silly gunzTarPerm extractEntry library/modules/$.replacer.js
+1365 silly gunzTarPerm extractEntry library/modules/es6.object.to-string.js
+1366 silly gunzTarPerm extractEntry library/modules/$.redefine.js
+1367 silly gunzTarPerm extractEntry library/modules/es6.promise.js
+1368 silly gunzTarPerm extractEntry library/modules/$.redefine-all.js
+1369 silly gunzTarPerm extractEntry library/modules/es6.reflect.apply.js
+1370 silly gunzTarPerm extractEntry library/modules/$.property-desc.js
+1371 silly gunzTarPerm extractEntry library/modules/es6.reflect.construct.js
+1372 silly gunzTarPerm extractEntry library/modules/$.path.js
+1373 silly gunzTarPerm extractEntry library/modules/es6.reflect.define-property.js
+1374 silly gunzTarPerm extractEntry library/modules/$.partial.js
+1375 silly gunzTarPerm extractEntry library/modules/es6.reflect.delete-property.js
+1376 silly gunzTarPerm extractEntry library/modules/$.own-keys.js
+1377 silly gunzTarPerm extractEntry library/modules/es6.reflect.enumerate.js
+1378 silly gunzTarPerm extractEntry library/modules/$.object-to-array.js
+1379 silly gunzTarPerm extractEntry library/modules/es6.reflect.get-own-property-descriptor.js
+1380 silly gunzTarPerm extractEntry library/modules/$.object-sap.js
+1381 silly gunzTarPerm extractEntry library/modules/es6.reflect.get-prototype-of.js
+1382 silly gunzTarPerm extractEntry library/modules/$.object-define.js
+1383 silly gunzTarPerm extractEntry library/modules/es6.reflect.get.js
+1384 silly gunzTarPerm extractEntry library/modules/$.object-assign.js
+1385 silly gunzTarPerm extractEntry library/modules/es6.reflect.has.js
+1386 silly gunzTarPerm extractEntry library/modules/$.microtask.js
+1387 silly gunzTarPerm extractEntry library/modules/es6.reflect.is-extensible.js
+1388 silly gunzTarPerm extractEntry library/modules/$.math-sign.js
+1389 silly gunzTarPerm extractEntry library/modules/es6.reflect.own-keys.js
+1390 silly gunzTarPerm extractEntry library/modules/$.math-log1p.js
+1391 silly gunzTarPerm extractEntry library/modules/es6.reflect.prevent-extensions.js
+1392 silly gunzTarPerm extractEntry library/modules/$.math-expm1.js
+1393 silly gunzTarPerm extractEntry library/modules/es6.reflect.set-prototype-of.js
+1394 silly gunzTarPerm extractEntry library/modules/$.library.js
+1395 silly gunzTarPerm extractEntry library/modules/es6.reflect.set.js
+1396 silly gunzTarPerm extractEntry library/modules/$.keyof.js
+1397 silly gunzTarPerm extractEntry library/modules/es6.regexp.constructor.js
+1398 silly gunzTarPerm extractEntry library/modules/$.js
+1399 silly gunzTarPerm extractEntry library/modules/es6.regexp.flags.js
+1400 silly gunzTarPerm extractEntry library/modules/$.iterators.js
+1401 silly gunzTarPerm extractEntry library/modules/es6.regexp.match.js
+1402 silly gunzTarPerm extractEntry library/modules/$.iter-step.js
+1403 silly gunzTarPerm extractEntry library/modules/es6.regexp.replace.js
+1404 silly gunzTarPerm extractEntry library/modules/$.iter-detect.js
+1405 silly gunzTarPerm extractEntry library/modules/es6.regexp.search.js
+1406 silly gunzTarPerm extractEntry library/modules/$.iter-define.js
+1407 silly gunzTarPerm extractEntry library/modules/es6.regexp.split.js
+1408 silly gunzTarPerm extractEntry library/modules/$.iter-create.js
+1409 silly gunzTarPerm extractEntry library/modules/es6.set.js
+1410 silly gunzTarPerm extractEntry library/modules/$.iter-call.js
+1411 silly gunzTarPerm extractEntry library/modules/es6.string.code-point-at.js
+1412 silly gunzTarPerm extractEntry library/modules/$.is-regexp.js
+1413 silly gunzTarPerm extractEntry library/modules/es6.string.ends-with.js
+1414 silly gunzTarPerm extractEntry library/modules/$.is-object.js
+1415 silly gunzTarPerm extractEntry library/modules/es6.string.from-code-point.js
+1416 silly gunzTarPerm extractEntry library/modules/$.is-integer.js
+1417 silly gunzTarPerm extractEntry library/modules/es6.string.includes.js
+1418 silly gunzTarPerm extractEntry library/modules/$.is-array.js
+1419 silly gunzTarPerm extractEntry library/modules/es6.string.iterator.js
+1420 silly gunzTarPerm extractEntry library/modules/$.is-array-iter.js
+1421 silly gunzTarPerm extractEntry library/modules/es6.string.raw.js
+1422 silly gunzTarPerm extractEntry library/modules/$.iobject.js
+1423 silly gunzTarPerm extractEntry library/modules/es6.string.repeat.js
+1424 silly gunzTarPerm extractEntry library/modules/$.invoke.js
+1425 silly gunzTarPerm extractEntry library/modules/es6.string.starts-with.js
+1426 silly gunzTarPerm extractEntry library/modules/$.html.js
+1427 silly gunzTarPerm extractEntry library/modules/es6.string.trim.js
+1428 silly gunzTarPerm extractEntry library/modules/$.hide.js
+1429 silly gunzTarPerm extractEntry library/modules/es6.symbol.js
+1430 silly gunzTarPerm extractEntry library/modules/$.has.js
+1431 silly gunzTarPerm extractEntry library/modules/es6.typed.array-buffer.js
+1432 silly gunzTarPerm extractEntry library/modules/$.global.js
+1433 silly gunzTarPerm extractEntry library/modules/es6.typed.data-view.js
+1434 silly gunzTarPerm extractEntry library/modules/$.get-names.js
+1435 silly gunzTarPerm extractEntry library/modules/es6.typed.float32-array.js
+1436 silly gunzTarPerm extractEntry library/modules/$.for-of.js
+1437 silly gunzTarPerm extractEntry library/modules/es6.typed.float64-array.js
+1438 silly gunzTarPerm extractEntry library/modules/$.flags.js
+1439 silly gunzTarPerm extractEntry library/modules/es6.typed.int16-array.js
+1440 silly gunzTarPerm extractEntry library/modules/$.fix-re-wks.js
+1441 silly gunzTarPerm extractEntry library/modules/es6.typed.int32-array.js
+1442 silly gunzTarPerm extractEntry library/modules/$.fails.js
+1443 silly gunzTarPerm extractEntry library/modules/es6.typed.int8-array.js
+1444 silly gunzTarPerm extractEntry library/modules/$.fails-is-regexp.js
+1445 silly gunzTarPerm extractEntry library/modules/es6.typed.uint16-array.js
+1446 silly gunzTarPerm extractEntry library/modules/$.export.js
+1447 silly gunzTarPerm extractEntry library/modules/es6.typed.uint32-array.js
+1448 silly gunzTarPerm extractEntry library/modules/$.enum-keys.js
+1449 silly gunzTarPerm extractEntry library/modules/es6.typed.uint8-array.js
+1450 silly gunzTarPerm extractEntry library/modules/$.dom-create.js
+1451 silly gunzTarPerm extractEntry library/modules/es6.typed.uint8-clamped-array.js
+1452 silly gunzTarPerm extractEntry library/modules/$.descriptors.js
+1453 silly gunzTarPerm extractEntry library/modules/es6.weak-map.js
+1454 silly gunzTarPerm extractEntry library/modules/$.defined.js
+1455 silly gunzTarPerm extractEntry library/modules/es6.weak-set.js
+1456 silly gunzTarPerm extractEntry library/modules/$.ctx.js
+1457 silly gunzTarPerm extractEntry library/modules/es7.array.includes.js
+1458 silly gunzTarPerm extractEntry library/modules/$.core.js
+1459 silly gunzTarPerm extractEntry library/modules/es7.map.to-json.js
+1460 silly gunzTarPerm extractEntry library/modules/$.collection.js
+1461 silly gunzTarPerm extractEntry library/modules/es7.object.entries.js
+1462 silly gunzTarPerm extractEntry library/modules/$.collection-weak.js
+1463 silly gunzTarPerm extractEntry library/modules/es7.object.get-own-property-descriptors.js
+1464 silly gunzTarPerm extractEntry library/modules/$.collection-to-json.js
+1465 silly gunzTarPerm extractEntry library/modules/es7.object.values.js
+1466 silly gunzTarPerm extractEntry library/modules/$.collection-strong.js
+1467 silly gunzTarPerm extractEntry library/modules/es7.regexp.escape.js
+1468 silly gunzTarPerm extractEntry library/modules/$.cof.js
+1469 silly gunzTarPerm extractEntry library/modules/es7.set.to-json.js
+1470 silly gunzTarPerm extractEntry library/modules/$.classof.js
+1471 silly gunzTarPerm extractEntry library/modules/es7.string.at.js
+1472 silly gunzTarPerm extractEntry library/modules/$.buffer.js
+1473 silly gunzTarPerm extractEntry library/modules/es7.string.pad-left.js
+1474 silly gunzTarPerm extractEntry library/modules/$.array-species-create.js
+1475 silly gunzTarPerm extractEntry library/modules/es7.string.pad-right.js
+1476 silly gunzTarPerm extractEntry library/modules/$.array-methods.js
+1477 silly gunzTarPerm extractEntry library/modules/es7.string.trim-left.js
+1478 silly gunzTarPerm extractEntry library/modules/$.array-includes.js
+1479 silly gunzTarPerm extractEntry library/modules/es7.string.trim-right.js
+1480 silly gunzTarPerm extractEntry library/modules/$.array-fill.js
+1481 silly gunzTarPerm extractEntry library/modules/js.array.statics.js
+1482 silly gunzTarPerm extractEntry library/modules/$.array-copy-within.js
+1483 silly gunzTarPerm extractEntry library/modules/web.dom.iterable.js
+1484 silly gunzTarPerm extractEntry library/modules/$.an-object.js
+1485 silly gunzTarPerm extractEntry library/modules/web.immediate.js
+1486 silly gunzTarPerm extractEntry library/modules/$.add-to-unscopables.js
+1487 silly gunzTarPerm extractEntry library/modules/web.timers.js
+1488 silly gunzTarPerm extractEntry library/modules/es6.array.of.js
+1489 silly gunzTarPerm extractEntry library/web/dom.js
+1490 silly gunzTarPerm extractEntry library/web/immediate.js
+1491 silly gunzTarPerm extractEntry library/web/index.js
+1492 silly gunzTarPerm extractEntry library/web/timers.js
+1493 silly gunzTarPerm extractEntry modules/$.a-function.js
+1494 silly gunzTarPerm extractEntry modules/es6.array.find.js
+1495 silly gunzTarPerm extractEntry modules/es6.array.from.js
+1496 silly gunzTarPerm extractEntry modules/es6.array.iterator.js
+1497 silly gunzTarPerm extractEntry modules/es6.array.find-index.js
+1498 silly gunzTarPerm extractEntry modules/$.add-to-unscopables.js
+1499 silly gunzTarPerm extractEntry modules/es6.date.to-string.js
+1500 silly gunzTarPerm extractEntry modules/es6.function.has-instance.js
+1501 silly gunzTarPerm extractEntry modules/es6.function.name.js
+1502 silly gunzTarPerm extractEntry modules/es6.map.js
+1503 silly gunzTarPerm extractEntry modules/es6.array.fill.js
+1504 silly gunzTarPerm extractEntry modules/es6.math.acosh.js
+1505 silly gunzTarPerm extractEntry modules/es6.array.copy-within.js
+1506 silly gunzTarPerm extractEntry modules/es6.math.asinh.js
+1507 silly gunzTarPerm extractEntry modules/es5.js
+1508 silly gunzTarPerm extractEntry modules/es6.math.atanh.js
+1509 silly gunzTarPerm extractEntry modules/core.string.unescape-html.js
+1510 silly gunzTarPerm extractEntry modules/es6.math.cbrt.js
+1511 silly gunzTarPerm extractEntry modules/core.string.escape-html.js
+1512 silly gunzTarPerm extractEntry modules/es6.math.clz32.js
+1513 silly gunzTarPerm extractEntry modules/core.object.make.js
+1514 silly gunzTarPerm extractEntry modules/es6.math.cosh.js
+1515 silly gunzTarPerm extractEntry modules/core.object.is-object.js
+1516 silly gunzTarPerm extractEntry modules/es6.math.expm1.js
+1517 silly gunzTarPerm extractEntry modules/core.object.define.js
+1518 silly gunzTarPerm extractEntry modules/es6.math.fround.js
+1519 silly gunzTarPerm extractEntry modules/core.object.classof.js
+1520 silly gunzTarPerm extractEntry modules/es6.math.hypot.js
+1521 silly gunzTarPerm extractEntry modules/core.number.iterator.js
+1522 silly gunzTarPerm extractEntry modules/es6.math.imul.js
+1523 silly gunzTarPerm extractEntry modules/core.log.js
+1524 silly gunzTarPerm extractEntry modules/es6.math.log10.js
+1525 silly gunzTarPerm extractEntry modules/core.is-iterable.js
+1526 silly gunzTarPerm extractEntry modules/es6.math.log1p.js
+1527 silly gunzTarPerm extractEntry modules/core.get-iterator.js
+1528 silly gunzTarPerm extractEntry modules/es6.math.log2.js
+1529 silly gunzTarPerm extractEntry modules/core.get-iterator-method.js
+1530 silly gunzTarPerm extractEntry modules/es6.math.sign.js
+1531 silly gunzTarPerm extractEntry modules/core.function.part.js
+1532 silly gunzTarPerm extractEntry modules/es6.math.sinh.js
+1533 silly gunzTarPerm extractEntry modules/core.dict.js
+1534 silly gunzTarPerm extractEntry modules/es6.math.tanh.js
+1535 silly gunzTarPerm extractEntry modules/core.delay.js
+1536 silly gunzTarPerm extractEntry modules/es6.math.trunc.js
+1537 silly gunzTarPerm extractEntry modules/$.wks.js
+1538 silly gunzTarPerm extractEntry modules/es6.number.constructor.js
+1539 silly gunzTarPerm extractEntry modules/$.uid.js
+1540 silly gunzTarPerm extractEntry modules/es6.number.epsilon.js
+1541 silly gunzTarPerm extractEntry modules/$.typed.js
+1542 silly gunzTarPerm extractEntry modules/es6.number.is-finite.js
+1543 silly gunzTarPerm extractEntry modules/$.typed-array.js
+1544 silly gunzTarPerm extractEntry modules/es6.number.is-integer.js
+1545 silly gunzTarPerm extractEntry modules/$.to-primitive.js
+1546 silly gunzTarPerm extractEntry modules/es6.number.is-nan.js
+1547 silly gunzTarPerm extractEntry modules/$.to-object.js
+1548 silly gunzTarPerm extractEntry modules/es6.number.is-safe-integer.js
+1549 silly gunzTarPerm extractEntry modules/$.to-length.js
+1550 silly gunzTarPerm extractEntry modules/es6.number.max-safe-integer.js
+1551 silly gunzTarPerm extractEntry modules/$.to-iobject.js
+1552 silly gunzTarPerm extractEntry modules/es6.number.min-safe-integer.js
+1553 silly gunzTarPerm extractEntry modules/$.to-integer.js
+1554 silly gunzTarPerm extractEntry modules/es6.number.parse-float.js
+1555 silly gunzTarPerm extractEntry modules/$.to-index.js
+1556 silly gunzTarPerm extractEntry modules/es6.number.parse-int.js
+1557 silly gunzTarPerm extractEntry modules/$.task.js
+1558 silly gunzTarPerm extractEntry modules/es6.object.assign.js
+1559 silly gunzTarPerm extractEntry modules/$.string-trim.js
+1560 silly gunzTarPerm extractEntry modules/es6.object.freeze.js
+1561 silly gunzTarPerm extractEntry modules/$.string-repeat.js
+1562 silly gunzTarPerm extractEntry modules/es6.object.get-own-property-descriptor.js
+1563 silly gunzTarPerm extractEntry modules/$.string-pad.js
+1564 silly gunzTarPerm extractEntry modules/es6.object.get-own-property-names.js
+1565 silly gunzTarPerm extractEntry modules/$.string-context.js
+1566 silly gunzTarPerm extractEntry modules/es6.object.get-prototype-of.js
+1567 silly gunzTarPerm extractEntry modules/$.string-at.js
+1568 silly gunzTarPerm extractEntry modules/es6.object.is-extensible.js
+1569 silly gunzTarPerm extractEntry modules/$.strict-new.js
+1570 silly gunzTarPerm extractEntry modules/es6.object.is-frozen.js
+1571 silly gunzTarPerm extractEntry modules/$.species-constructor.js
+1572 silly gunzTarPerm extractEntry modules/es6.object.is-sealed.js
+1573 silly gunzTarPerm extractEntry modules/$.shared.js
+1574 silly gunzTarPerm extractEntry modules/es6.object.is.js
+1575 silly gunzTarPerm extractEntry modules/$.set-to-string-tag.js
+1576 silly gunzTarPerm extractEntry modules/es6.object.keys.js
+1577 silly gunzTarPerm extractEntry modules/$.set-species.js
+1578 silly gunzTarPerm extractEntry modules/es6.object.prevent-extensions.js
+1579 silly gunzTarPerm extractEntry modules/$.set-proto.js
+1580 silly gunzTarPerm extractEntry modules/es6.object.seal.js
+1581 silly gunzTarPerm extractEntry modules/$.same-value.js
+1582 silly gunzTarPerm extractEntry modules/es6.object.set-prototype-of.js
+1583 silly gunzTarPerm extractEntry modules/$.replacer.js
+1584 silly gunzTarPerm extractEntry modules/es6.object.to-string.js
+1585 silly gunzTarPerm extractEntry modules/$.redefine.js
+1586 silly gunzTarPerm extractEntry modules/es6.promise.js
+1587 silly gunzTarPerm extractEntry modules/$.redefine-all.js
+1588 silly gunzTarPerm extractEntry modules/es6.reflect.apply.js
+1589 silly gunzTarPerm extractEntry modules/$.property-desc.js
+1590 silly gunzTarPerm extractEntry modules/es6.reflect.construct.js
+1591 silly gunzTarPerm extractEntry modules/$.path.js
+1592 silly gunzTarPerm extractEntry modules/es6.reflect.define-property.js
+1593 silly gunzTarPerm extractEntry modules/$.partial.js
+1594 silly gunzTarPerm extractEntry modules/es6.reflect.delete-property.js
+1595 silly gunzTarPerm extractEntry modules/$.own-keys.js
+1596 silly gunzTarPerm extractEntry modules/es6.reflect.enumerate.js
+1597 silly gunzTarPerm extractEntry modules/$.object-to-array.js
+1598 silly gunzTarPerm extractEntry modules/es6.reflect.get-own-property-descriptor.js
+1599 silly gunzTarPerm extractEntry modules/$.object-sap.js
+1600 silly gunzTarPerm extractEntry modules/es6.reflect.get-prototype-of.js
+1601 silly gunzTarPerm extractEntry modules/$.object-define.js
+1602 silly gunzTarPerm extractEntry modules/es6.reflect.get.js
+1603 silly gunzTarPerm extractEntry modules/$.object-assign.js
+1604 silly gunzTarPerm extractEntry modules/es6.reflect.has.js
+1605 silly gunzTarPerm extractEntry modules/$.microtask.js
+1606 silly gunzTarPerm extractEntry modules/es6.reflect.is-extensible.js
+1607 silly gunzTarPerm extractEntry modules/$.math-sign.js
+1608 silly gunzTarPerm extractEntry modules/es6.reflect.own-keys.js
+1609 silly gunzTarPerm extractEntry modules/$.math-log1p.js
+1610 silly gunzTarPerm extractEntry modules/es6.reflect.prevent-extensions.js
+1611 silly gunzTarPerm extractEntry modules/$.math-expm1.js
+1612 silly gunzTarPerm extractEntry modules/es6.reflect.set-prototype-of.js
+1613 silly gunzTarPerm extractEntry modules/$.library.js
+1614 silly gunzTarPerm extractEntry modules/es6.reflect.set.js
+1615 silly gunzTarPerm extractEntry modules/$.keyof.js
+1616 silly gunzTarPerm extractEntry modules/es6.regexp.constructor.js
+1617 silly gunzTarPerm extractEntry modules/$.js
+1618 silly gunzTarPerm extractEntry modules/es6.regexp.flags.js
+1619 silly gunzTarPerm extractEntry modules/$.iterators.js
+1620 silly gunzTarPerm extractEntry modules/es6.regexp.match.js
+1621 silly gunzTarPerm extractEntry modules/$.iter-step.js
+1622 silly gunzTarPerm extractEntry modules/es6.regexp.replace.js
+1623 silly gunzTarPerm extractEntry modules/$.iter-detect.js
+1624 silly gunzTarPerm extractEntry modules/es6.regexp.search.js
+1625 silly gunzTarPerm extractEntry modules/$.iter-define.js
+1626 silly gunzTarPerm extractEntry modules/es6.regexp.split.js
+1627 silly gunzTarPerm extractEntry modules/$.iter-create.js
+1628 silly gunzTarPerm extractEntry modules/es6.set.js
+1629 silly gunzTarPerm extractEntry modules/$.iter-call.js
+1630 silly gunzTarPerm extractEntry modules/es6.string.code-point-at.js
+1631 silly gunzTarPerm extractEntry modules/$.is-regexp.js
+1632 silly gunzTarPerm extractEntry modules/es6.string.ends-with.js
+1633 silly gunzTarPerm extractEntry modules/$.is-object.js
+1634 silly gunzTarPerm extractEntry modules/es6.string.from-code-point.js
+1635 silly gunzTarPerm extractEntry modules/$.is-integer.js
+1636 silly gunzTarPerm extractEntry modules/es6.string.includes.js
+1637 silly gunzTarPerm extractEntry modules/$.is-array.js
+1638 silly gunzTarPerm extractEntry modules/es6.string.iterator.js
+1639 silly gunzTarPerm extractEntry modules/$.is-array-iter.js
+1640 silly gunzTarPerm extractEntry modules/es6.string.raw.js
+1641 silly gunzTarPerm extractEntry modules/$.iobject.js
+1642 silly gunzTarPerm extractEntry modules/es6.string.repeat.js
+1643 silly gunzTarPerm extractEntry modules/$.invoke.js
+1644 silly gunzTarPerm extractEntry modules/es6.string.starts-with.js
+1645 silly gunzTarPerm extractEntry modules/$.html.js
+1646 silly gunzTarPerm extractEntry modules/es6.string.trim.js
+1647 silly gunzTarPerm extractEntry modules/$.hide.js
+1648 silly gunzTarPerm extractEntry modules/es6.symbol.js
+1649 silly gunzTarPerm extractEntry modules/$.has.js
+1650 silly gunzTarPerm extractEntry modules/es6.typed.array-buffer.js
+1651 silly gunzTarPerm extractEntry modules/$.global.js
+1652 silly gunzTarPerm extractEntry modules/es6.typed.data-view.js
+1653 silly gunzTarPerm extractEntry modules/$.get-names.js
+1654 silly gunzTarPerm extractEntry modules/es6.typed.float32-array.js
+1655 silly gunzTarPerm extractEntry modules/$.for-of.js
+1656 silly gunzTarPerm extractEntry modules/es6.typed.float64-array.js
+1657 silly gunzTarPerm extractEntry modules/$.flags.js
+1658 silly gunzTarPerm extractEntry modules/es6.typed.int16-array.js
+1659 silly gunzTarPerm extractEntry modules/$.fix-re-wks.js
+1660 silly gunzTarPerm extractEntry modules/es6.typed.int32-array.js
+1661 silly gunzTarPerm extractEntry modules/$.fails.js
+1662 silly gunzTarPerm extractEntry modules/es6.typed.int8-array.js
+1663 silly gunzTarPerm extractEntry modules/$.fails-is-regexp.js
+1664 silly gunzTarPerm extractEntry modules/es6.typed.uint16-array.js
+1665 silly gunzTarPerm extractEntry modules/$.export.js
+1666 silly gunzTarPerm extractEntry modules/es6.typed.uint32-array.js
+1667 silly gunzTarPerm extractEntry modules/$.enum-keys.js
+1668 silly gunzTarPerm extractEntry modules/es6.typed.uint8-array.js
+1669 silly gunzTarPerm extractEntry modules/$.dom-create.js
+1670 silly gunzTarPerm extractEntry modules/es6.typed.uint8-clamped-array.js
+1671 silly gunzTarPerm extractEntry modules/$.descriptors.js
+1672 silly gunzTarPerm extractEntry modules/es6.weak-map.js
+1673 silly gunzTarPerm extractEntry modules/$.defined.js
+1674 silly gunzTarPerm extractEntry modules/es6.weak-set.js
+1675 silly gunzTarPerm extractEntry modules/$.ctx.js
+1676 silly gunzTarPerm extractEntry modules/es7.array.includes.js
+1677 silly gunzTarPerm extractEntry modules/$.core.js
+1678 silly gunzTarPerm extractEntry modules/es7.map.to-json.js
+1679 silly gunzTarPerm extractEntry modules/$.collection.js
+1680 silly gunzTarPerm extractEntry modules/es7.object.entries.js
+1681 silly gunzTarPerm extractEntry modules/$.collection-weak.js
+1682 silly gunzTarPerm extractEntry modules/es7.object.get-own-property-descriptors.js
+1683 silly gunzTarPerm extractEntry modules/$.collection-to-json.js
+1684 silly gunzTarPerm extractEntry modules/es7.object.values.js
+1685 silly gunzTarPerm extractEntry modules/$.collection-strong.js
+1686 silly gunzTarPerm extractEntry modules/es7.regexp.escape.js
+1687 silly gunzTarPerm extractEntry modules/$.cof.js
+1688 silly gunzTarPerm extractEntry modules/es7.set.to-json.js
+1689 silly gunzTarPerm extractEntry modules/$.classof.js
+1690 silly gunzTarPerm extractEntry modules/es7.string.at.js
+1691 silly gunzTarPerm extractEntry modules/$.buffer.js
+1692 silly gunzTarPerm extractEntry modules/es7.string.pad-left.js
+1693 silly gunzTarPerm extractEntry modules/$.array-species-create.js
+1694 silly gunzTarPerm extractEntry modules/es7.string.pad-right.js
+1695 silly gunzTarPerm extractEntry modules/$.array-methods.js
+1696 silly gunzTarPerm extractEntry modules/es7.string.trim-left.js
+1697 silly gunzTarPerm extractEntry modules/$.array-includes.js
+1698 silly gunzTarPerm extractEntry modules/es7.string.trim-right.js
+1699 silly gunzTarPerm extractEntry modules/$.array-fill.js
+1700 silly gunzTarPerm extractEntry modules/js.array.statics.js
+1701 silly gunzTarPerm extractEntry modules/$.array-copy-within.js
+1702 silly gunzTarPerm extractEntry modules/web.immediate.js
+1703 silly gunzTarPerm extractEntry modules/$.an-object.js
+1704 silly gunzTarPerm extractEntry modules/web.dom.iterable.js
+1705 silly gunzTarPerm extractEntry modules/es6.array.of.js
+1706 silly gunzTarPerm extractEntry modules/web.timers.js
+1707 silly gunzTarPerm extractEntry modules/es6.array.species.js
+1708 silly gunzTarPerm extractEntry modules/library/$.add-to-unscopables.js
+1709 silly gunzTarPerm extractEntry modules/library/$.redefine.js
+1710 silly gunzTarPerm extractEntry modules/library/$.set-species.js
+1711 silly gunzTarPerm extractEntry modules/library/es6.date.to-string.js
+1712 silly gunzTarPerm extractEntry modules/library/es6.function.name.js
+1713 silly gunzTarPerm extractEntry modules/library/$.path.js
+1714 silly gunzTarPerm extractEntry modules/library/es6.object.to-string.js
+1715 silly gunzTarPerm extractEntry modules/library/es6.regexp.constructor.js
+1716 silly gunzTarPerm extractEntry modules/library/es6.regexp.flags.js
+1717 silly gunzTarPerm extractEntry modules/library/es6.regexp.match.js
+1718 silly gunzTarPerm extractEntry modules/library/es6.regexp.replace.js
+1719 silly gunzTarPerm extractEntry modules/library/$.library.js
+1720 silly gunzTarPerm extractEntry modules/library/es6.regexp.search.js
+1721 silly gunzTarPerm extractEntry modules/library/$.export.js
+1722 silly gunzTarPerm extractEntry modules/library/es6.regexp.split.js
+1723 silly gunzTarPerm extractEntry modules/library/$.collection.js
+1724 silly gunzTarPerm extractEntry modules/library/web.dom.iterable.js
+1725 silly gunzTarPerm extractEntry modules/library/es6.number.constructor.js
+1726 silly gunzTarPerm extractEntry web/dom.js
+1727 silly gunzTarPerm extractEntry web/immediate.js
+1728 silly gunzTarPerm extractEntry web/index.js
+1729 silly gunzTarPerm extractEntry web/timers.js
+1730 verbose write writing to D:\playground\imgur-clone\node_modules\flux\node_modules\fbjs\node_modules\core-js\package.json
+1731 info preinstall core-js@1.2.6
+1732 verbose readDependencies loading dependencies from D:\playground\imgur-clone\node_modules\flux\node_modules\fbjs\node_modules\core-js\package.json
+1733 verbose readDependencies loading dependencies from D:\playground\imgur-clone\node_modules\flux\node_modules\fbjs\node_modules\core-js\package.json
+1734 silly install resolved []
+1735 verbose about to build D:\playground\imgur-clone\node_modules\flux\node_modules\fbjs\node_modules\core-js
+1736 info build D:\playground\imgur-clone\node_modules\flux\node_modules\fbjs\node_modules\core-js
+1737 info linkStuff core-js@1.2.6
+1738 silly linkStuff core-js@1.2.6 has D:\playground\imgur-clone\node_modules\flux\node_modules\fbjs\node_modules as its parent node_modules
+1739 verbose linkBins core-js@1.2.6
+1740 verbose linkMans core-js@1.2.6
+1741 verbose rebuildBundles core-js@1.2.6
+1742 info install core-js@1.2.6
+1743 info postinstall core-js@1.2.6
+1744 verbose unlock done using C:\Users\Milos\AppData\Roaming\npm-cache\_locks\core-js-f9a76ac3687cf1d8.lock for D:\playground\imgur-clone\node_modules\flux\node_modules\fbjs\node_modules\core-js
+1745 verbose about to build D:\playground\imgur-clone\node_modules\flux\node_modules\fbjs
+1746 info build D:\playground\imgur-clone\node_modules\flux\node_modules\fbjs
+1747 info linkStuff fbjs@0.1.0-alpha.7
+1748 silly linkStuff fbjs@0.1.0-alpha.7 has D:\playground\imgur-clone\node_modules\flux\node_modules as its parent node_modules
+1749 verbose linkBins fbjs@0.1.0-alpha.7
+1750 verbose linkMans fbjs@0.1.0-alpha.7
+1751 verbose rebuildBundles fbjs@0.1.0-alpha.7
+1752 verbose rebuildBundles [ 'core-js', 'promise', 'whatwg-fetch' ]
+1753 info install fbjs@0.1.0-alpha.7
+1754 info postinstall fbjs@0.1.0-alpha.7
+1755 verbose unlock done using C:\Users\Milos\AppData\Roaming\npm-cache\_locks\fbjs-c433be8c4b86cbda.lock for D:\playground\imgur-clone\node_modules\flux\node_modules\fbjs
+1756 verbose about to build D:\playground\imgur-clone\node_modules\flux
+1757 info build D:\playground\imgur-clone\node_modules\flux
+1758 info linkStuff flux@2.1.1
+1759 silly linkStuff flux@2.1.1 has D:\playground\imgur-clone\node_modules as its parent node_modules
+1760 verbose linkBins flux@2.1.1
+1761 verbose linkMans flux@2.1.1
+1762 verbose rebuildBundles flux@2.1.1
+1763 verbose rebuildBundles [ 'fbemitter', 'fbjs', 'immutable' ]
+1764 info install flux@2.1.1
+1765 info postinstall flux@2.1.1
+1766 verbose unlock done using C:\Users\Milos\AppData\Roaming\npm-cache\_locks\flux-3f63aad87d6cca4a.lock for D:\playground\imgur-clone\node_modules\flux
+1767 verbose validateInstall loading D:\playground\imgur-clone\package.json for validation
+1768 verbose stack Error: The package react@0.13.3 does not satisfy its siblings' peerDependencies requirements!
+1768 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\install.js:125:32
+1768 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\install.js:268:7
+1768 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:142:5
+1768 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:263:14
+1768 verbose stack     at cb (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:47:24)
+1768 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:263:14
+1768 verbose stack     at cb (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:47:24)
+1768 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:263:14
+1768 verbose stack     at cb (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:47:24)
+1768 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-installed\read-installed.js:263:14
+1769 verbose cwd D:\playground\imgur-clone
+1770 error Windows_NT 6.1.7601
+1771 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "flux"
+1772 error node v4.2.2
+1773 error npm  v2.14.7
+1774 error code EPEERINVALID
+1775 error peerinvalid The package react@0.13.3 does not satisfy its siblings' peerDependencies requirements!
+1775 error peerinvalid Peer react-router@1.0.0-beta2 wants react@0.13.x
+1775 error peerinvalid Peer react-dom@0.14.3 wants react@^0.14.3
+1775 error peerinvalid Peer reflux@0.3.0 wants react@>=0.12.2 <0.15.0
+1776 verbose exit [ 1, true ]
